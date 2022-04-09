@@ -1,0 +1,240 @@
+
+.navbar-brand{
+    color: white;
+  
+}
+.navbar-nav{
+    margin-left: 75%;
+    padding-left: 5%;
+}
+.heroimage{
+    background-image: url(images/heroimage.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.herotext{
+    position: relative;
+    top: 60%;
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+.herop{
+    position: relative;
+    top: 60%;
+    color: white;
+    font-size: 1.2rem;
+   
+}
+
+.downarrow{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    
+}
+
+.container-fluid{
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+
+.sectionHead{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    padding-bottom: .2rem;
+    border-bottom-style: ridge;
+    padding-right:40%;
+    font-weight: 800;
+    
+}
+
+.secHeadBorder{
+    padding-right: 60%;
+}
+
+.whiteSectionHead{
+    color: white;
+}
+
+#process{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: black;
+}
+
+.process_icon{
+    padding-bottom: 3%;
+}
+
+.processHead{
+    color: #fff;
+}
+
+.processPara{
+    color: #fff;
+    margin-bottom: 2rem;
+    line-height: 1.7rem;
+}
+
+
+/* WORK */
+.workName{
+    position:relative;
+    padding-left: 5%; top:70%; 
+    font-weight: 800;
+    color: white;
+}
+
+.workPara{
+    color: white;
+    position:relative;
+    padding-left: 5%; 
+    padding-bottom: 3%;
+    top:70%;
+}
+
+.postup{
+    background-color: #06CD6D;
+    height: 390px;
+
+}
+
+.Easycourt{
+    background-color: #111;
+    height: 390px;
+   
+}
+.Sociopass{
+    background-color: #4C75A3;
+    height: 390px;
+
+}
+
+.EverythingPets{
+    background-color: #F0F0F3;
+    height: 390px;
+}
+
+.wrow{
+    margin-top: 1.5rem;
+}
+
+/* SIDEPROJECTS */
+
+/* .sideproject{
+    height: 90vh;
+    padding-right: 5%;
+    padding-left: 5%;
+}    */
+.carousel-caption{
+    position: absolute;
+    text-align: left;
+    left: 3%;  
+}
+
+.carousel-indicators{
+    bottom: 0;
+}
+
+.carimg{
+    height: 90vh;
+    width: 100%;
+}
+
+#connect{
+    background-color: #111;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width : 600px) {
+    .workpad{
+        margin: 0;
+        
+    }
+    .herotext{
+    position: relative;
+    top: 60%;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.herop{
+    position: relative;
+    top: 60%;
+    color: white;
+    font-size: 1rem;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.downarrow{
+    position: absolute;
+    bottom:1.5rem;
+    left: 5%;
+   
+    
+}
+
+
+    .works{
+        margin: 0;
+        padding: 0;
+    }
+    .postup{
+        height: 90vh;
+        width: 100%;
+    }
+    .Easycourt{
+        height: 90vh;
+    }
+    .Sociopass{
+        height: 90vh;
+    }
+    .EverythingPets{
+        height: 90vh;
+    }
+    .workName{
+        position:relative;
+        padding-left: 5%;
+        top:80%; 
+        font-weight: 800;
+        color: white;
+    }
+    
+    .workPara{
+        color: white;
+        position:relative;
+        padding-left: 5%; 
+        padding-right: 5%;
+        padding-bottom: 5%;
+        top:80%;
+
+    }
+    
+    .row{
+        --bs-gutter-x: 0;
+    }
+    .wrow{
+        margin-top: 0;
+        padding: 0!important;
+    }
+    .sideproject{
+        padding: 0;
+        margin-bottom: 15%;
+    }   
+
+    .email{
+        font-size: 1rem;
+    }
+
+    .SML{
+        transform: scale(.7);
+    }
+}   
+
+

@@ -1,0 +1,771 @@
+.body{
+    font-family: sans-serif;
+}
+
+p{
+    font-size: 1.53rem;
+}
+.nextSteps{
+    font-size: 1.53rem;
+}
+
+h5{
+    font-size: 1.5rem;
+}
+
+h6{
+    font-size: 1.3rem;
+}
+
+
+.primary1{
+    position: relative;
+    margin-top: 9rem;
+    margin-bottom: 3rem;
+    color: #FFF;
+    background-size: auto;
+    background-color: #000;
+    display: inline-block;
+    font-size: 1.8rem;
+    padding: 1.2% 2%;
+    border-radius: .18rem;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.06);
+}
+.primary2{
+    position: relative;
+    margin-top: 9rem;
+    margin-bottom: 3rem;
+    color: #141414;
+    display: inline-block;
+    font-size: .75rem;
+    padding: 1.2% 2%;
+    border-radius: .18rem; 
+}
+.navbar{
+    box-shadow: 0 4px 6px 0 rgb(12 0 46 / 6%);
+}
+
+a{
+    text-decoration: none;
+}
+.navbar-brand{
+    color: #111;
+    font-weight: 800;
+  
+}
+.navbar-nav{
+    margin-left: 75%;
+    padding-left: 5%;
+    text-align: center;
+}
+.heroimage{
+    background-image: url(images/index/heroimage4.jpg);
+    background-size: cover;
+    height: 100vh;
+    
+}
+.herotext{
+    position: relative;
+    top: 60%;
+    color: #141414;
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+.herop{
+    position: relative;
+    top: 60%;
+    color: #141414;
+    font-size: 1.2rem;
+   
+}
+
+.downarrow{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    
+}
+
+.container-fluid{
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+
+.sectionHead{
+    font-size: 1.8rem;
+    font-weight: 450;
+    font-family: serif;
+    margin-top: 3rem;
+    margin-bottom: .9rem;
+    padding-bottom: .2rem;
+    padding-right:40%;
+    
+}
+
+
+/* WHHAT I DO ? */
+
+.WIDO{
+    height: auto;
+    margin-bottom: 12%;
+}
+
+.IDO{
+
+    font-size: 6.3rem;
+     margin-bottom: 9rem;
+}
+
+
+
+/* PROCESS */
+
+/* #process{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+} */
+
+.process_icon{
+    color: #111;
+    margin-bottom: 0.5rem;
+}
+
+.processHead{
+    color: #111;
+}
+
+.processPara{
+    color: #111;
+    margin-bottom: 2rem;
+    line-height: 1.7rem;
+}
+
+.whiteSectionHead{
+    color: #fff ;
+}
+
+/* WORK */
+
+
+.workLogo{
+    position: relative;
+    top: 20%;
+    z-index: 0;
+
+}
+
+
+
+
+.workName{
+    color: #fff;
+    font-weight: 800;
+    padding-left: 1.8rem;
+    position: relative;
+    top: 81%;
+}
+
+.workPara{
+    color: #fff;
+    padding-left: 1.8rem;
+    position: relative;
+    top: 81%;
+
+}
+
+.Every{
+    color: #6B90E5;
+}
+.Pets{
+    color: #F88AB0;
+}
+
+.postup{
+    background-color: #06CD6D;
+    height: 54vh;
+    padding-bottom: 5%;
+
+}
+
+.Easycourt{
+    background-image: url(images/Easycourt/EC\ Logo\ 1.5x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #F0F0F3;
+    height: 54vh;
+    background-color: #111;
+    padding-bottom: 3.6%;
+   
+}
+.Sociopass{
+    background-color: #4C75A3;
+    height: 54vh;
+    padding-bottom: 3.6%;
+
+}
+
+.EverythingPets{
+    background-image: url(images/Everthingpets/EPlogo@2x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #F0F0F3;
+    height: 54vh;
+    padding-bottom: 3.6%;
+}
+
+.wrow{
+    margin-top: 1.5rem;
+}
+
+.PU-thanks{
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    background-color: #06CD6D;
+    padding: .5rem;
+    font-weight: 800;
+}
+
+/* SIDEPROJECTS */
+
+.carousel-inner{
+    height: 90vh;
+}
+.carousel-item{
+    height: 100%;
+}
+
+.img1{
+     background-image: url(images/Sideprojects/INV-Desk.png);
+     height: 100%;
+     width: 100%;
+     background-repeat: no-repeat;
+     /* background-attachment: fixed !important; */
+     background-size: cover !important;   
+     background-position: center !important;
+}
+
+.img2{
+    background-image: url(images/Sideprojects/DEX-Desk.png);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed !important; */
+    background-size: cover !important;   
+    background-position: center !important;
+}
+
+.img3{
+    background-image: url(images/Sideprojects/GSJ-Desk.png);
+     height: 100%;
+     width: 100%;
+     background-repeat: no-repeat;
+     /* background-attachment: fixed !important; */
+     background-size: cover !important;   
+     background-position: center !important;
+
+}
+
+.carousel-caption{
+    margin-left: 9%;
+    position: absolute;
+    text-align: left;
+    left: 3%;
+    padding-bottom: 1.08%;  
+}
+
+.SPhead{
+
+    font-weight: 800;
+
+}
+
+
+#connect{
+    padding-top: .1rem;
+    padding-bottom: 1rem;
+    background-color: #111;
+}
+
+.SML{
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+
+footer{
+    font-size: .5rem;
+    text-align: center;
+    padding-bottom: .5rem;
+}
+
+
+/* -----PROJECT PAGE - POSTUP----- */
+
+.Hero{
+    padding: 0;
+    padding-top: 3rem;
+}
+.phase{
+    font-size: 2.07rem;
+    font-weight: 200;
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 1.8rem;
+    margin-top: 1.8rem;
+}
+
+.header{
+    padding-left: 5%;
+    background-color: #06CD6D;
+}
+
+.projectHeading{
+    position: relative;
+    top: 50%;
+    font-weight: 800;
+    color: white;
+}
+
+.projectHeadingPara{
+    position: relative;
+    top: 50%;
+    color: white;
+    margin-bottom: 5rem;
+    padding-bottom: 5rem;
+}
+
+.brief{
+    margin-top: 2rem;
+}
+
+.heading{
+    font-weight: 800;
+    color: #111;
+    margin-top: 2rem;
+}
+
+.PU-heading2{
+    font-size: 1.8rem;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    background-color: #06CD6D;
+    padding: .5rem;
+    font-weight: 800;
+    margin-top: 3rem;
+}
+
+figcaption{
+    margin-top: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.projectPara{
+    padding-right: 25%;
+    padding-left: 25%;
+}
+
+#nextSteps{
+    margin-bottom: 2rem;
+}
+
+
+
+
+/* PROJECT-EASY COURTS */
+
+
+.headerEC{
+    background-color: #111; 
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5rem;
+}
+
+.EC-heading2{
+    font-size: 1.8rem;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    background-color: #111;
+    padding: .5rem;
+    font-weight: 800;
+    margin-top: 3rem;
+}
+.ECL{
+    position: relative;
+    top: 25%;  
+}
+.ECprojectHeading{
+    position: relative;
+    top: 30%;
+    font-weight: 800;
+    color: #fff;
+}
+.ECprojectHeadingPara{
+    position: relative;
+    top: 30%;
+    color: #fff;
+    padding-bottom: 5rem;
+}
+
+.HMW{
+    float: right;
+}
+
+.headerMockup{
+    transform: scale(.7);
+}
+
+.thankYou{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.EC-thanks{
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    background-color: #111;
+    padding: .5rem;
+    font-weight: 800;
+}
+
+.iteration{
+    height: 60vh;
+    padding: 1.5rem;
+}
+
+
+
+
+/* PROJECT - EVERYTHING PETS */
+
+.EPprojectHeading{
+    position: relative;
+    top: 30%;
+    font-weight: 800;
+    color: #6B90E5;    
+}
+.EPprojectHeading2{
+    color: #F88AB0;
+}
+.EPprojectHeadingPara{
+    position: relative;
+    top: 30%;
+    color: #111;
+}
+
+.headerEP{
+    background-color: #F0F0F3;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1rem;
+}
+
+.EP-heading2 {
+    font-size: 1.8rem;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    background-color: #6B90E5;
+    padding: 0.5rem;
+    font-weight: 800;
+    margin-top: 3rem;
+}
+
+.projectImage{
+    margin-top: 2rem;
+}
+.protoMockUp{
+    height: 90vh;
+}
+
+.EP-thanks{
+    margin-top: 2.7rem;
+    font-size: 1.8rem;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    background-color: #6B90E5;
+    padding: .9rem;
+    font-weight: 800;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media (max-width : 990px) {
+
+    /* WHAT I DO */
+
+    .IDO{
+        font-size: 4.5rem;
+        margin-bottom: 6.3rem;
+    }
+
+
+
+    p{
+        font-size: 1rem;
+    }
+  
+    .workLogo{
+        position: relative;
+        top: 30%;
+        z-index: 0;
+
+    }
+    .workNameEC{
+        color: #fff;
+        font-weight: 800;
+        padding-left: 1.8rem;
+        position: relative;
+        top: 60%;
+    }
+    .workParaEC{
+        color: #fff;
+        padding-left: 1.8rem;
+        position: relative;
+        top: 60%;
+    }
+
+    .workpad{
+        margin: 0;
+        
+    }
+    .herotext{
+    position: relative;
+    top: 60%;
+    color: #141414;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.downarrow{
+    position: absolute;
+    bottom:1.5rem;
+    left: 5%;
+   
+}
+
+.navbar-nav{
+    padding-top: 5rem;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 5rem;
+    padding-left: 0;
+}
+.nav-item{
+    padding-bottom: 1.8rem;
+}
+
+    .works{
+        margin: 0;
+        padding: 0;
+    }
+    .postup{
+        height: 90vh;
+        width: 100%;
+    }
+    .Easycourt{
+        height: 90vh;
+    }
+    .Sociopass{
+        height: 90vh;
+    }
+    .EverythingPets{
+        height: 90vh;
+    }
+    .workName{
+        position:relative;
+        padding-left: 5%;
+        top:80%; 
+        font-weight: 800;
+        color: white;
+    }
+    
+    .workPara{
+        color: white;
+        position:relative;
+        padding-left: 5%; 
+        padding-right: 5%;
+        padding-bottom: 5%;
+        top:80%;
+
+    }
+    
+    .row{
+        --bs-gutter-x: 0;
+    }
+    .wrow{
+        margin-top: 0;
+        padding: 0!important;
+    }
+
+
+    .sideproject{
+        padding: 0;
+    }   
+
+
+    .email{
+        font-size: 1rem;
+    }
+
+    .SML{
+        transform: scale(.7);
+        margin-right: .3rem;
+     
+    }
+
+    .carousel-caption{
+        margin-left: 6.3%;
+        position: absolute;
+        text-align: left;
+        left: 3%;
+        padding-bottom: 7.2%;  
+    }
+
+    .img1{
+        background-image: url(images/Sideprojects/INV-Tab.png);
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        /* background-attachment: fixed !important; */
+        background-size: cover !important;   
+        background-position: center !important;
+   }
+
+    .img2{
+        background-image: url(images/Sideprojects/DEX-Tab.png);
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        /* background-attachment: fixed !important; */
+        background-size: cover !important;   
+        background-position: center !important;
+   }
+
+   .img3{
+        background-image: url(images/Sideprojects/GSJ-Tab.png);
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        /* background-attachment: fixed !important; */
+        background-size: cover !important;   
+        background-position: center !important;
+    }
+
+  
+}   
+
+
+
+
+@media (max-width: 576px){
+
+    .carousel-caption{
+        margin-left: 6.3%;
+        position: absolute;
+        text-align: left;
+        left: 3%;
+        padding-bottom: 9%;  
+    }
+
+    .img1{
+        background-image: url(images/Sideprojects/INV-Mob.png);
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        /* background-attachment: fixed !important; */
+        background-size: cover !important;   
+        background-position: center !important;
+   }
+
+    .img2{
+        background-image: url(images/Sideprojects/DEX-MOb.png);
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        /* background-attachment: fixed !important; */
+        background-size: cover !important;   
+        background-position: center !important;
+   }
+
+   .img3{
+        background-image: url(images/Sideprojects/GSJ-Mob.png);
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        /* background-attachment: fixed !important; */
+        background-size: cover !important;   
+        background-position: center !important;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+
+    .WIDO{
+        height: auto;
+    }
+    .IDO{
+        font-size: 2.7rem;
+    }
+    .ECL{
+        position: relative;
+        top: 25%;
+        padding: left 1.8em;
+        
+    }
+
+    .projectPara{
+        padding-right:0;
+        padding-left:0;
+    }
+
+    .downarrow{
+        float: right;
+        position: relative;
+        top: 55%;
+        margin-right: 5%;
+    }
+
+    .headerEC {
+        text-align: center;
+        background-color: #141414;
+        padding-bottom: 5rem;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .ECprojectHeadingPara {
+        position: relative;
+        top: 30%;
+        color: #fff;
+        padding-bottom: 0;
+    }
+
+    .headerImageEC{
+        background-color: #141414;
+    }
+}
+
+
+
+
+
+@media(max-width: 990px){
+
+    .headerImage{
+        background-color: #F0F0F3;
+    }
+
+    .protoMockUp{
+        height: auto;
+    }
+}

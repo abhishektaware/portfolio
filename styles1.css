@@ -573,9 +573,17 @@ figcaption{
 
 /* MEDIA QUERIES */
 
-@media (max-width : 990px) {
+@media (max-width : 1050px) {
 
     /* WHAT I DO */
+
+    .heroimage{
+        background-image: url(images/index/heroImage2.jpg);
+        background-size: cover;
+        height: 100vh;
+        
+    }
+
 
     .IDO{
         font-size: 4.5rem;
@@ -729,7 +737,12 @@ figcaption{
     }   
 
 
-  
+    .email{
+        text-align: center;
+        font-size: 2.7rem;
+        font-weight: 800; 
+        margin-bottom: 3%;
+      }
 
     .SML{
         transform: scale(.7);
@@ -922,7 +935,7 @@ figcaption{
         padding-right:0;
         padding-left:0;
     }
-
+    
     .downarrow{
         float: left;
         position: relative;

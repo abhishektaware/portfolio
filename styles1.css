@@ -312,9 +312,14 @@ a{
 }
 
 .SPhead{
-
+    font-size: 1.53rem;
     font-weight: 800;
 
+}
+
+.SPpara{
+    font-size: 0.9rem;
+    font-weight: 400;
 }
 
 /* CONTACT */

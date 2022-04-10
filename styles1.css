@@ -18,6 +18,8 @@ h6{
 }
 
 
+
+
 .primary1{
     position: relative;
     margin-top: 9rem;
@@ -164,15 +166,48 @@ a{
     font-weight: 800;
     padding-left: 1.8rem;
     position: relative;
-    top: 81%;
+    top: 72%;
 }
 
 .workPara{
     color: #fff;
     padding-left: 1.8rem;
     position: relative;
-    top: 81%;
+    top: 72%;
 
+}
+
+.CSbtnPU{
+    position: relative;
+    top: 72%; 
+    float: right;
+    margin-right: 5%; 
+    margin-top: .9rem;
+    border-width: .18rem;
+    font-size: 1.26rem;
+    padding: .5rem;
+}
+
+.CSbtnEC{
+    position: relative;
+    top: 72%; 
+    float: right;
+    margin-right: 5%; 
+    margin-top: .9rem;
+    border-width: .18rem;
+    font-size: 1.26rem;
+    padding: .5rem;
+}
+
+.CSbtnEP{
+    position: relative;
+    top: 72%; 
+    float: right;
+    margin-right: 5%; 
+    margin-top: .9rem;
+    border-width: .18rem;
+    font-size: 1.26rem;
+    padding: .5rem;
 }
 
 .Every{
@@ -183,9 +218,12 @@ a{
 }
 
 .postup{
+    background-image: url(images/Postup/PU-Logo@.75x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #F0F0F3;
     background-color: #06CD6D;
-    height: 54vh;
-    padding-bottom: 5%;
+    height: 72vh;
 
 }
 
@@ -194,15 +232,13 @@ a{
     background-position: center;
     background-repeat: no-repeat;
     background-color: #F0F0F3;
-    height: 54vh;
+    height: 72vh;
     background-color: #111;
-    padding-bottom: 3.6%;
    
 }
 .Sociopass{
     background-color: #4C75A3;
-    height: 54vh;
-    padding-bottom: 3.6%;
+    height: 72vh;
 
 }
 
@@ -211,8 +247,7 @@ a{
     background-position: center;
     background-repeat: no-repeat;
     background-color: #F0F0F3;
-    height: 54vh;
-    padding-bottom: 3.6%;
+    height: 72vh;
 }
 
 .wrow{
@@ -282,6 +317,14 @@ a{
 
 }
 
+/* CONTACT */
+.email{
+  text-align: center;
+  font-size: 4.5rem;
+  font-weight: 800; 
+  margin-bottom: 3%;
+}
+
 
 #connect{
     padding-top: .1rem;
@@ -316,8 +359,12 @@ footer{
     margin-top: 1.8rem;
 }
 
-.header{
+
+
+.headerPU{
     padding-left: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
     background-color: #06CD6D;
 }
 
@@ -326,6 +373,28 @@ footer{
     top: 50%;
     font-weight: 800;
     color: white;
+}
+
+
+.EPL{
+    position: relative;
+    top: 30.6%;  
+}
+
+.projectHeadingPU{
+    position: relative;
+    top: 30.6%;
+    font-weight: 800;
+    color: white;
+}
+
+
+.projectHeadingParaPU{
+    position: relative;
+    top: 30.6%;
+    color: white;
+    margin-bottom: 5rem;
+    padding-bottom: 5rem;
 }
 
 .projectHeadingPara{
@@ -519,6 +588,28 @@ figcaption{
         z-index: 0;
 
     }
+
+
+    .workName{
+        position:relative;
+        padding-left: 5%;
+        top:72vh; 
+        font-weight: 800;
+        color: white;
+    }
+    
+    .workPara{
+        color: white;
+        position:relative;
+        padding-left: 5%; 
+        padding-right: 5%;
+        padding-bottom: 5%;
+        top:72vh;
+
+    }
+
+
+
     .workNameEC{
         color: #fff;
         font-weight: 800;
@@ -569,7 +660,7 @@ figcaption{
     }
     .postup{
         height: 90vh;
-        width: 100%;
+        
     }
     .Easycourt{
         height: 90vh;
@@ -580,23 +671,43 @@ figcaption{
     .EverythingPets{
         height: 90vh;
     }
-    .workName{
-        position:relative;
-        padding-left: 5%;
-        top:80%; 
-        font-weight: 800;
-        color: white;
-    }
-    
-    .workPara{
-        color: white;
-        position:relative;
-        padding-left: 5%; 
-        padding-right: 5%;
-        padding-bottom: 5%;
-        top:80%;
 
+    .CSbtnPU{
+        position: relative;
+        top: 72%; 
+        float: right;
+        margin-right: 5%; 
+        margin-top: .9rem;
+        border-width: .18rem;
+        font-size: 1.26rem;
+        padding: .5rem;
     }
+
+    .CSbtnEC{
+        position: relative;
+        top: 72%; 
+        float: right;
+        margin-right: 5%; 
+        margin-top: .9rem;
+        border-width: .18rem;
+        font-size: 1.26rem;
+        padding: .5rem;
+    }
+
+    .CSbtnEP{
+        position: relative;
+        top: 72%; 
+        float: right;
+        margin-right: 5%; 
+        margin-top: .9rem;
+        border-width: .18rem;
+        font-size: 1.26rem;
+        padding: .5rem;
+        
+    }
+
+
+ 
     
     .row{
         --bs-gutter-x: 0;
@@ -612,9 +723,7 @@ figcaption{
     }   
 
 
-    .email{
-        font-size: 1rem;
-    }
+  
 
     .SML{
         transform: scale(.7);
@@ -667,6 +776,11 @@ figcaption{
 
 
 @media (max-width: 576px){
+
+
+    .sectionHead{
+        margin-bottom: 9%;
+    }
 
     .carousel-caption{
         margin-left: 6.3%;
@@ -723,6 +837,56 @@ figcaption{
         
     }
 
+
+    /* WORK Media 576 */
+
+    .postup{
+        height: 90vh;
+        
+    }
+    .Easycourt{
+        height: 90vh;
+    }
+    .Sociopass{
+        height: 90vh;
+    }
+    .EverythingPets{
+        height: 90vh;
+    }
+
+    .CSbtnPU{
+        position: relative;
+        top: 47.7%; 
+        float: right;
+        margin-right: 5%; 
+        margin-top: .9rem;
+        border-width: .09rem;
+        font-size: .54rem;
+        padding: .5rem;
+    }
+
+    .CSbtnEC{
+        position: relative;
+        top: 47.7%; 
+        float: right;
+        margin-right: 5%; 
+        margin-top: .9rem;
+        border-width: .09rem;
+        font-size: .54rem;
+        padding: .5rem;
+    }
+
+    .CSbtnEP{
+        position: relative;
+        top: 54%; 
+        float: right;
+        margin-right: 3%; 
+        margin-top: .9rem;
+        border-width: .09rem;
+        font-size: .54rem;
+        padding: .5rem;
+    }
+
     .projectPara{
         padding-right:0;
         padding-left:0;
@@ -734,6 +898,26 @@ figcaption{
         top: 55%;
         margin-right: 5%;
     }
+
+    .headerPU {
+        text-align: center;
+        background-color: #06CD6D;
+        padding-bottom: 5rem;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .projectHeadingPU{
+        top: 33.6%;
+        padding: 0;
+    }
+
+    .projectHeadingParaPU{
+        top: 33.6%;
+        padding: 0;
+    }
+
+
 
     .headerEC {
         text-align: center;
@@ -753,6 +937,18 @@ figcaption{
     .headerImageEC{
         background-color: #141414;
     }
+
+    /* CONTACT media max 576 */
+
+    .email{
+        font-size: 1.26rem;
+        margin-bottom: 10%;
+    }
+
+
+
+
+
 }
 
 

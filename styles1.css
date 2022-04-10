@@ -867,7 +867,8 @@ figcaption{
         margin-right: 5%; 
         margin-top: .9rem;
         border-width: .09rem;
-        font-size: .54rem;
+        font-size: .63rem;
+        font-weight: 450;
         padding: .5rem;
     }
 
@@ -878,7 +879,8 @@ figcaption{
         margin-right: 5%; 
         margin-top: .9rem;
         border-width: .09rem;
-        font-size: .54rem;
+        font-size: .63rem;
+        font-weight: 450;
         padding: .5rem;
     }
 
@@ -889,7 +891,8 @@ figcaption{
         margin-right: 3%; 
         margin-top: .9rem;
         border-width: .09rem;
-        font-size: .54rem;
+        font-size: .63rem;
+        font-weight: 450;
         padding: .5rem;
     }
 

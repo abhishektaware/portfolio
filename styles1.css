@@ -61,7 +61,7 @@ a{
     text-align: center;
 }
 .heroimage{
-    background-image: url(images/index/heroimage4.jpg);
+    background-image: url(images/index/heroimage3.jpg);
     background-size: cover;
     height: 100vh;
     
@@ -793,7 +793,7 @@ figcaption{
         position: absolute;
         text-align: left;
         left: 3%;
-        padding-bottom: 9%;  
+        padding-bottom: 3.6%;  
     }
 
     .img1{
@@ -946,6 +946,22 @@ figcaption{
     .headerImageEC{
         background-color: #141414;
     }
+
+
+    .SPhead{
+        position: relative;
+        top: 3%;
+        font-size: 1.17rem;
+        font-weight: 800;
+    
+    }
+    
+    .SPpara{
+        font-size: 0.9rem;
+        font-weight: 400;
+    }
+
+
 
     /* CONTACT media max 576 */
 

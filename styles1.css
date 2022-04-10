@@ -783,6 +783,28 @@ figcaption{
 
 @media (max-width: 576px){
 
+    .heroimage{
+        background-image: url(images/index/heroImage-mob.jpg);
+        background-size: cover;
+        height: 100vh;
+        
+    }
+
+    .herotext{
+        position: relative;
+        top: 21%;
+        color: #141414;
+        font-size: 3.5rem;
+        font-weight: 800;
+    }
+    .herop{
+        position: relative;
+        top: 21%;
+        color: #141414;
+        font-size: 1.2rem;
+       
+    }
+
 
     .sectionHead{
         margin-bottom: 9%;
@@ -902,7 +924,7 @@ figcaption{
     }
 
     .downarrow{
-        float: right;
+        float: left;
         position: relative;
         top: 55%;
         margin-right: 5%;

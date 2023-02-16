@@ -1003,12 +1003,15 @@ figcaption{
 
     .email{
         font-size: 1.26rem;
-        margin-bottom: 10%;
+        margin-top: 6.3rem;
+        margin-bottom: 6.3rem;
     }
 
+    /* WHAT I DO Media 576 */
 
-
-
+    #WHTIDO{
+    padding-bottom : 15%;
+    }
 
 }
 

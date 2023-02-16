@@ -328,7 +328,7 @@ a{
   font-size: 4.5rem;
   font-weight: 800; 
   margin-top: 9rem;
-  margin-bottom: 9rem;
+  margin-bottom: 9rem !important;
 }
 
 

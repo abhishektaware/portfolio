@@ -55,7 +55,10 @@ a{
 .navbar-brand{
     color: #111;
     font-weight: 400;
-
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.55);
+    border-color: rgba(0,0,0,0);
 }
 .navbar-nav{
     margin-left: 75%;

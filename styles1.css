@@ -852,12 +852,16 @@ figcaption{
         
     }
 
+    .carousel-inner{
+    height: 70vh;
+    
+    }
     .carousel-caption{
         margin-left: 6.3%;
         position: absolute;
         text-align: left;
         left: 3%;
-        padding-bottom: 3.6%;  
+         
     }
 
     .img1{

@@ -52,7 +52,7 @@ a{
 }
 .navbar-brand{
     color: #111;
-    font-weight: 800;
+    font-weight: 400;
 
 }
 .navbar-nav{
@@ -797,9 +797,18 @@ figcaption{
 
 @media (max-width: 576px){
 
+    .navbar-brand{
+        color: #111;
+        font-weight: 400;
+
+    }
 
     .h4 {
-        font-size: 14px;
+        font-size: 1rem;
+
+    }
+
+    
     .heroimage{
         background-image: url(images/index/heroImage-mob.jpg);
         background-size: cover;

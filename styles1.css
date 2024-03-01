@@ -333,6 +333,11 @@ a{
   margin-bottom: 1rem !important;
 }
 
+.contactContent{
+text-align: center;
+padding-bottom: 9rem;
+
+}
 
 #connect{
     padding-top: .1rem;

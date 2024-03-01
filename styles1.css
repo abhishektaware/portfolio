@@ -2,11 +2,7 @@
     font-family: sans-serif;
 }
     
-.navbar-light .navbar-toggler {
-    color: rgba(0,0,0,0);
-    border-color: rgba(0,0,0,0);
-    
-}
+
 
 p{
     font-size: 1.53rem;
@@ -809,11 +805,7 @@ figcaption{
 
     }
 
-    .navbar-light .navbar-toggler {
-    color: rgba(0,0,0,0.55);
-    border-color: rgba(0,0,0,0);
-    
-    }
+  
 
     .h4 {
         font-size: 1rem;

@@ -798,6 +798,8 @@ figcaption{
 @media (max-width: 576px){
 
 
+    .h4 {
+        font-size: 14px;
     .heroimage{
         background-image: url(images/index/heroImage-mob.jpg);
         background-size: cover;

@@ -328,7 +328,7 @@ a{
   font-size: 4.5rem;
   font-weight: 800; 
   margin-top: 9rem;
-  margin-bottom: 9rem !important;
+  margin-bottom: 1rem !important;
 }
 
 
@@ -803,6 +803,11 @@ figcaption{
 
     }
 
+    .navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.55);
+    
+    }
+
     .h4 {
         font-size: 1rem;
 
@@ -1018,6 +1023,8 @@ figcaption{
 
     .email{
         font-size: 1.26rem;
+        margin-bottom: 1rem;
+        
     }
 
     /* WHAT I DO Media 576 */
@@ -1025,9 +1032,14 @@ figcaption{
     .WHTIDO{
     padding-bottom : 15%;
     margin-bottom: 3rem;
+    
     }
 
-}
+    .contactContent{
+    text-align: center;
+    padding-bottom: 9rem;
+
+    }
 
 
 

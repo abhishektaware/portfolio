@@ -180,20 +180,19 @@ a{
 
 
 
-.workName{
+.workName {
     color: #fff;
-    font-weight: 800;
+    font-weight: 400;
     padding-left: 1.8rem;
     position: relative;
-    top: 72%;
+    bottom: -23.3rem;
 }
-
-.workPara{
+.workPara {
     color: #fff;
     padding-left: 1.8rem;
     position: relative;
-    top: 72%;
-
+    bottom: -22.5rem;
+    font-weight: 100;
 }
 
 .CSbtnPU{
@@ -644,21 +643,23 @@ figcaption{
     }
 
 
-    .workName{
-        position:relative;
-        padding-left: 5%;
-        top:72vh; 
-        font-weight: 800;
-        color: white;
+    .workName {
+    position: relative;
+    padding-left: 1rem;
+    top: 17rem;
+    font-weight: 400;
+    color: white;
     }
     
-    .workPara{
-        color: white;
-        position:relative;
-        padding-left: 5%; 
-        padding-right: 5%;
-        padding-bottom: 5%;
-        top:72vh;
+    .workPara {
+    color: white;
+    position: relative;
+    padding-left: 1rem;
+    /* padding-right: 5%; */
+    /* padding-bottom: 5%; */
+    top: 16.5rem;
+    font-weight: 100;
+    }
 
     }
 
@@ -790,12 +791,12 @@ figcaption{
      
     }
 
-    .carousel-caption{
-        margin-left: 6.3%;
-        position: absolute;
-        text-align: left;
-        left: 3%;
-        padding-bottom: 7.2%;  
+    .carousel-caption {
+    margin-left: 6.3%;
+    position: absolute;
+    text-align: left;
+    left: 3%;
+    padding-bottom: 2rem;
     }
 
     .img1{
@@ -970,6 +971,23 @@ figcaption{
     }
     .EverythingPets{
         height: 90vh;
+    }
+
+    .workName {
+    position: relative;
+    padding-left: 1rem;
+    top: 29rem;
+    font-weight: 400;
+    color: white;
+    }
+    .workPara {
+    color: white;
+    position: relative;
+    padding-left: 1rem;
+    padding-right: 5%; 
+    /* padding-bottom: 5%; */
+    top: 28.5rem;
+    font-weight: 100;
     }
 
     .CSbtnPU{

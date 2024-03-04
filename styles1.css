@@ -122,7 +122,20 @@ a{
 .IDO{
 
     font-size: 5.4rem;
-     margin-bottom: 4rem;
+    margin-bottom: 4rem;
+    color: #808080;
+    font-weight: 100;
+    
+}
+
+.IDO2{
+
+    font-size: 5.4rem;
+    margin-bottom: 4rem;
+    color: #D2848C;
+    font-style: italic;
+    font-weight: 800;
+    
 }
 
 
@@ -598,11 +611,25 @@ figcaption{
     }
 
 
-    .IDO{
-        font-size: 4.5rem;
-        margin-bottom: 6.3rem;
-    }
 
+.IDO{
+
+    font-size: 4.5rem;
+    margin-bottom: 6.3rem;
+    color: #808080;
+    font-weight: 100;
+    
+}
+
+.IDO2{
+
+    font-size: 4.5rem;
+    margin-bottom: 6.3rem;
+    color: #D2848C;
+    font-style: italic;
+    font-weight: 800;
+    
+}
 
 
     p{
@@ -903,8 +930,23 @@ figcaption{
     .WIDO{
         height: auto;
     }
+
+
     .IDO{
-        font-size: 2.7rem;
+
+    font-size: 2.7rem;
+    color: #808080;
+    font-weight: 100;
+    
+    }
+
+    .IDO2{
+
+    font-size: 2.7rem;
+    color: #D2848C;
+    font-style: italic;
+    font-weight: 800;
+    
     }
     .ECL{
         position: relative;

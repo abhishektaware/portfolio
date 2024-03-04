@@ -836,7 +836,8 @@ figcaption{
 
 
 @media (max-width: 576px){
-        .navbar-brand{
+        
+    .navbar-brand{
         color: #111;
         Font-size: 2rem;
         font-weight: 400;
@@ -1056,8 +1057,6 @@ figcaption{
         padding: 0;
     }
 
-
-
     .headerEC {
         text-align: center;
         background-color: #141414;
@@ -1103,8 +1102,8 @@ figcaption{
 
     /* WHAT I DO Media 576 */
 
-    .WHTIDO{
-    padding-bottom : 15%;
+    .WHTIDO {
+    padding-bottom : 1;
     margin-bottom: 3rem;
     
     }

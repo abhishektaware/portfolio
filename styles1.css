@@ -836,8 +836,7 @@ figcaption{
 
 
 @media (max-width: 576px){
-
-    .navbar-brand{
+        .navbar-brand{
         color: #111;
         Font-size: 2rem;
         font-weight: 400;
@@ -866,6 +865,7 @@ figcaption{
         font-size: 3.5rem;
         font-weight: 400;
     }
+    
     .herop{
         position: relative;
         top: 21%;
@@ -1121,8 +1121,9 @@ figcaption{
     font-weigh: 100;
 
     }
-
 }
+
+
 
 
 

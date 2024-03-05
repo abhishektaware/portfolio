@@ -1,11 +1,15 @@
-.body{
-    font-family: sans-serif;
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow',;
+    background-color: #F8F9FA;
 }
     
-
+#WHTIDO{
+    background-color: #F8F9FA;
+}
 
 p{
-    font-size: 1.53rem;
+    font-size: 1rem;
+    font-weight: 100;
 }
 .nextSteps{
     font-size: 1.53rem;
@@ -16,7 +20,7 @@ h5{
 }
 
 h6{
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 
@@ -65,33 +69,49 @@ a{
     padding-left: 5%;
     text-align: center;
 }
+
+
+
+.navbar-expand-xl .navbar-nav .nav-link {
+    padding-right: 2rem;
+    padding-left: 0.5rem;
+    font-weight: 100;
+    color: #000;
+}
+
 .heroimage{
     background-image: url(images/index/heroImage1.jpg);
     background-size: cover;
     height: 100vh;
     
+    background-image: url(images/index/heroImage1.jpg);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 81vh;
+    
+    
 }
 .herotext{
     position: relative;
-    top: 60%;
+    top: 9rem;
     color: #141414;
     font-size: 3.5rem;
     font-weight: 100;
 }
-.herop{
+.herop {
     position: relative;
-    top: 60%;
+    top: 9rem;
     color: #141414;
     font-size: 1.2rem;
     font-weight: 180;
-   
+    max-width: 30%;
 }
 
-.downarrow{
-    position: absolute;
-    bottom: 5%;
-    left: 5%;
-    
+.downarrow {
+    position: relative;
+    top: 20rem;
+    left: 0;
 }
 
 .container-fluid{
@@ -102,9 +122,9 @@ a{
 
 .sectionHead{
     font-size: 1rem;
-    font-weight: 450;
+    font-weight: 0.72rem;
     font-family: sans-serif;
-    margin-top: 3rem;
+    padding-top: 3rem;
     margin-bottom: .9rem;
     padding-bottom: .2rem;
     padding-right:40%;
@@ -132,10 +152,25 @@ a{
 
     font-size: 5.4rem;
     margin-bottom: 4rem;
-    color: #D2848C;
+    color: #D2B48C;
     font-style: italic;
     font-weight: 800;
     
+}
+
+.contact-btn{
+    padding-bottom: 2rem;
+}
+.cont-btn {
+    font-size: 1rem;
+    font-weight: 200;
+    position: relative;
+    float: right;
+    padding: 1rem;
+    padding-right: 10rem;
+    background-color: tan;
+    border: 0;
+    border-radius: 0;
 }
 
 
@@ -185,13 +220,13 @@ a{
     font-weight: 400;
     padding-left: 1.8rem;
     position: relative;
-    bottom: -23.3rem;
+    bottom: -33.5rem;
 }
 .workPara {
     color: #fff;
     padding-left: 1.8rem;
     position: relative;
-    bottom: -22.5rem;
+    bottom: -33rem;
     font-weight: 100;
 }
 
@@ -331,13 +366,14 @@ a{
 
 .SPhead{
     font-size: 1.53rem;
-    font-weight: 800;
+    font-weight: 400;
+    margin-bottom: 0;
 
 }
 
 .SPpara{
     font-size: 0.9rem;
-    font-weight: 400;
+    font-weight: 200;
 }
 
 /* CONTACT */
@@ -351,9 +387,16 @@ a{
 
 .contactContent{
 text-align: center;
-padding-bottom: 9rem;
+padding-bottom: 3.5rem;
 font-weight: 100;
 
+}
+
+.contactContent2 {
+    text-align: center;
+    padding-bottom: 3.5rem;
+    font-weight: 100;
+    
 }
 
 #connect{
@@ -441,9 +484,9 @@ footer{
 }
 
 .heading{
-    font-weight: 800;
+    font-weight: 600;
     color: #111;
-    margin-top: 2rem;
+    margin-top: 1.8rem;
 }
 
 .PU-heading2{
@@ -594,41 +637,166 @@ figcaption{
     font-weight: 800;
 }
 
+/* MEDIA QUERIES  2560*/
 
+@media (max-width : 2560px){
+    
+    .heroimage {
+        background-image: url(images/index/heroImage1.jpg);
+        background-size: contain;
+        background-position: right;
+        background-repeat: no-repeat;
+        height: 81vh;
+    }
 
-/* MEDIA QUERIES */
+    .postup {
+        background-image: url(images/Postup/PU-Logo@.75x.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: #F0F0F3;
+        background-color: #06CD6D;
+        height: 63vh;
+        margin-bottom: 3rem;
+    }
+
+    .Easycourt {
+        background-image: url(images/Easycourt/EC\ Logo\ 1.5x.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: #F0F0F3;
+        height: 63vh;
+        background-color: #111;
+        margin-bottom: 3rem;
+    }
+
+    .EverythingPets {
+        background-image: url(images/Everthingpets/EPlogo@2x.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: #F0F0F3;
+        height: 63vh;
+        margin-bottom: 3rem;
+    }
+
+    .workName {
+        color: #fff;
+        font-weight: 400;
+        font-size: 1.8rem;
+        padding-left: 1rem;
+        position: relative;
+        top: 23.5rem;
+    }
+    .workPara {
+        color: #fff;
+        padding-left: 1rem;
+        position: relative;
+        top: 23rem;
+        font-weight: 100;
+        font-size: 1.2rem;
+    }
+
+    .sideproject{
+        padding-left: 4.5%;
+        padding-right: 4.5%;
+    }   
+
+    .carousel-caption{
+        margin-left: 6.3%;
+        position: absolrelaute;
+        text-align: left;
+        left: 9%;
+        top: 34rem;
+         
+    }
+
+}
+
+/* MEDIA QUERIES  1440*/
+
+@media (max-width : 1440px){
+   
+
+    .postup {
+        background-image: url(images/Postup/PU-Logo@.75x.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: #F0F0F3;
+        background-color: #06CD6D;
+        height: 72vh;
+        margin-bottom: 3rem;
+    }
+
+    .Easycourt {
+        background-image: url(images/Easycourt/EC\ Logo\ 1.5x.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: #F0F0F3;
+        height: 72vh;
+        background-color: #111;
+        margin-bottom: 3rem;
+    }
+
+    .EverythingPets {
+        background-image: url(images/Everthingpets/EPlogo@2x.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: #F0F0F3;
+        height: 72vh;
+        margin-bottom: 3rem;
+    }
+
+    .workName {
+        color: #fff;
+        font-weight: 400;
+        font-size: 1.8rem;
+        padding-left: 1.8rem;
+        position: relative;
+        top: 28rem;
+    }
+    .workPara {
+        color: #fff;
+        padding-left: 1.8rem;
+        position: relative;
+        top: 27.5rem;
+        font-weight: 100;
+        font-size: 1.4rem;
+    }
+
+}
+
+/* MEDIA QUERIES 1050px*/
 
 @media (max-width : 1050px) {
 
     /* WHAT I DO */
 
-    .heroimage{
-        background-image: url(images/index/heroImage2.jpg);
+    .heroimage {
+        background-image: url(images/index/heroImage1.jpg);
         background-size: cover;
+        background-position: left;
         height: 100vh;
-        
     }
 
 
 
-.IDO{
+    .IDO{
 
     font-size: 4.5rem;
     margin-bottom: 6.3rem;
     color: #808080;
     font-weight: 100;
     
-}
+    }   
 
-.IDO2{
+    .IDO2{
 
     font-size: 4.5rem;
     margin-bottom: 6.3rem;
-    color: #D2848C;
+    color: #D2B48C;
     font-style: italic;
     font-weight: 800;
     
-}
+    }
 
 
     p{
@@ -646,7 +814,7 @@ figcaption{
     .workName {
     position: relative;
     padding-left: 1rem;
-    top: 17rem;
+    top: 30.5rem;
     font-weight: 400;
     color: white;
     }
@@ -655,15 +823,10 @@ figcaption{
     color: white;
     position: relative;
     padding-left: 1rem;
-    /* padding-right: 5%; */
-    /* padding-bottom: 5%; */
-    top: 16.5rem;
+    top: 30rem;
     font-weight: 100;
+    font-size: 1rem;
     }
-
-    }
-
-
 
     .workNameEC{
         color: #fff;
@@ -683,31 +846,42 @@ figcaption{
         margin: 0;
         
     }
+
     .herotext{
     position: relative;
-    top: 60%;
+    top: 9rem;
     color: #141414;
     font-size: 2.5rem;
-    font-weight: 400;
-}
+    font-weight: 200;
+    }
 
-.downarrow{
+    .herop {
+        position: relative;
+        top: 9rem;
+        color: #141414;
+        font-size: 1rem;
+        font-weight: 180;
+        max-width: 45%;
+    }
+
+    .downarrow{
     position: absolute;
     bottom:1.5rem;
     left: 5%;
    
-}
+    }
 
-.navbar-nav{
+    .navbar-nav{
     padding-top: 5rem;
     text-align: center;
     margin: 0;
     padding-bottom: 5rem;
     padding-left: 0;
-}
-.nav-item{
+    }
+    
+    .nav-item{
     padding-bottom: 1.8rem;
-}
+    }
 
     .works{
         margin: 0;
@@ -733,7 +907,7 @@ figcaption{
         float: right;
         margin-right: 5%; 
         margin-top: .9rem;
-        border-width: .18rem;
+        border-width: .1rem;
         font-size: 1.26rem;
         padding: .5rem;
     }
@@ -761,9 +935,6 @@ figcaption{
         
     }
 
-
- 
-    
     .row{
         --bs-gutter-x: 0;
     }
@@ -774,7 +945,8 @@ figcaption{
 
 
     .sideproject{
-        padding: 0;
+        padding-left: 4.5%;
+        padding-right: 4.5%;
     }   
 
 
@@ -792,44 +964,49 @@ figcaption{
     }
 
     .carousel-caption {
-    margin-left: 6.3%;
-    position: absolute;
-    text-align: left;
-    left: 3%;
-    padding-bottom: 2rem;
+        font-size: 1.8rem;
+        font-weight: 400;
+        margin-left: 6.3%;
+        position: absolute;
+        text-align: left;
+        left: 5%;
+        padding-bottom: 0.9rem;
+        top: auto;
     }
 
     .img1{
-        background-image: url(images/Sideprojects/INV-Tab.png);
+        background-image: url(images/Sideprojects/INV-Desk.png);
         height: 100%;
         width: 100%;
         background-repeat: no-repeat;
         /* background-attachment: fixed !important; */
         background-size: cover !important;   
         background-position: center !important;
+        scale: 1.1;
    }
 
     .img2{
-        background-image: url(images/Sideprojects/DEX-Tab.png);
+        background-image: url(images/Sideprojects/DEX-Desk.png);
         height: 100%;
         width: 100%;
         background-repeat: no-repeat;
         /* background-attachment: fixed !important; */
         background-size: cover !important;   
         background-position: center !important;
+        scale: 1.1;
    }
 
    .img3{
-        background-image: url(images/Sideprojects/GSJ-Tab.png);
+        background-image: url(images/Sideprojects/GSJ-Desk.png);
         height: 100%;
         width: 100%;
         background-repeat: no-repeat;
         /* background-attachment: fixed !important; */
         background-size: cover !important;   
         background-position: center !important;
+        scale: 1.1;
     }
 
-  
 }   
 
 
@@ -837,12 +1014,11 @@ figcaption{
 
 @media (max-width: 576px){
 
-/*     .navbar-brand{
+    .navbar-brand {
         color: #111;
-        Font-size: 2rem;
+        Font-size: 1.71rem;
         font-weight: 400;
-
-    } */
+    }
           
 
     .h4 {
@@ -858,27 +1034,28 @@ figcaption{
         
     }
 
-    .herotext{
+    .herotext {
         position: relative;
         top: 21%;
         color: #141414;
-        font-size: 3.5rem;
-        font-weight: 400;
+        font-size: 3.6rem;
+        font-weight: 100;
     }
     
-    .herop{
+    .herop {
         position: relative;
         top: 21%;
         color: #141414;
-        font-size: 1.2rem;
-       
+        font-size: 1rem;
+        max-width: 60%;
+
     }
 
 
     .sectionHead{
         margin-bottom: 9%;
         font-size :1 rem;
-        font-weight: 100;
+        font-weight: 100 !important;
         
     }
 
@@ -886,6 +1063,7 @@ figcaption{
     height: 90vh;
     
     }
+
     .carousel-caption{
         margin-left: 6.3%;
         position: absolute;
@@ -944,7 +1122,7 @@ figcaption{
     .IDO2{
 
     font-size: 2.7rem;
-    color: #D2848C;
+    color: #D2B48C;
     font-style: italic;
     font-weight: 800;
     
@@ -996,7 +1174,7 @@ figcaption{
         float: right;
         margin-right: 5%; 
         margin-top: .9rem;
-        border-width: .09rem;
+        border-width: .1rem;
         font-size: .63rem;
         font-weight: 450;
         padding: .5rem;
@@ -1007,8 +1185,8 @@ figcaption{
         top: 47.7%; 
         float: right;
         margin-right: 5%; 
-        margin-top: .9rem;
-        border-width: .09rem;
+        margin-top: .09rem;
+        border-width: .1rem;
         font-size: .63rem;
         font-weight: 450;
         padding: .5rem;
@@ -1031,11 +1209,12 @@ figcaption{
         padding-left:0;
     }
     
-    .downarrow{
+    .downarrow {
         float: left;
         position: relative;
-        top: 55%;
+        top: 18rem;
         margin-right: 5%;
+        width: 1rem;
     }
 
     .headerPU {
@@ -1078,15 +1257,15 @@ figcaption{
 
     .SPhead{
         position: relative;
-        top: 3%;
         font-size: 1.17rem;
-        font-weight: 800;
+        font-weight: 400;
+        margin-bottom: 0;
     
     }
     
     .SPpara{
         font-size: 0.9rem;
-        font-weight: 400;
+        font-weight: 200;
     }
 
 
@@ -1101,11 +1280,7 @@ figcaption{
 
     /* WHAT I DO Media 576 */
 
-    .WHTIDO {
-    padding-bottom : 1;
-    margin-bottom: 3rem;
     
-    }
 
     .contactContent{
     text-align: center;
@@ -1113,25 +1288,22 @@ figcaption{
 
     }
 
-    .contactContent2{
-    text-align: center;
-    padding-bottom: 3.5rem;
-    font-weigh: 100;
+    .contactContent2 {
+        text-align: center;
+        padding-bottom: 3.5rem;
+        font-weight: 100;
 
     }
 }
 
 
 
+/* PROJECT PAGES */
 
-
-@media(max-width: 990px){
-
-    .headerImage{
-        background-color: #F0F0F3;
-    }
-
-    .protoMockUp{
-        height: auto;
+@media (max-width: 992px){
+    .navbar-exand-lg .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
     }
 }
+

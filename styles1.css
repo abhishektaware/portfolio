@@ -9,18 +9,23 @@ body{
 
 p{
     font-size: 1rem;
-    font-weight: 100;
+    font-weight: 200;
 }
 .nextSteps{
-    font-size: 1.53rem;
+    font-size: 1rem;
 }
 
 h5{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 h6{
     font-size: 1rem;
+}
+
+li{
+    font-size: 1rem;
+    font-weight: 200;
 }
 
 
@@ -79,19 +84,15 @@ a{
     color: #000;
 }
 
-.heroimage{
-    background-image: url(images/index/heroImage1.jpg);
-    background-size: cover;
-    height: 100vh;
-    
+.heroimage{    
     background-image: url(images/index/heroImage1.jpg);
     background-size: contain;
     background-position: right;
     background-repeat: no-repeat;
     height: 81vh;
     
-    
 }
+
 .herotext{
     position: relative;
     top: 9rem;
@@ -110,7 +111,7 @@ a{
 
 .downarrow {
     position: relative;
-    top: 20rem;
+    top: 54vh;
     left: 0;
 }
 
@@ -165,7 +166,7 @@ a{
     font-size: 1rem;
     font-weight: 200;
     position: relative;
-    float: right;
+    /* float: right; */
     padding: 1rem;
     padding-right: 10rem;
     background-color: tan;
@@ -452,7 +453,7 @@ footer{
 
 .EPL{
     position: relative;
-    top: 30.6%;  
+    top: 10rem;  
 }
 
 .projectHeadingPU{
@@ -486,11 +487,15 @@ footer{
 .heading{
     font-weight: 600;
     color: #111;
-    margin-top: 1.8rem;
+    margin-top: 1rem;
+}
+
+.heading2{
+    font-size: .9rem;
 }
 
 .PU-heading2{
-    font-size: 1.8rem;
+    font-size: 1rem;
     color: #fff;
     display: inline-block;
     text-align: center;
@@ -609,7 +614,7 @@ figcaption{
 }
 
 .EP-heading2 {
-    font-size: 1.8rem;
+    font-size: 1rem;
     color: #fff;
     display: inline-block;
     text-align: center;
@@ -623,7 +628,8 @@ figcaption{
     margin-top: 2rem;
 }
 .protoMockUp{
-    height: 90vh;
+    height: auto;
+    max-height: 80vh;
 }
 
 .EP-thanks{
@@ -656,7 +662,7 @@ figcaption{
         background-color: #F0F0F3;
         background-color: #06CD6D;
         height: 63vh;
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
     }
 
     .Easycourt {
@@ -666,7 +672,7 @@ figcaption{
         background-color: #F0F0F3;
         height: 63vh;
         background-color: #111;
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
     }
 
     .EverythingPets {
@@ -675,7 +681,7 @@ figcaption{
         background-repeat: no-repeat;
         background-color: #F0F0F3;
         height: 63vh;
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
     }
 
     .workName {
@@ -723,7 +729,7 @@ figcaption{
         background-color: #F0F0F3;
         background-color: #06CD6D;
         height: 72vh;
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
     }
 
     .Easycourt {
@@ -733,7 +739,7 @@ figcaption{
         background-color: #F0F0F3;
         height: 72vh;
         background-color: #111;
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
     }
 
     .EverythingPets {
@@ -742,7 +748,7 @@ figcaption{
         background-repeat: no-repeat;
         background-color: #F0F0F3;
         height: 72vh;
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
     }
 
     .workName {
@@ -773,7 +779,7 @@ figcaption{
     .heroimage {
         background-image: url(images/index/heroImage1.jpg);
         background-size: cover;
-        background-position: left;
+        background-position: center;
         height: 100vh;
     }
 
@@ -812,29 +818,23 @@ figcaption{
 
 
     .workName {
-    position: relative;
-    padding-left: 1rem;
-    top: 30.5rem;
-    font-weight: 400;
-    color: white;
+        position: relative;
+        padding-left: 1rem;
+        top: 24rem;
+        font-weight: 400;
+        color: white;
     }
     
+
     .workPara {
-    color: white;
-    position: relative;
-    padding-left: 1rem;
-    top: 30rem;
-    font-weight: 100;
-    font-size: 1rem;
+        color: white;
+        position: relative;
+        padding-left: 1rem;
+        top: 23.5rem;
+        font-weight: 100;
+        font-size: 1rem;
     }
 
-    .workNameEC{
-        color: #fff;
-        font-weight: 800;
-        padding-left: 1.8rem;
-        position: relative;
-        top: 60%;
-    }
     .workParaEC{
         color: #fff;
         padding-left: 1.8rem;
@@ -866,7 +866,7 @@ figcaption{
 
     .downarrow{
     position: absolute;
-    bottom:1.5rem;
+    top: 72vh;
     left: 5%;
    
     }
@@ -888,17 +888,17 @@ figcaption{
         padding: 0;
     }
     .postup{
-        height: 90vh;
+        height: 60vh;
         
     }
     .Easycourt{
-        height: 90vh;
+        height: 60vh;
     }
     .Sociopass{
-        height: 90vh;
+        height: 60vh;
     }
     .EverythingPets{
-        height: 90vh;
+        height: 60vh;
     }
 
     .CSbtnPU{
@@ -1007,9 +1007,104 @@ figcaption{
         scale: 1.1;
     }
 
-}   
+}       
 
+/* MEDIA QUERIES 1050px*/
 
+@media (max-width : 900px){
+
+    .heroimage {
+        background-image: url(images/index/heroImage1.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 90vh;
+    }
+
+    .downarrow {
+        position: relative;
+        top: 54vh;
+        left: 5%;
+    }
+
+    .postup{
+        height: 80vh;
+        
+        
+    }
+    .Easycourt{
+        height: 80vh;
+    }
+    .Sociopass{
+        height: 70vh;
+    }
+    .EverythingPets{
+        height: 80vh;
+    }
+
+    .workName {
+        position: relative;
+        padding-left: 1rem;
+        top: 46rem;
+        font-weight: 400;
+        color: white;
+    }
+    
+
+    .workPara {
+        color: white;
+        position: relative;
+        padding-left: 1rem;
+        top: 45.5rem;
+        font-weight: 100;
+        font-size: 1rem;
+    }
+
+    /* POSTUP PROJ PAGE @media 768*/
+
+    .headerPU {
+        padding-left: 5%;
+        padding-right: 5%;
+        background-color: #06CD6D;
+        height: 14rem;
+
+    }
+
+    .headerPU2 {
+        background-color: #06CD6D;
+        padding-bottom: 2rem;
+        
+
+    }
+
+    .gif1{
+        scale: .95;
+    }
+
+    .EPL {
+        position: relative;
+        top: 0.5rem;
+        scale: .5;
+        left: -2rem;
+
+    }
+
+    .projectHeadingPU {
+        position: relative;
+        top: -2rem;
+        font-weight: 800;
+        color: white;
+
+    }
+
+    .projectHeadingParaPU {
+        position: relative;
+        top: -2.5rem;
+        color: white;
+        margin-bottom: 0rem;
+        padding-bottom: 1rem;
+
+    }
+}
 
 
 @media (max-width: 576px){
@@ -1030,7 +1125,8 @@ figcaption{
     .heroimage{
         background-image: url(images/index/heroImage-mob.jpg);
         background-size: cover;
-        height: 100vh;
+        background-position: bottom;
+        height: 90vh;
         
     }
 
@@ -1138,33 +1234,38 @@ figcaption{
     /* WORK Media 576 */
 
     .postup{
-        height: 90vh;
+        height: 72vh;
+        margin-bottom: 2rem;
         
     }
     .Easycourt{
-        height: 90vh;
+        height: 72vh;
+        margin-bottom: 2rem;
     }
     .Sociopass{
-        height: 90vh;
+        height: 72vh;
+        margin-bottom: 2rem;
     }
     .EverythingPets{
-        height: 90vh;
+        height: 72vh;
+        margin-bottom: 2rem;
     }
 
     .workName {
     position: relative;
     padding-left: 1rem;
-    top: 29rem;
+    top: 30rem;
     font-weight: 400;
     color: white;
     }
+
     .workPara {
     color: white;
     position: relative;
     padding-left: 1rem;
-    padding-right: 5%; 
+    padding-right: 5%;
     /* padding-bottom: 5%; */
-    top: 28.5rem;
+    top: 29.5rem;
     font-weight: 100;
     }
 
@@ -1212,27 +1313,29 @@ figcaption{
     .downarrow {
         float: left;
         position: relative;
-        top: 18rem;
+        top: 42vh;
         margin-right: 5%;
         width: 1rem;
     }
 
     .headerPU {
-        text-align: center;
+        text-align: left;
         background-color: #06CD6D;
-        padding-bottom: 5rem;
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-bottom: 14rem;
+        /* padding-left: 5%; */
+        /* padding-right: 5%; */
     }
 
-    .projectHeadingPU{
-        top: 33.6%;
+    .projectHeadingPU {
+        top: -1.5rem;
         padding: 0;
+
     }
 
-    .projectHeadingParaPU{
-        top: 33.6%;
+    .projectHeadingParaPU {
+        top: -2rem;
         padding: 0;
+
     }
 
     .headerEC {
@@ -1241,6 +1344,7 @@ figcaption{
         padding-bottom: 5rem;
         padding-left: 5%;
         padding-right: 5%;
+
     }
 
     .ECprojectHeadingPara {

@@ -125,7 +125,7 @@ a{
     font-size: 1rem;
     font-weight: 0.72rem;
     font-family: sans-serif;
-    padding-top: 3rem;
+    padding-top: 2rem;
     margin-bottom: .9rem;
     padding-bottom: .2rem;
     padding-right:40%;
@@ -820,7 +820,7 @@ figcaption{
     .workName {
         position: relative;
         padding-left: 1rem;
-        top: 24rem;
+        top: 54vh;
         font-weight: 400;
         color: white;
     }
@@ -830,7 +830,7 @@ figcaption{
         color: white;
         position: relative;
         padding-left: 1rem;
-        top: 23.5rem;
+        top: 53.5vh;
         font-weight: 100;
         font-size: 1rem;
     }
@@ -966,7 +966,7 @@ figcaption{
     .carousel-caption {
         font-size: 1.8rem;
         font-weight: 400;
-        margin-left: 6.3%;
+        margin-left: 0;
         position: absolute;
         text-align: left;
         left: 5%;
@@ -993,7 +993,7 @@ figcaption{
         /* background-attachment: fixed !important; */
         background-size: cover !important;   
         background-position: center !important;
-        scale: 1.1;
+        /* scale: 1.1; */
    }
 
    .img3{
@@ -1005,6 +1005,13 @@ figcaption{
         background-size: cover !important;   
         background-position: center !important;
         scale: 1.1;
+    }
+
+    /* PROJECT-EASY COURT */
+
+    ECL {
+        position: relative;
+        top: 10rem;
     }
 
 }       
@@ -1059,6 +1066,47 @@ figcaption{
         font-size: 1rem;
     }
 
+    /* SIDEPROJ - CAROUSEL */
+
+    .img1{
+        background-image: url(images/Sideprojects/INV-Tab.png);
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        /* background-attachment: fixed !important; */
+        background-size: cover !important;   
+        background-position: center !important;
+   }
+   
+   .img2{
+       background-image: url(images/Sideprojects/DEX-Tab.png);
+       height: 100%;
+       width: 100%;
+       background-repeat: no-repeat;
+       /* background-attachment: fixed !important; */
+       background-size: cover !important;   
+       background-position: center !important;
+   }
+   
+   .img3{
+        background-image: url(images/Sideprojects/GSJ-Tab.png);
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        /* background-attachment: fixed !important; */
+        background-size: cover !important;   
+        background-position: center !important;
+   
+   }
+
+   .SPpara {
+        font-size: 0.9rem;
+        font-weight: 200;
+        padding-bottom: 4rem;
+
+    }
+
+
     /* POSTUP PROJ PAGE @media 768*/
 
     .headerPU {
@@ -1104,6 +1152,90 @@ figcaption{
         padding-bottom: 1rem;
 
     }
+
+    /* EASY-COURT PROJ PAGE @media 768*/
+
+    .headerEC {
+        padding-left: 5%;
+        padding-right: 5%;
+        background-color: #000;
+        height: 14rem;
+
+    }
+
+    .headerPU2 {
+        background-color: #06CD6D;
+        padding-bottom: 2rem;
+        
+    }
+
+    .ECL {
+        position: relative;
+        top: -.5rem;
+        scale: .54;
+        left: -1rem;
+
+    }
+
+    .ECprojectHeading {
+        position: relative;
+        top: -2.5rem;
+        font-weight: 800;
+        color: #fff;
+    }
+
+    .ECprojectHeadingPara {
+        position: relative;
+        top: -3rem;
+        color: #fff;
+        padding-bottom: 0rem;
+    }
+
+    .headerImageEC{
+        background-color: #000;
+
+    }
+
+
+     /* EVERYTHING PETS PROJ PAGE @media 900*/
+
+     .headerEP {
+        position: relative;
+        background-color: #F0F0F3;
+        padding-bottom: 1rem;
+        height: 14rem;
+    }
+
+    .headerImage{
+        background-color: #F0F0F3;
+    }
+
+    .EPL {
+
+        position: relative;
+        top: -0.5rem;
+        scale: .54;
+        left: -2rem;
+
+    }
+
+    .EPprojectHeading {
+        position: relative;
+        top: -2rem;
+        font-weight: 800;
+        color: #6B90E5;
+
+    }
+
+
+    .EPprojectHeadingPara {
+        position: relative;
+        top: -2.5rem;
+        color: #111;
+
+    }
+
+    
 }
 
 
@@ -1176,7 +1308,9 @@ figcaption{
         /* background-attachment: fixed !important; */
         background-size: cover !important;   
         background-position: center !important;
-   }
+        scale: 1;
+    
+    }
 
     .img2{
         background-image: url(images/Sideprojects/DEX-MOb.png);
@@ -1186,7 +1320,9 @@ figcaption{
         /* background-attachment: fixed !important; */
         background-size: cover !important;   
         background-position: center !important;
-   }
+        scale: 1;
+   
+    }
 
    .img3{
         background-image: url(images/Sideprojects/GSJ-Mob.png);
@@ -1196,6 +1332,8 @@ figcaption{
         /* background-attachment: fixed !important; */
         background-size: cover !important;   
         background-position: center !important;
+        scale: 1;
+
     }
 
     p{
@@ -1234,39 +1372,40 @@ figcaption{
     /* WORK Media 576 */
 
     .postup{
-        height: 72vh;
+        height: 81vh;
         margin-bottom: 2rem;
         
     }
     .Easycourt{
-        height: 72vh;
+        height: 81vh;
         margin-bottom: 2rem;
     }
     .Sociopass{
-        height: 72vh;
+        height: 81vh;
         margin-bottom: 2rem;
     }
     .EverythingPets{
-        height: 72vh;
+        height: 81vh;
         margin-bottom: 2rem;
     }
 
     .workName {
-    position: relative;
-    padding-left: 1rem;
-    top: 30rem;
-    font-weight: 400;
-    color: white;
+        position: relative;
+        padding-left: 1rem;
+        top: 69vh;
+        font-weight: 400;
+        color: white;
     }
 
     .workPara {
-    color: white;
-    position: relative;
-    padding-left: 1rem;
-    padding-right: 5%;
-    /* padding-bottom: 5%; */
-    top: 29.5rem;
-    font-weight: 100;
+        color: white;
+        position: relative;
+        padding-left: 1rem;
+        padding-right: 5%;
+        padding-bottom: 1rem;
+        margin-bottom: 0;
+        top: 68vh;
+        font-weight: 100;
     }
 
     .CSbtnPU{
@@ -1370,6 +1509,7 @@ figcaption{
     .SPpara{
         font-size: 0.9rem;
         font-weight: 200;
+        padding-bottom: 2rem;
     }
 
 

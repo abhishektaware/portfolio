@@ -8,8 +8,9 @@ body{
 }
 
 p{
-    font-size: 1rem;
+    font-size: 14px;
     font-weight: 200;
+    margin-bottom: 8px;
 }
 .nextSteps{
     font-size: 1rem;
@@ -27,7 +28,6 @@ li{
     font-size: 1rem;
     font-weight: 200;
 }
-
 
 
 
@@ -160,8 +160,10 @@ a{
 }
 
 .contact-btn{
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
+
 }
+
 .cont-btn {
     font-size: 1rem;
     font-weight: 200;
@@ -441,6 +443,8 @@ footer{
     padding-left: 5%;
     padding-right: 5%;
     background-color: #06CD6D;
+ 
+    
 }
 
 .projectHeading{
@@ -646,13 +650,189 @@ figcaption{
 /* MEDIA QUERIES  2560*/
 
 @media (max-width : 2560px){
+
+/* .container-fluid {
+    padding-left: 10%;
+    padding-right: 10%;
+
+} */
+
+.imgVerticalCenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+    /* BANKING PROJ */
+    
+
+    
+.Heading{
+    background-image: url(images/Banking/titleImage.png);
+    background-size: cover;
+    background-position: center;
+    height: 72vh;
+
+}
+
+.projHeaderOrg {
+    font-size: 1.5rem;
+    position: absolute;
+    top: 0rem;
+    color: #F0F0F3;
+    font-weight: 200;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    width: auto;
+}
+
+
+.projTitle{
+    position: absolute;
+    top: 1rem;
+    color: #F0F0F3;
+    font-weight: 200;
+    margin: 1rem;
+    width: auto;
+    filter: drop-shadow(.5px .5px #0c0c0c);
+
+    
+}
+
+.projTitle2 {
+    position: absolute;
+    top: 52vh;
+    color: #F0F0F3;
+    font-weight: 200;
+    margin: 1rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    width: auto;
+    filter: drop-shadow(1px 1px #0c0c0c);
+
+
+}
+
+.headerSub {
+    position: absolute;
+    top: 56.5vh;
+    color: #F0F0F3;
+    font-weight: 200;
+    margin: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    max-width: 70%;
+    filter: drop-shadow(1px 1px #0c0c0c);
+
+
+}
+
+.metaTagsGroup {
+    position: relative;
+    top: 66vh;
+    height: fit-content;
+    width: auto;
+
+}
+
+.metaTags{
+    display: inline-block;
+    font-size: .7rem;
+    background-color: #FFF;
+    position: relative;
+    border-radius: 1rem;
+    padding: .4rem;
+    margin-left: 1rem;
+}
+
+.projSubHead{
+    font-size: 1rem;
+    position: relative;
+    bottom: 2rem;
+    
+}
+
+.projHeaderDiscription {
+    display: inline-flex;
+    font-size: .9rem;
+    font-weight: 200;
+    max-width: 49.5%;
+    position: relative;
+    bottom: 2.5rem;
+    padding-right: 8px;
+}
+
+.projHeaderDiscriptionKR{
+    display: inline-flex;
+    font-size: .9rem;
+    font-weight: 200;
+    max-width: 100%;
+    position: relative;
+    bottom: 2.5rem;
+    padding-right: 8px;
+}
+
+.sectionHead{
+    font-size: .9rem;
+    position: relative;
+    bottom: 0rem;
+
+}
+
+.teamMem{
+    display: inline-block;
+    padding-right: .5rem;
+    text-align: center;
+    margin-top: .5rem;
+}
+
+.projSectioHead {
+    font-size: 1rem;
+    font-weight: 100;
+    margin-bottom: 1rem;
+    margin-top: 2.7rem;
+
+}
+
+.bankingCaption{
+    color: #fff;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.EDT{
+    margin-top: 1rem;
+}
+
+.Testimonials {
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 1.8;
+
+}
+
+.Overview{
+    position: relative;
+    top: 3rem;
+}
+
+.bankingImg{
+    background-color: #FF0000;
+    
+}
+
+/* -----BANKING PROJE-------END--- */
     
     .heroimage {
-        background-image: url(images/index/heroImage1.jpg);
-        background-size: contain;
-        background-position: right;
-        background-repeat: no-repeat;
-        height: 81vh;
+    background-image: url(images/index/heroImage1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 99vh;
     }
 
     .postup {
@@ -721,6 +901,11 @@ figcaption{
 
 @media (max-width : 1440px){
    
+    .container-fluid {
+        padding-left: 5%;
+        padding-right: 5%;
+    
+    }
 
     .postup {
         background-image: url(images/Postup/PU-Logo@.75x.png);
@@ -1007,6 +1192,48 @@ figcaption{
         scale: 1.1;
     }
 
+
+    /* BANKING PROJ */
+
+
+    .Heading {
+        background-image: url(images/Banking/Title-Tab.png);
+        background-size: cover;
+        background-position: center;
+        height: 72vh;
+    }
+    .projTitle2 {
+        position: absolute;
+        top: 57vh;
+        color: #F0F0F3;
+        font-weight: 200;
+        margin: 1rem;
+        font-size: 1.8rem;
+        font-weight: 400;
+        width: auto;
+        filter: drop-shadow(1px 1px #0c0c0c);
+    }
+
+    .headerSub {
+        position: absolute;
+        top: 59.5vh;
+        color: #F0F0F3;
+        font-weight: 200;
+        margin: 1rem;
+        font-size: 1rem;
+        font-weight: 400;
+        max-width: 70%;
+        filter: drop-shadow(1px 1px #0c0c0c);
+    }
+
+    .metaTagsGroup {
+        position: relative;
+        top: 65vh;
+        height: fit-content;
+        width: auto;
+    }
+
+
     /* PROJECT-EASY COURT */
 
     ECL {
@@ -1018,13 +1245,23 @@ figcaption{
 
 /* MEDIA QUERIES 1050px*/
 
+
+
+
+
+
+
 @media (max-width : 900px){
+
+
+    /* HOMEPAGE media@ 900 */
 
     .heroimage {
         background-image: url(images/index/heroImage1.jpg);
         background-size: cover;
         background-position: center;
         height: 90vh;
+
     }
 
     .downarrow {
@@ -1107,6 +1344,160 @@ figcaption{
     }
 
 
+
+        /* BANKING PROJ @ MEDIA 900 MAS START */
+    
+.Heading{
+    background-image: url(images/Banking/Title-Tab.png);
+    background-size: cover;
+    background-position: right;
+    height: 72vh;
+
+}
+
+.projHeaderOrg {
+    font-size: 1.5rem;
+    position: absolute;
+    top: 0rem;
+    color: #F0F0F3;
+    font-weight: 200;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    width: auto;
+}
+
+
+.projTitle{
+    position: absolute;
+    top: 1rem;
+    color: #F0F0F3;
+    font-weight: 200;
+    margin: 1rem;
+    width: auto;
+    filter: drop-shadow(.5px .5px #0c0c0c);
+
+    
+}
+
+.projTitle2 {
+    position: absolute;
+    top: 53vh;
+    color: #F0F0F3;
+    font-weight: 200;
+    margin: 1rem;
+    font-size: 1.35rem;
+    font-weight: 400;
+    width: auto;
+    filter: drop-shadow(1px 1px #0c0c0c);
+
+
+}
+
+.headerSub {
+    position: absolute;
+    top: 55.5vh;
+    color: #F0F0F3;
+    font-weight: 200;
+    margin: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    max-width: 70%;
+    filter: drop-shadow(1px 1px #0c0c0c);
+
+
+}
+
+.metaTagsGroup {
+    position: relative;
+    top: 64vh;
+    height: fit-content;
+    width: auto;
+
+}
+
+.metaTags{
+    display: inline-block;
+    font-size: .7rem;
+    background-color: #FFF;
+    position: relative;
+    border-radius: 1rem;
+    padding: .4rem;
+    margin-left: 1rem;
+}
+
+.projSubHead{
+    font-size: 1rem;
+    position: relative;
+    bottom: 2rem;
+    
+}
+
+.projHeaderDiscription {
+    display: inline-flex;
+    font-size: .9rem;
+    font-weight: 200;
+    max-width: 49.5%;
+    position: relative;
+    bottom: 2.5rem;
+    padding-right: 8px;
+}
+
+.projHeaderDiscriptionKR{
+    display: inline-flex;
+    font-size: .9rem;
+    font-weight: 200;
+    max-width: 100%;
+    position: relative;
+    bottom: 2.5rem;
+    padding-right: 8px;
+}
+
+.sectionHead{
+    font-size: .9rem;
+    position: relative;
+    bottom: 0rem;
+
+}
+
+.teamMem{
+    display: inline-block;
+    padding-right: .5rem;
+    text-align: center;
+    margin-top: .5rem;
+}
+
+.projSectioHead {
+    font-size: 1rem;
+    font-weight: 100;
+    margin-bottom: 1rem;
+    margin-top: 2.7rem;
+
+}
+
+.EDT{
+    margin-top: 1rem;
+}
+
+.Testimonials {
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 1.8;
+
+}
+
+.Overview{
+    position: relative;
+    top: 3rem;
+}
+
+.bankingImg{
+    background-color: #FF0000;
+    margin-bottom: 1rem;
+}
+
+/* -----BANKING PROJE----MEDIA @ 900MAX---END--- */
+
     /* POSTUP PROJ PAGE @media 768*/
 
     .headerPU {
@@ -1120,7 +1511,7 @@ figcaption{
     .headerPU2 {
         background-color: #06CD6D;
         padding-bottom: 2rem;
-        
+        content: url(images/Postup/Hero2.gif);  
 
     }
 
@@ -1138,7 +1529,7 @@ figcaption{
 
     .projectHeadingPU {
         position: relative;
-        top: -2rem;
+        top: -2.5rem;
         font-weight: 800;
         color: white;
 
@@ -1146,7 +1537,7 @@ figcaption{
 
     .projectHeadingParaPU {
         position: relative;
-        top: -2.5rem;
+        top: -3rem;
         color: white;
         margin-bottom: 0rem;
         padding-bottom: 1rem;
@@ -1196,6 +1587,12 @@ figcaption{
 
     }
 
+    
+
+
+    /* HOMEPAGE media@ 900  END */
+
+
 
      /* EVERYTHING PETS PROJ PAGE @media 900*/
 
@@ -1241,6 +1638,14 @@ figcaption{
 
 @media (max-width: 576px){
 
+    .heroimage {
+        background-image: url(images/index/heroImage-mob.jpg);
+        background-size: cover;
+        background-position: top;
+        height: 90vh;
+
+    }
+
     .navbar-brand {
         color: #111;
         Font-size: 1.71rem;
@@ -1274,7 +1679,7 @@ figcaption{
         position: relative;
         top: 21%;
         color: #141414;
-        font-size: 1rem;
+        font-size: 1.26rem;
         max-width: 60%;
 
     }
@@ -1350,6 +1755,7 @@ figcaption{
     font-size: 2.7rem;
     color: #808080;
     font-weight: 100;
+    margin-bottom: 3.36rem;
     
     }
 
@@ -1386,7 +1792,7 @@ figcaption{
     }
     .EverythingPets{
         height: 81vh;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
 
     .workName {
@@ -1452,7 +1858,7 @@ figcaption{
     .downarrow {
         float: left;
         position: relative;
-        top: 42vh;
+        top: 30vh;
         margin-right: 5%;
         width: 1rem;
     }
@@ -1463,6 +1869,13 @@ figcaption{
         padding-bottom: 14rem;
         /* padding-left: 5%; */
         /* padding-right: 5%; */
+    }
+
+    .headerPU2 {
+        background-color: #06CD6D;
+        padding-bottom: 2rem;
+        content: url(images/Postup/Hero2.gif);  
+
     }
 
     .projectHeadingPU {
@@ -1538,6 +1951,97 @@ figcaption{
         font-weight: 100;
 
     }
+
+
+
+      /* BANKING PROJ @ MEDIA 576 MAX START */
+
+      .Heading {
+        background-image: url(images/Banking/Title-Mob.png);
+        background-size: cover;
+        background-position: center;
+        height: 72vh;
+    }
+
+      .projHeaderOrg {
+        font-size: 1.2rem;
+        position: absolute;
+        top: 0rem;
+        color: #F0F0F3;
+        font-weight: 200;
+        margin-top: 0.5rem;
+        margin-left: 1rem;
+        width: auto;
+    }
+
+    .projTitle {
+        position: absolute;
+        top: 1rem;
+        color: #F0F0F3;
+        font-size: 1.2rem;
+        font-weight: 200;
+        margin: 1rem;
+        width: auto;
+        filter: drop-shadow(0.5px 0.5px #0c0c0c);
+    }
+
+    .projTitle2 {
+        position: absolute;
+        top: 54vh;
+        color: #F0F0F3;
+        font-weight: 400;
+        margin: 1rem;
+        font-size: 1rem;
+        width: auto;
+        filter: drop-shadow(1px 1px #0c0c0c);
+    }
+
+    .headerSub {
+        position: absolute;
+        top: 57.5vh;
+        color: #F0F0F3;
+        font-weight: 200;
+        margin: 1rem;
+        font-size: .7rem;
+        font-weight: 400;
+        max-width: 80%;
+        filter: drop-shadow(1px 1px #0c0c0c);
+    }
+
+    .projHeaderDiscription {
+        display: inline-flex;
+        font-size: .9rem;
+        font-weight: 200;
+        max-width: 100%;
+        position: relative;
+        bottom: 2.5rem;
+        padding-right: 8px;
+    }
+
+    .metaTagsGroup {
+        position: relative;
+        top: 64vh;
+        height: fit-content;
+        width: auto;
+        display: none;
+    }
+
+    .bankingSectionHead{
+        font-size: .8rem;
+    }
+
+    .imgMember{
+        scale: .81;
+    }
+
+    .Testimonials {
+        font-family: 'calibri';
+        font-size: 1rem;
+        font-style: italic;
+        font-weight: 100;
+        line-height: 1.8;
+    }
+    
 }
 
 

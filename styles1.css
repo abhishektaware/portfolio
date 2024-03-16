@@ -1,10 +1,10 @@
 body{
-    font-family: 'Helvetica', 'Franklin Gothic Medium', 'Arial Narrow',;
-    background-color: #FFFFFF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow',;
+    background-color: #FFF;
 }
     
 #WHTIDO{
-    background-color: #F8F9FA;
+    background-color: #FFF;
 }
 
 p{
@@ -153,7 +153,7 @@ a{
 
     font-size: 5.4rem;
     margin-bottom: 4rem;
-    color: #D2B48C;
+    color: #000;
     font-style: italic;
     font-weight: 800;
     
@@ -171,7 +171,7 @@ a{
     /* float: right; */
     padding: 1rem;
     padding-right: 10rem;
-    background-color: tan;
+    background-color: #000;
     border: 0;
     border-radius: 0;
 }
@@ -430,8 +430,6 @@ footer{
 .phase{
     font-size: 2.07rem;
     font-weight: 200;
-    margin-top: 0;
-    padding: 0;
     margin-bottom: 1.8rem;
     margin-top: 1.8rem;
 }
@@ -439,7 +437,6 @@ footer{
 
 
 .headerPU{
-    padding-left: 5%;
     padding-left: 5%;
     padding-right: 5%;
     background-color: #06CD6D;
@@ -457,7 +454,7 @@ footer{
 
 .EPL{
     position: relative;
-    top: 10rem;  
+    top: 12rem;  
 }
 
 .projectHeadingPU{
@@ -965,7 +962,8 @@ figcaption{
         background-image: url(images/index/heroImage1.jpg);
         background-size: cover;
         background-position: center;
-        height: 100vh;
+        height: 81vh;
+    
     }
 
 
@@ -1266,8 +1264,8 @@ figcaption{
 
     .downarrow {
         position: relative;
-        top: 54vh;
-        left: 5%;
+        top: 63vh;
+        left: 0;
     }
 
     .postup{
@@ -1529,19 +1527,19 @@ figcaption{
 
     .projectHeadingPU {
         position: relative;
-        top: -2.5rem;
+        top: -3rem;
         font-weight: 800;
         color: white;
-
     }
+
 
     .projectHeadingParaPU {
         position: relative;
-        top: -3rem;
+        top: -3.6rem;
         color: white;
         margin-bottom: 0rem;
         padding-bottom: 1rem;
-
+    
     }
 
     /* EASY-COURT PROJ PAGE @media 768*/
@@ -1553,6 +1551,12 @@ figcaption{
         height: 14rem;
 
     }
+
+    /* .headerPU2 {
+        background-color: #06CD6D;
+        padding-bottom: 2rem;
+        
+    } */
 
     .ECL {
         position: relative;
@@ -1605,7 +1609,7 @@ figcaption{
 
         position: relative;
         top: -0.5rem;
-        scale: .54;
+        scale: .45;
         left: -2rem;
 
     }
@@ -1631,6 +1635,9 @@ figcaption{
 
 
 @media (max-width: 576px){
+
+
+ 
 
     .heroimage {
         background-image: url(images/index/heroImage-mob.jpg);
@@ -1761,11 +1768,13 @@ figcaption{
     font-weight: 800;
     
     }
-    .ECL{
+
+
+    .ECL {
         position: relative;
-        top: 25%;
+        /* top: 1rem; */
+        scale: .45;
         padding: left 1.8em;
-        
     }
 
 
@@ -1873,19 +1882,17 @@ figcaption{
     }
 
     .projectHeadingPU {
-        top: -1.5rem;
-        padding: 0;
-
+    top: -3rem;
+    padding: 0;
+    
     }
 
     .projectHeadingParaPU {
-        top: -2rem;
+        top: -3.8rem;
         padding: 0;
-
     }
 
     .headerEC {
-        text-align: center;
         background-color: #141414;
         padding-bottom: 5rem;
         padding-left: 5%;
@@ -1893,9 +1900,16 @@ figcaption{
 
     }
 
+    .ECprojectHeading {
+        position: relative;
+        top: -3rem;
+        font-weight: 800;
+        color: #fff;
+    }
+
     .ECprojectHeadingPara {
         position: relative;
-        top: 30%;
+        top: -3.6rem;
         color: #fff;
         padding-bottom: 0;
     }

@@ -883,13 +883,13 @@ figcaption{
         padding-right: 4.5%;
     }   
 
-    .carousel-caption{
+    .carousel-caption {
+        position: absolute;
         margin-left: 6.3%;
-        position: absolrelaute;
+        position: absolute;
         text-align: left;
-        left: 9%;
-        top: 34rem;
-         
+        left: 0;
+        top: 46rem;
     }
 
 }

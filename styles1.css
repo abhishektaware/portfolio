@@ -884,14 +884,12 @@ figcaption{
     }   
 
     .carousel-caption {
-        position: absolute;
-        margin-left: 6.3%;
+        margin-left: 12rem;
         position: absolute;
         text-align: left;
         left: 0;
-        top: 46rem;
+        bottom: 9rem;
     }
-
 }
 
 /* MEDIA QUERIES  1440*/

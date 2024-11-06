@@ -889,11 +889,11 @@ figcaption{
     }   
 
     .carousel-caption {
-        margin-left: 12rem;
+        margin-left: 16rem;
         position: absolute;
         text-align: left;
         left: 0;
-        bottom: 9rem;
+        bottom: 5rem;
     }
 }
 

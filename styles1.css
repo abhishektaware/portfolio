@@ -98,7 +98,7 @@ a{
     top: 9rem;
     color: #141414;
     font-size: 3.5rem;
-    font-weight: 100;
+    font-weight: 800;
 }
 .herop {
     position: relative;
@@ -113,6 +113,7 @@ a{
     position: relative;
     top: 54vh;
     left: 0;
+    display: none;
 }
 
 .container-fluid{
@@ -143,6 +144,7 @@ a{
 .IDO{
 
     font-size: 5.4rem;
+    margin-top: 4rem;
     margin-bottom: 4rem;
     color: #808080;
     font-weight: 100;
@@ -159,9 +161,9 @@ a{
     
 }
 
-.contact-btn{
+.contact-btn {
     padding-bottom: 1rem;
-
+    text-align: end;
 }
 
 .cont-btn {
@@ -826,11 +828,11 @@ figcaption{
 /* -----BANKING PROJE-------END--- */
     
     .heroimage {
-    background-image: url(images/index/heroImage1.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 99vh;
+        background-image: url(images/index/heroImage1.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 72vh;
     }
 
     .postup {

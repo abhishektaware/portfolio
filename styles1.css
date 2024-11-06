@@ -274,6 +274,7 @@ a{
 }
 
 .postup{
+    position: relative;
     background-image: url(images/Postup/PU-Logo@.75x.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -840,23 +841,27 @@ figcaption{
         background-color: #06CD6D;
         height: 63vh;
         margin-bottom: 2rem;
+        position: relative;
     }
 
     .Easycourt {
-        background-image: url(images/Easycourt/EC\ Logo\ 1.5x.png);
+        background-image: url(images/Easycourt/EC Logo 1.5x.png);
         background-position: center;
         background-repeat: no-repeat;
+        position: relative;
         background-color: #F0F0F3;
+        position:relative;
         height: 63vh;
         background-color: #111;
         margin-bottom: 2rem;
     }
 
-    .EverythingPets {
+   .EverythingPets {
         background-image: url(images/Everthingpets/EPlogo@2x.png);
         background-position: center;
         background-repeat: no-repeat;
         background-color: #F0F0F3;
+        position: relative;
         height: 63vh;
         margin-bottom: 2rem;
     }
@@ -866,14 +871,14 @@ figcaption{
         font-weight: 400;
         font-size: 1.8rem;
         padding-left: 1rem;
-        position: relative;
-        top: 23.5rem;
+        position: absolute;
+        bottom: 6rem;
     }
     .workPara {
         color: #fff;
         padding-left: 1rem;
-        position: relative;
-        top: 23rem;
+        position: absolute;
+        bottom: 4rem;
         font-weight: 100;
         font-size: 1.2rem;
     }

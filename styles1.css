@@ -29,7 +29,14 @@ li{
     font-weight: 200;
 }
 
-
+hr {
+    margin: 1rem 0;
+    margin-top: 9rem;
+    color: white;
+    background-color: currentColor;
+    border: 0;
+    opacity: .25;
+}
 
 .primary1{
     position: relative;

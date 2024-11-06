@@ -339,23 +339,22 @@ a{
 }
 
 .img1{
-     background-image: url(images/Sideprojects/INV-Desk.png);
-     height: 100%;
-     width: 100%;
-     background-repeat: no-repeat;
-     /* background-attachment: fixed !important; */
-     background-size: cover !important;   
-     background-position: center !important;
-}
+    background-image: url(images/Sideprojects/INV-Desk.png);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center !important;
+    background-color: #4FD1C5;
 
 .img2{
     background-image: url(images/Sideprojects/DEX-Desk.png);
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
-    /* background-attachment: fixed !important; */
-    background-size: cover !important;   
+    background-size: contain;
     background-position: center !important;
+    background-color: #2CA8FF;
 }
 
 .img3{
@@ -363,10 +362,9 @@ a{
      height: 100%;
      width: 100%;
      background-repeat: no-repeat;
-     /* background-attachment: fixed !important; */
-     background-size: cover !important;   
+     background-size: contain;
      background-position: center !important;
-
+     background-color: #EF4138;
 }
 
 .carousel-caption{
@@ -900,7 +898,7 @@ figcaption{
     .carousel-caption {
         margin-left: 16rem;
         position: absolute;
-        text-align: left;
+        text-align: center;
         left: 0;
         bottom: 3rem;
     }

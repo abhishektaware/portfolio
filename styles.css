@@ -709,7 +709,7 @@ a {
   .heroInfo {
     height: auto;
     margin: 2rem 0;
-    width: 40%;
+    width: 45%;
   }
 
   .heroInfo h1 {
@@ -1760,7 +1760,7 @@ li {
 }
 
 .wireframes {
-  min-height: 800px;
+  min-height: inherit;
 }
 
 .imageTag {
@@ -1880,7 +1880,7 @@ li {
   position: relative;
   background-color: #7b81be;
   background-image: url(Assets/Casestudy/Everything_Pets/Lo_Fi.png);
-  height: 100%;
+  height: inherit;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1890,7 +1890,7 @@ li {
   position: relative;
   background-color: #eef0f4;
   background-image: url(Assets/Casestudy/Everything_Pets/Style_guide.png);
-  height: 100%;
+  height: inherit;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -1900,7 +1900,7 @@ li {
   position: relative;
   background-color: #7b81be;
   background-image: url(Assets/Casestudy/Everything_Pets/Mockups.png);
-  height: 100%;
+  height: inherit;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

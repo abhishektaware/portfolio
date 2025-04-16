@@ -704,7 +704,7 @@ a {
   .hero {
     flex-direction: column;
     height: 80vh;
-    background-image: url(./Assets/Homepage/Hero_image_tab_lg.png);
+    background-image: url(./Assets/Homepage/Hero_image_tab_md.png);
   }
   .heroInfo {
     height: auto;

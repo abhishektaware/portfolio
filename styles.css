@@ -1,240 +1,2861 @@
-
-.navbar-brand{
-    color: white;
-  
-}
-.navbar-nav{
-    margin-left: 75%;
-    padding-left: 5%;
-}
-.heroimage{
-    background-image: url(images/heroimage.jpg);
-    background-size: cover;
-    height: 100vh;
-}
-.herotext{
-    position: relative;
-    top: 60%;
-    color: white;
-    font-size: 3.5rem;
-    font-weight: 800;
-}
-.herop{
-    position: relative;
-    top: 60%;
-    color: white;
-    font-size: 1.2rem;
-   
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  /* overflow-x: hidden; */
+  scroll-behavior: smooth; /* Enables smooth scrolling */
+  box-sizing: border-box;
 }
 
-.downarrow{
-    position: absolute;
-    bottom: 5%;
-    left: 5%;
-    
+* {
+  box-sizing: border-box;
 }
 
-.container-fluid{
-    padding-left: 5%;
-    padding-right: 5%;
-    
+body {
+  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.sectionHead{
-    margin-top: 3rem;
-    margin-bottom: 2rem;
-    padding-bottom: .2rem;
-    border-bottom-style: ridge;
-    padding-right:40%;
-    font-weight: 800;
-    
+p {
+  font-weight: 200;
 }
 
-.secHeadBorder{
-    padding-right: 60%;
+h5 {
+  color: #1e1e1e;
 }
 
-.whiteSectionHead{
-    color: white;
+a {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
 }
 
-#process{
-    padding-top: 5%;
-    padding-bottom: 5%;
-    background-color: black;
+.navbar a {
+  color: #1e1e1e;
 }
 
-.process_icon{
-    padding-bottom: 3%;
+/* NAVBAR  */
+.navbarSection {
+  position: fixed;
+  width: 100%;
+  z-index: 10000;
+  background-color: #fff;
+}
+.navbar {
+  position: relative;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3rem;
+  align-items: center;
+  border-bottom: 0.5px solid rgb(229, 229, 229);
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
-.processHead{
-    color: #fff;
+.brand {
+  font-weight: 400;
+  font-size: 1.2rem;
+  cursor: pointer;
 }
 
-.processPara{
-    color: #fff;
-    margin-bottom: 2rem;
-    line-height: 1.7rem;
+.link {
+  cursor: pointer;
 }
 
-
-/* WORK */
-.workName{
-    position:relative;
-    padding-left: 5%; top:70%; 
-    font-weight: 800;
-    color: white;
+.navigation {
+  display: flex;
+  gap: 2rem;
+  align-self: flex-end;
+  /* font-weight: 400; */
+  font-size: 0.9rem;
 }
 
-.workPara{
-    color: white;
-    position:relative;
-    padding-left: 5%; 
-    padding-bottom: 3%;
-    top:70%;
+.navigation .link {
+  font-weight: 400;
 }
 
-.postup{
-    background-color: #06CD6D;
-    height: 390px;
-
+.mainSection {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 48px;
+  height: auto;
 }
 
-.Easycourt{
-    background-color: #111;
-    height: 390px;
-   
-}
-.Sociopass{
-    background-color: #4C75A3;
-    height: 390px;
-
+.container {
+  padding: 2rem;
 }
 
-.EverythingPets{
-    background-color: #F0F0F3;
-    height: 390px;
+.learn {
+  cursor: not-allowed;
+}
+/* ------------------------------------------ */
+
+/* HERO SECTION  */
+
+.heroSection {
+  background-image: url(./Assets/Homepage/Hero_background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
 }
 
-.wrow{
-    margin-top: 1.5rem;
+.hero {
+  display: flex;
+  justify-content: space-between;
+  background-image: url(./Assets/Homepage/Hero_image.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  position: relative;
 }
 
-/* SIDEPROJECTS */
-
-/* .sideproject{
-    height: 90vh;
-    padding-right: 5%;
-    padding-left: 5%;
-}    */
-.carousel-caption{
-    position: absolute;
-    text-align: left;
-    left: 3%;  
+.heroInfo {
+  height: 620px;
+  text-align: left;
+  margin-top: 4rem;
+  width: 40%;
 }
 
-.carousel-indicators{
-    bottom: 0;
+.heroInfo h1 {
+  font-size: 6rem;
+  line-height: 1.1;
+  margin: 0;
+  margin-bottom: -1rem;
 }
 
-.carimg{
-    height: 90vh;
-    width: 100%;
+.heroInfo p {
+  font-weight: 300;
+  font-size: 1.5rem;
 }
 
-#connect{
-    background-color: #111;
+.aboutMe {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  font-weight: 500;
+  padding-bottom: 2px;
+  border-bottom: solid 1px #000;
+  cursor: pointer;
+  display: inline-block;
 }
+
+.scheduleCall {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding-bottom: 2px;
+  border-bottom: solid 1px #000;
+  cursor: pointer;
+  display: inline-block;
+}
+/* ------------------------------------------ */
+
+/* WHAT I DO SECTION  */
+
+.iDo {
+  font-family: "IBM Plex Sans";
+  font-size: 4rem;
+  font-weight: 300;
+  margin: 2rem 0;
+}
+
+.Do {
+  display: flex;
+  flex-direction: column;
+  /* gap: 2rem; */
+}
+
+.contactButton {
+  font-family: "IBM Plex Sans";
+  font-weight: 400;
+  padding: 1rem;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #1e1e1e;
+  width: 12rem;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.contactButton p {
+  margin: 0;
+  color: #1e1e1e;
+  font-weight: 400;
+}
+
+.sectionTitle {
+  font-weight: 200;
+}
+/* ------------------------------------------ */
+
+/* FEATURED WORK SECTION  */
+
+.work {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding-top: 1rem;
+}
+
+.project {
+  display: flex;
+  height: 400px;
+  background-color: #fbfbfb;
+  position: relative;
+}
+
+.project2 {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 400px;
+  background-color: #fbfbfb;
+  position: relative;
+}
+
+.projectImage {
+  position: relative;
+  width: 70%;
+}
+
+.projectName {
+  margin: 1rem;
+  /* padding: 0.5rem; */
+  /* background-color: #00000060; */
+  width: auto;
+  display: inline-block;
+  color: fff;
+}
+
+.company {
+  margin: 0;
+  padding: 0;
+}
+
+.year {
+  margin: 0;
+}
+
+.metaTags {
+  margin: 0 1rem;
+  position: absolute;
+  bottom: 0;
+}
+
+.tags {
+  background-color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  font-size: 0.8rem;
+  font-weight: 400;
+  display: inline-block;
+  margin: 0;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.projectInfo {
+  width: 30%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.projectTitle {
+  margin: 1rem;
+}
+
+.smallTitle {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0.5rem 0;
+}
+
+.projectDescription p {
+  font-size: 1.7rem;
+  font-weight: 200;
+  margin: 1rem;
+}
+
+.projectButton {
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  cursor: pointer;
+}
+
+.projectButton p {
+  font-size: 1.1rem;
+  padding: 1.5rem 1rem;
+  width: auto;
+  font-weight: 400;
+  color: #fff;
+  margin: 0;
+}
+/* PROJECT - POST UP  */
+
+.postUp .projectImage {
+  background-image: url(./Assets/Homepage/proj_postUp.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.postUp .projectButton {
+  background-color: #06cd6d;
+}
+
+/* PROJECT - OFFERING MANAGEMENT  */
+
+.oM .projectImage {
+  background-image: url(./Assets/Homepage/proj_offeringMgmt.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.oM .projectButton {
+  background-color: #000;
+}
+
+/* PROJECT - POWER  */
+
+.power .projectImage {
+  background-image: url(./Assets/Homepage/proj_power.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.power .projectButton {
+  background-color: #0059a9;
+}
+
+/* PROJECT - TELECOM 1 */
+
+.telecom .projectImage {
+  background-image: url(./Assets/Homepage/proj_telecom.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.telecom .projectButton {
+  background-color: #00b4f8;
+}
+
+/* PROJECT - BANKING  */
+
+.banking .projectImage {
+  background-image: url(./Assets/Homepage/proj_banking.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.banking .projectButton {
+  background-color: #ff1819;
+}
+
+/* PROJECT - EVERYTHING PETS  */
+
+.everythingPets .projectImage {
+  background-image: url(./Assets/Homepage/proj_everythingPets.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.everythingPets .projectButton {
+  background-color: #6b90e5;
+}
+
+/* ------------------------------------------ */
+
+/* CONTACT ME SECTION  */
+
+.contact {
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contactContent {
+  text-align: center;
+  margin: auto;
+}
+
+.contactContent p {
+  font-weight: 300;
+}
+
+.email {
+  font-size: 5.4rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+/* ------------------------------------------ */
+
+/* FOOTER SECTION */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  /* justify-content: space-between; */
+  min-height: 440px;
+  background-color: #000;
+  color: #fff;
+  padding: 2rem;
+  position: relative;
+}
+
+.footerContent {
+  justify-content: space-between;
+}
+
+.footerHeading {
+  font-weight: 400;
+  padding-bottom: 0.5rem;
+  border-bottom: solid 0.5px #fff;
+}
+
+.footerLinks {
+  /* width: 40%; */
+  display: flex;
+  flex-direction: row;
+  padding-right: 4rem;
+  gap: 4rem;
+}
+
+.footerLinks .tags {
+  background-color: white;
+  color: #000;
+  padding: 0.2rem 0.4rem;
+  border-radius: 1rem;
+  font-size: 0.6rem;
+  font-weight: 400;
+  display: inline-block;
+  margin: 0;
+  margin-left: 0.5rem;
+}
+
+.footerLinks .flexParaHeading {
+  border-bottom: none;
+  font-weight: 200;
+  font-size: 0.95rem;
+  padding-left: 0;
+  width: max-content;
+}
+
+.footerLink {
+  color: #fff;
+}
+
+.Hiring {
+  width: 100%;
+}
+
+.students {
+  width: 100%;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+}
+
+.footerLast {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+
+.footerText {
+  font-size: 0.8rem;
+  padding: 0;
+  margin: 0;
+}
+/* ------------------------------------------ */
+
+/* ABOUT ME PAGE  */
+
+/* FROM SECTION  */
+.sectionBigTitle {
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+.from {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  width: 100%;
+}
+
+.fromInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1rem;
+  width: 25%;
+}
+
+.fromInfo .para {
+  margin: 0;
+  text-align: justify;
+}
+
+.fromImageGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: aliceblue;
+  height: 800px;
+  width: 75%;
+}
+
+.fromImageRow1,
+.fromImageRow2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 1rem;
+}
+
+.fromImage2 {
+  background-image: url(./Assets/Aboutme/Grid/IMG_3164.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  flex: 2;
+}
+
+.fromImage4 {
+  background-image: url(./Assets/Aboutme/Grid/20191229_153813\ 1.png);
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  flex: 3;
+  background-color: #06cd6d;
+}
+
+.fromImage1 {
+  background-image: url(./Assets/Aboutme/Grid/IMG_3411.jpeg);
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  flex: 3;
+  background-color: #808080;
+}
+
+.fromImage3 {
+  background-image: url(./Assets/Aboutme/Grid/IMG_1302.jpeg);
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  flex: 2;
+  background-color: #ff1819;
+}
+
+/* CAREER JOURNEY SECTION  */
+
+.careerJourney {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  min-height: 900px;
+}
+
+.careerJourneyImage {
+  width: 100%;
+  height: 530px;
+  background-image: url(./Assets/Aboutme/Career_journey.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.infoHorizontal {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+/* .infoHorizontalSmall {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+} */
+
+.flexParaDiv {
+  /* display: flex inline-block; */
+  flex-direction: column;
+  width: 100%;
+}
+
+.flexParaHeading {
+  /* display: inline-block; */
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.5rem;
+  margin: 0;
+  border-bottom: 0.25px solid #808080;
+}
+
+.flexPara {
+  margin: 0.5rem;
+  padding: 0;
+  width: auto;
+  /* text-align: justify; */
+}
+
+/* T-SHAPE SECTION  */
+
+.T-shape {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  min-height: 900px;
+}
+
+.T-shapeImage {
+  width: 100%;
+  height: 580px;
+  background-image: url(./Assets/Aboutme/T-shape.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* ------------------------------------------ */
 
 /* MEDIA QUERIES */
 
-@media (max-width : 600px) {
-    .workpad{
-        margin: 0;
-        
-    }
-    .herotext{
-    position: relative;
-    top: 60%;
-    padding-left: 2%;
-    padding-right: 2%;
-    color: white;
-    font-size: 2.5rem;
-    font-weight: 800;
+/* ------------------DESKTOP------------------------ */
+
+@media (min-width: 2500px) {
+  .container {
+    max-width: 1548px;
+    width: 100%;
+    margin: 0 auto; /* Centers it horizontally */
+    padding: 1rem 0;
+  }
+
+  .menu {
+    display: none;
+  }
 }
-.herop{
-    position: relative;
-    top: 60%;
-    color: white;
+
+/* ------------------LAPTOP------------------------ */
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1312px;
+    width: 100%;
+    margin: 0 auto; /* Centers it horizontally */
+    padding: 1rem 0;
+  }
+
+  .menu {
+    display: none;
+  }
+}
+
+/* ------------------- TAB BIG----------------------- */
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 1056px;
+    margin: 0 auto; /* Centers it horizontally */
+    padding: 1rem 2rem;
+  }
+
+  .navbar {
+    padding: 0 1rem;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .hero {
+    flex-direction: column;
+    height: 80vh;
+    background-image: url(./Assets/Homepage/Hero_image_tab_lg.png);
+  }
+  .heroInfo {
+    height: auto;
+    margin: 2rem 0;
+    width: 40%;
+  }
+
+  .heroInfo h1 {
+    font-size: 4rem;
+    margin: 0;
+  }
+
+  .heroInfo p {
+    font-weight: 300;
+    font-size: 1.2rem;
+    max-width: 90%;
+  }
+
+  .heroInfo h1 {
+    font-weight: 600;
+    margin: 0;
+  }
+
+  .iDo {
+    font-family: "IBM Plex Sans";
+    font-size: 4 rem;
+    font-weight: 300;
+    margin: 2rem 0;
+  }
+
+  .work {
+    gap: 3rem;
+  }
+
+  .project {
+    flex-direction: column;
+    height: 80vh;
+  }
+
+  .project2 {
+    flex-direction: column;
+    height: 80vh;
+  }
+
+  .projectImage {
+    height: 70%;
+    width: 100%;
+  }
+
+  .metaTags {
+    margin: 0 1rem;
+  }
+
+  .tags {
+    margin-bottom: 1rem;
+  }
+
+  .projectInfo {
+    width: 100%;
+    height: 30%;
+  }
+
+  .projectDescription p {
+    font-size: 1.7rem;
+  }
+
+  .email {
+    font-size: 3.5rem;
+  }
+
+  /* ABOUT PAGE  */
+
+  .from {
+    flex-direction: column-reverse;
+  }
+
+  .fromInfo {
+    width: 100%;
+  }
+
+  .fromImageGrid {
+    width: 100%;
+  }
+
+  .careerJourney {
+    justify-content: space-between;
+  }
+
+  .T-shape {
+    justify-content: space-between;
+  }
+
+  .careerJourneyImage {
+    height: 30vh;
+  }
+
+  .T-shapeImage {
+    height: 30vh;
+  }
+
+  .infoHorizontal {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+  }
+
+  .flexParaDiv {
+    width: 48%;
+  }
+
+  .flexParaHeading {
+    display: block;
+  }
+
+  /* FOOTER SECTION  */
+
+  .footerLinks {
+    flex-direction: row !important;
+    width: 100%;
+  }
+}
+
+/* ------------------- TAB SMALL ----------------------- */
+
+@media (min-width: 672px) and (max-width: 820px) {
+  .container {
+    max-width: 1056px;
+    margin: 0 auto; /* Centers it horizontally */
+    padding: 2 rem;
+  }
+
+  .hero {
+    flex-direction: column;
+    height: 80vh;
+    background-image: url(./Assets/Homepage/Hero_image_tab_md.png);
+  }
+
+  .heroInfo {
+    width: 45%;
+  }
+
+  .iDo {
+    font-size: 3.5rem;
+  }
+
+  .email {
+    font-size: 3rem;
+  }
+
+  /* ABOUT PAGE  */
+
+  .careerJourneyImage {
+    height: 30vh;
+  }
+
+  /* .flexParaDiv {
+    width: 45%;
+  } */
+
+  .T-shapeImage {
+    height: 30vh;
+    width: 100%;
+  }
+}
+
+/* --------------------MOBILE LARGE---------------------- */
+@media (max-width: 672px) {
+  p {
+    font-size: 0.9rem;
+  }
+
+  .container {
+    padding: 1rem;
+  }
+
+  .hero {
+    background-image: url(./Assets/Homepage/Hero_image_mobile_lg.png);
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .heroInfo {
+    height: auto;
+    margin: 0;
+    width: 53%;
+    padding-left: 0.5rem;
+  }
+
+  .heroInfo h1 {
+    line-height: normal;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0;
+  }
+
+  .heroInfo p {
+    font-weight: 300;
+    margin: 0;
+    font-size: 0.9rem;
+    width: 84%;
+  }
+
+  .aboutMe {
+    font-size: 0.9rem;
+    max-width: 61%;
+  }
+
+  .iDo {
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 1rem 0;
+  }
+
+  .contactButton {
+    width: 50%;
+    align-self: flex-start;
+  }
+
+  .projectName {
+    margin: 0.5rem;
+  }
+
+  .projectName p {
+    font-size: 0.8rem;
+  }
+
+  .metaTags {
+    margin: 0.5rem;
+  }
+
+  .smallTitle {
+    font-size: 0.9rem;
+    /* margin: 0.5rem 1rem; */
+  }
+
+  .projectDescription p {
     font-size: 1rem;
-    padding-left: 2%;
-    padding-right: 2%;
+    /* margin: 0.5rem 1rem; */
+  }
+
+  .projectButton p {
+    font-size: 0.8rem;
+    padding: 1.5rem 1rem;
+  }
+
+  .tags {
+    background-color: white;
+    padding: 0.5rem 0.5rem;
+    font-size: 0.6rem;
+    margin: 0.25rem 0.25rem;
+  }
+
+  .contact {
+    height: 70vh;
+    display: flex;
+  }
+
+  .email {
+    font-size: 1.5rem;
+  }
+
+  /* FOOOTER SECTION  */
+
+  .footerLinks {
+    flex-direction: column !important;
+  }
+
+  /* ABOUT PAGE  */
+
+  .sectionBigTitle {
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin: 0;
+  }
+
+  .from {
+    gap: 0.5rem;
+  }
+
+  .fromInfo {
+    gap: 0.5rem;
+  }
+
+  .fromImageGrid {
+    height: 80vh;
+  }
+
+  .fromImageRow2 {
+    display: none;
+  }
+
+  .fromImage1 {
+    display: none;
+  }
+
+  .flexParaHeading {
+    font-size: 0.8rem;
+  }
+
+  .para {
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 200;
+  }
+
+  .careerJourney {
+    gap: 1rem;
+  }
+
+  .flexParaDiv {
+    width: 100%;
+  }
+
+  /* CASESTUDY SECTION  */
+
+  .phase1 .imageOverlay {
+    margin: 1rem 0 !important;
+    height: 90px !important; /* Adjust height */
+    max-width: 75%;
+  }
+
+  .imageOverlay {
+    margin: 1rem 0 !important;
+    height: 110px !important; /* Adjust height */
+    max-width: 75%;
+  }
 }
 
-.downarrow{
+/* --------------------MOBILE SMALL---------------------- */
+
+@media (max-width: 375px) {
+  .hero {
+    background-image: url(./Assets/Homepage/Hero_image_mobile_sm.png);
+  }
+
+  .aboutMe {
+    font-size: 0.8rem;
+  }
+
+  .smallTitle {
+    font-size: 0.8rem;
+    /* margin: 0.5rem 1rem; */
+  }
+
+  .projectDescription p {
+    font-size: 0.8rem;
+    margin: 0.5rem 1rem;
+  }
+
+  .email {
+    font-size: 1.2rem;
+    font-weight: 500 !important;
+  }
+}
+
+/* CS-GLOBAL */
+
+.bold {
+  font-weight: 500;
+}
+
+p {
+  font-weight: 300;
+}
+
+ol {
+  padding-left: 1.5rem;
+  padding-right: 1rem;
+}
+
+li {
+  padding-bottom: 1rem;
+  font-weight: 200;
+}
+
+.csHero .flexParaDiv {
+  width: auto !important;
+}
+
+.sectionInfo .flexParaDiv {
+  display: inline-block;
+}
+
+.sectionInfo .flexParaHeading {
+  display: inline-block;
+}
+
+.cs-sectionTitle {
+  font-weight: 3 00;
+  font-size: 1.5rem;
+  max-width: 30%;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 100%;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.infoVertical {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.infoVerticalPara {
+  margin: 0;
+}
+
+.flexParaDiv {
+  width: 100% !important;
+}
+
+/* CS-HERO-SECTION */
+
+.csProjHero {
+  position: relative;
+  width: 100%;
+  height: 620px;
+}
+
+.csProjHero .smallTitle {
+  color: #fff;
+}
+
+.csProjHero .sectionBigTitle {
+  color: #fff;
+}
+
+.power .csProjHero {
+  background-color: aliceblue;
+  background-image: url(./Assets/Homepage/proj_power.png);
+  background-position: center bottom;
+  background-size: cover;
+}
+
+.telecom .csProjHero {
+  background-color: aliceblue;
+  background-image: url(./Assets/Homepage/proj_telecom.png);
+  background-position: center right;
+  background-size: cover;
+}
+
+.oM .csProjHero {
+  background-color: aliceblue;
+  background-image: url(./Assets/Homepage/proj_offeringMgmt.png);
+  background-position: center bottom;
+  background-size: cover;
+}
+
+.banking .csProjHero {
+  background-color: aliceblue;
+  background-image: url(./Assets/Homepage/proj_banking.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.everythingPets .csProjHero {
+  background-color: aliceblue;
+  background-image: url(./Assets/Homepage/proj_everythingPets.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.postUp .csProjHero {
+  background-color: aliceblue;
+  background-image: url(./Assets/Homepage/proj_postUp.png);
+  background-position: center;
+  background-size: cover;
+}
+
+/* CS-OVERVIEW-SECTION */
+
+.EDT {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 1rem;
+}
+
+.assignmentProjects {
+  display: flex;
+  gap: 1rem;
+}
+
+.projectNumbers p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.EDTimage {
+  grid-column: 1/3;
+}
+
+.EDTimage {
+  position: relative;
+  width: 100%;
+  grid-column: 1/3;
+}
+
+.oM .EDTimage {
+  background-image: url(./Assets/Casestudy/Offering_management/EDT.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.banking .EDTimage {
+  /* background-color: aliceblue; */
+  background-image: url(./Assets/Casestudy/Banking/EDT.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.telecom .EDTimage {
+  /* background-color: aliceblue; */
+  background-image: url(./Assets/Casestudy/Telecom/EDT.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.power .EDTimage {
+  /* background-color: aliceblue; */
+  background-image: url(./Assets/Casestudy/Power/EDT.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.everythingPets .EDTimage {
+  /* background-color: aliceblue; */
+  background-image: url(./Assets/Casestudy/Everything_Pets/Design_Thinking.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.postUp .EDTimage {
+  /* background-color: aliceblue; */
+  background-image: url(./Assets/Casestudy/Post_up/Design_sprint.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.projectNumbers {
+  max-width: 100px;
+  min-width: 100px;
+  text-align: center;
+}
+
+.projectNumbers h2 {
+  margin: 1rem 0 0;
+}
+
+.projectNumbers p {
+  margin: 0;
+}
+
+.EDTinfo {
+  justify-content: space-between;
+}
+
+.EDTinfo .flexParaDiv {
+  width: 33.33%;
+}
+
+/* CS-PROTOTYPE-SECTION  */
+.prototypeSection {
+  background-color: #eef0f4;
+}
+.prototype {
+  /* background-color: #0059a9; */
+  background-image: url(Assets/Casestudy/Everything_Pets/Proto-2.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  width: 100%;
+  height: 700px;
+}
+
+/* CS-POWER-CMMI-SECTION */
+
+.CMMIimage {
+  background-color: #0059a9;
+  background-image: url(Assets/Casestudy/Power/CMMI.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  width: 100%;
+  height: 530px;
+}
+
+/* CS-STAKEHOLDERS-SECTION */
+
+.sectionInfo {
+  width: 40%;
+  padding-right: 1rem;
+}
+
+.stakeholderImage {
+  position: relative;
+  width: 100%;
+  height: 710px;
+}
+
+.oM .stakeholderImage {
+  height: 620px;
+  background-image: url(./Assets/Casestudy/Offering_management/Stakeholders.png);
+  background-position: center top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.banking .stakeholderImage {
+  background-image: url(./Assets/Casestudy/Banking/Stakeholders.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.telecom .stakeholderImage {
+  background-image: url(./Assets/Casestudy/Telecom/Stakeholders.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.power .stakeholderImage {
+  background-image: url(./Assets/Casestudy/Power/Stakeholders.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* CS-PROBLEM SPACE-SECTION */
+
+.problemSpaceImage {
+  position: relative;
+  width: 100%;
+  height: 620px;
+}
+
+.oM .problemSpaceImage {
+  background-image: url(./Assets/Casestudy/Offering_management/Problem_space.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* CS- oM -KEY CHALLENGES-SECTION  */
+
+.oM .keyChallenges .flexParaDiv {
+  align-items: center;
+  text-align: center;
+}
+
+.oM .keyChallenges .flex-row {
+  gap: 2rem;
+}
+
+.imgCol {
+  /* background-color: #808080; */
+  height: 530px;
+  width: 100%;
+}
+
+/* POST UP PHASES  */
+
+.phase .flex-column {
+  align-items: center;
+}
+
+.phase1 .imageOverlay {
+  height: 400px;
+}
+
+.imageOverlay {
+  margin: 4rem 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  position: relative;
+  width: 100%;
+  max-width: 90%; /* Adjust as needed */
+  height: 440px; /* Adjust height */
+  justify-items: center;
+}
+
+.imgLay {
+  width: auto;
+  max-width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  transition: transform 0.3s ease-in-out;
+  transform-origin: bottom;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.3));
+}
+
+.imgLay2 {
+  width: auto;
+  max-width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  transition: transform 0.3s ease-in-out;
+  transform-origin: bottom;
+}
+
+.imgLay:hover {
+  transform: scale(1.5); /* Zoom effect */
+  z-index: 1000;
+}
+
+.imgLay2:hover {
+  transform: scale(1.5); /* Zoom effect */
+  z-index: 1000;
+}
+
+.img1 {
+  left: 0;
+  z-index: 1;
+}
+
+.img2 {
+  left: 20%; /* Adjust for partial overlap */
+  z-index: 2;
+}
+
+.img3 {
+  right: 0%; /* Adjust for partial overlap */
+  z-index: 3;
+}
+
+/* POST UP PHASES END  */
+
+.col-Image {
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+.oM .keyChallenges .imgCol1 {
+  background-image: url(Assets/Casestudy/Offering_management/Key_challenges/Keychallenge_Col1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.oM .keyChallenges .imgCol2 {
+  background-image: url(Assets/Casestudy/Offering_management/Key_challenges/Keychallenge_Col2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.oM .keyChallenges .imgCol3 {
+  background-image: url(Assets/Casestudy/Offering_management/Key_challenges/Keychallenge_Col3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.oM .keyChallenges .imgCol4 {
+  background-image: url(Assets/Casestudy/Offering_management/Key_challenges/Keychallenge_Col4.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* CS- oM -APPROACH-SECTION  */
+
+.oM .approach .flex-row {
+  gap: 3rem;
+}
+
+.oM .approach .flexParaDiv {
+  align-items: center;
+  text-align: center;
+}
+
+.oM .approach .imgCol1 {
+  background-image: url(Assets/Casestudy/Offering_management/Approach/Approach_col1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.oM .approach .imgCol2 {
+  background-image: url(Assets/Casestudy/Offering_management/Approach/Approach_col2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.oM .approach .imgCol3 {
+  background-image: url(Assets/Casestudy/Offering_management/Approach/Approach_col3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.oM .approach .imgCol4 {
+  background-image: url(Assets/Casestudy/Offering_management/Approach/Approach_col4.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* EVERYTHING-PETS PRIMARY RESEARCH FINDINGS SECTION  */
+
+.everythingPets .primaryFindings .flexParaDiv {
+  display: flex;
+  align-items: center;
+}
+
+.everythingPets .usabilityFindings .flexParaDiv {
+  display: flex;
+  align-items: center;
+}
+
+.everythingPets .primaryFindings .flexParaDiv .flexParaHeading {
+  align-self: flex-start;
+  width: 100%;
+}
+
+.everythingPets .usabilityFindings .flexParaDiv .flexParaHeading {
+  align-self: flex-start;
+  width: 100%;
+}
+.everythingPets .imgCol {
+  width: 80%;
+}
+
+.everythingPets .primaryFindings .imgCol1 {
+  background-image: url(Assets/Casestudy/Everything_Pets/Primary_findings/col1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.everythingPets .primaryFindings .imgCol2 {
+  background-image: url(Assets/Casestudy/Everything_Pets/Primary_findings/col2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.everythingPets .primaryFindings .imgCol3 {
+  background-image: url(Assets/Casestudy/Everything_Pets/Primary_findings/col3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.everythingPets .primaryFindings .imgCol4 {
+  background-image: url(Assets/Casestudy/Everything_Pets/Primary_findings/col4.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.everythingPets .primaryFindings .imgCol5 {
+  background-image: url(Assets/Casestudy/Everything_Pets/Primary_findings/col5.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* EVERYTHING-PETS USABILITY FINDINGS SECTION  */
+
+.everythingPets .usabilityFindings .imgCol1 {
+  background-image: url(Assets/Casestudy/Everything_Pets/Usability_findings/Col_1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.everythingPets .usabilityFindings .imgCol2 {
+  background-image: url(Assets/Casestudy/Everything_Pets/Usability_findings/Col_2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.everythingPets .usabilityFindings .imgCol3 {
+  background-image: url(Assets/Casestudy/Everything_Pets/Usability_findings/Col_3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.everythingPets .usabilityFindings .imgCol4 {
+  background-image: url(Assets/Casestudy/Everything_Pets/Usability_findings/Col_4.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.everythingPets .usabilityFindings .imgCol5 {
+  background-image: url(Assets/Casestudy/Everything_Pets/Usability_findings/Col_5.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* CS-PROCESS-SECTION */
+
+.processImage {
+  position: relative;
+  width: 100%;
+  height: 620px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.processImage:hover {
+  transform: scale(1.3); /* Zooms in on hover */
+}
+
+.oM .processImage {
+  background-image: url(./Assets/Casestudy/Offering_management/Process.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.banking .processImage {
+  background-image: url(./Assets/Casestudy/Banking/Process.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.telecom .processImage {
+  background-image: url(./Assets/Casestudy/Telecom/Process.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.power .processImage {
+  background-image: url(./Assets/Casestudy/Power/Process.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.everythingPets .competitiveImage {
+  height: 440px;
+  background-image: url(./Assets/Casestudy/Everything_Pets/Competitive_Landscape.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 90%;
+  filter: drop-shadow(2px 2px 10px rgba(0, 0, 0, 0.3));
+}
+
+/* CS-USERS-SECTION  */
+
+.usersImage {
+  position: relative;
+  width: 100%;
+  height: 530px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.telecom .usersImage {
+  background-color: #00b4f8;
+  background-image: url(./Assets/Casestudy/Telecom/Users.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.power .usersImage {
+  height: 440px;
+  background-image: url(./Assets/Casestudy/Power/Users.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* CS-oM-RESEARCH-SECTION  */
+
+.oM .research .flexParaDiv {
+  align-items: center;
+  text-align: center;
+}
+
+.oM .research .flex-row {
+  gap: 4rem;
+}
+
+.oM .research .imgCol1 {
+  background-image: url(Assets/Casestudy/Offering_management/Research/Research_col1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.oM .research .imgCol2 {
+  background-image: url(Assets/Casestudy/Offering_management/Research/Research_col2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.oM .research .imgCol3 {
+  background-image: url(Assets/Casestudy/Offering_management/Research/Research_col3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.oM .research .imgCol4 {
+  background-image: url(Assets/Casestudy/Offering_management/Research/Research_col4.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* CS-PROJECTS-SECTION */
+
+.cs-projects .cs-sectionTitle {
+  margin-top: 0rem;
+}
+
+.phase .cs-sectionTitle {
+  margin-top: 0rem;
+}
+
+.cs-projectImage {
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.wireframes {
+  min-height: 800px;
+}
+
+.imageTag {
+  min-width: 8rem;
+  padding: 0.5rem;
+  padding-right: 2rem;
+  margin: 0;
+  font-weight: 500;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.EIS .wireframes {
+  position: relative;
+  background-color: #00b4f8;
+  background-image: url(Assets/Casestudy/Telecom/EIS/Wireframes.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.EIS .mockup {
+  position: relative;
+  background-color: #00b4f8;
+  background-image: url(Assets/Casestudy/Telecom/EIS/Mockup.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.SSPOC .wireframes {
+  position: relative;
+  background-color: #90e8d3;
+  background-image: url(Assets/Casestudy/Telecom/SSPOC/Wireframes.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.SSPOC .mockup {
+  position: relative;
+  background-color: #90e8d3;
+  background-image: url(Assets/Casestudy/Telecom/SSPOC/Mockup.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.AiOps .wireframes {
+  position: relative;
+  background-color: #f0f6f7;
+  background-image: url(Assets/Casestudy/Telecom/AiOps/Wireframes.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.AiOps .mockup {
+  position: relative;
+  background-color: #f0f6f7;
+  background-image: url(Assets/Casestudy/Telecom/AiOps/Mockup.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.power .digitalTwin .cs-projectImage {
+  position: relative;
+  /* background-color: #f0f6f7; */
+  background-image: url(Assets/Casestudy/Power/WO_workflow.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.power .workorder .sectionInfo {
+  width: 40%;
+}
+
+.power .workorder .wireframes {
+  position: relative;
+  background-color: #0059a9;
+  background-image: url(Assets/Casestudy/Power/wo_processing/wireframes_wo.png);
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.power .workorder .mockup {
+  position: relative;
+  background-color: #0059a9;
+  background-image: url(Assets/Casestudy/Power/wo_processing/mocukup_wo.png);
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.power .aiQuoteProj .cs-projectImage {
+  position: relative;
+  /* background-color: #f0f6f7; */
+  background-image: url(Assets/Casestudy/Power/AI_Quote_workflow.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.everythingPets .cs-projectImage {
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.everythingPets .wireframes {
+  position: relative;
+  background-color: #7b81be;
+  background-image: url(Assets/Casestudy/Everything_Pets/Lo_Fi.png);
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.everythingPets .styleGuide {
+  position: relative;
+  background-color: #eef0f4;
+  background-image: url(Assets/Casestudy/Everything_Pets/Style_guide.png);
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.everythingPets .mockup {
+  position: relative;
+  background-color: #7b81be;
+  background-image: url(Assets/Casestudy/Everything_Pets/Mockups.png);
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.aiHumanContextImage {
+  width: 100%;
+  height: 420px;
+  position: relative;
+  background-color: #0059a9;
+  background-image: url(Assets/Casestudy/Power/AI_Human_context.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.power .aiQuoteGen .cs-projectImage {
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.power .aiQuoteGen .wireframes {
+  position: relative;
+  background-color: #0059a9;
+  background-image: url(Assets/Casestudy/Power/AI+quote/Wireframes.png);
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.power .aiQuoteGen .mockup {
+  position: relative;
+  background-color: #0059a9;
+  background-image: url(Assets/Casestudy/Power/AI+quote/Mockup.png);
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+
+.power .aiQuoteGen .designedForAI {
+  position: relative;
+  background-color: #0059a9;
+  background-image: url(Assets/Casestudy/Power/AI+quote/Designrd_for_AI.png);
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.power .aiQuote-businessOutcomes .imgCol {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.power .aiQuote-businessOutcomes .imgCol1 {
+  background-image: url(Assets/Casestudy/Power/AI+quote/biz_outcome/Efficiency.svg);
+}
+
+.power .aiQuote-businessOutcomes .imgCol2 {
+  background-image: url(Assets/Casestudy/Power/AI+quote/biz_outcome/Savings.svg);
+}
+
+.power .aiQuote-businessOutcomes .imgCol3 {
+  background-image: url(Assets/Casestudy/Power/AI+quote/biz_outcome/win_rate.svg);
+}
+
+.power .aiQuote-processOutcomes .imgCol {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.power .aiQuote-processOutcomes .imgCol1 {
+  background-image: url(Assets/Casestudy/Power/AI+quote/ai_measure/Measure_1.svg);
+}
+
+.power .aiQuote-processOutcomes .imgCol2 {
+  background-image: url(Assets/Casestudy/Power/AI+quote/ai_measure/Measure_2.svg);
+}
+
+.power .aiQuote-processOutcomes .imgCol3 {
+  background-image: url(Assets/Casestudy/Power/AI+quote/ai_measure/Measure_3.svg);
+}
+
+.power .aiQuote-processOutcomes .imgCol4 {
+  background-image: url(Assets/Casestudy/Power/AI+quote/ai_measure/Measure_4.svg);
+}
+
+.power .aiQuote-processOutcomes .flexParaDiv {
+  text-align: center;
+}
+
+/* CS-INDUSTRY 4.0-SECTION */
+
+.power .industry4 .cs-projectImage {
+  height: 530px;
+}
+
+.power .industry4 .industryRevolution {
+  position: relative;
+  /* background-color: #f0f6f7; */
+  background-image: url(Assets/Casestudy/Power/Industry_revolution.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.power .industry4 .industry4Tech {
+  position: relative;
+  /* background-color: #f0f6f7; */
+  background-image: url(Assets/Casestudy/Power/Industry4.0.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+/* CS-DESIGN-SECTION */
+
+.designImage {
+  position: relative;
+  width: 100%;
+  height: 620px;
+}
+
+.design .flexPara {
+  padding-left: 0;
+}
+
+.banking .designImage {
+  height: 440px;
+  background-image: url(./Assets/Casestudy/Banking/Design.png);
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 80%;
+  margin: auto;
+}
+
+.banking .designReference .flex-column {
+  gap: 2rem;
+}
+
+.oM .designImage {
+  /* background-color: aliceblue; */
+  background-image: url(./Assets/Casestudy/Offering_management/Design.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* CS-OUTCOME-SECTION */
+
+/* PROJ OFFERING MANAGEMENT */
+
+.outcome .flex-row {
+  gap: 4rem;
+  margin: 6rem 4rem;
+}
+
+.Image2x {
+  height: 400px;
+  width: 50%;
+  background-image: url(./Assets/Casestudy/Offering_management/2x.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.Image4x {
+  height: 400px;
+  width: 50%;
+  background-image: url(./Assets/Casestudy/Offering_management/4x.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* PROJ POWER */
+
+.power .wo-measure .imgCol {
+  height: 80px;
+  width: 100%;
+  margin: 4rem 0 2rem;
+}
+
+.power .wo-measure .flex-column {
+  min-height: 530px;
+  justify-content: center;
+}
+
+.power .wo-processOutcomes .flexParaDiv {
+  text-align: center;
+}
+
+.power .wo-businessOutcomes .imgCol1 {
+  background-image: url(Assets/Casestudy/Power/wo_processing/Outcomes/Efficiency.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.power .wo-businessOutcomes .imgCol2 {
+  background-image: url(Assets/Casestudy/Power/wo_processing/Outcomes/Savings.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.power .wo-businessOutcomes .imgCol3 {
+  background-image: url(Assets/Casestudy/Power/wo_processing/Outcomes/Satisfaction.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.power .wo-processOutcomes .imgCol1 {
+  background-image: url(Assets/Casestudy/Power/wo_processing/Process/Process1.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.power .wo-processOutcomes .imgCol2 {
+  background-image: url(Assets/Casestudy/Power/wo_processing/Process/Process2.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.power .wo-processOutcomes .imgCol3 {
+  background-image: url(Assets/Casestudy/Power/wo_processing/Process/Process3.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.power .wo-processOutcomes .imgCol4 {
+  background-image: url(Assets/Casestudy/Power/wo_processing/Process/Process4.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.power .wo-processOutcomes .imgCol5 {
+  background-image: url(Assets/Casestudy/Power/wo_processing/Process/Process5.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.power .wo-processOutcomes .imgCol6 {
+  background-image: url(Assets/Casestudy/Power/wo_processing/Process/Process6.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.power .wo-processOutcomes .imgCol7 {
+  background-image: url(Assets/Casestudy/Power/wo_processing/Process/Process7.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.power .wo-uxMetrics .imgCol1 {
+  background-image: url(Assets/Casestudy/Power/wo_processing/UX_metrics/1.Adoption.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.power .wo-uxMetrics .imgCol2 {
+  background-image: url(Assets/Casestudy/Power/wo_processing/UX_metrics/2.Efficiency.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.power .wo-uxMetrics .imgCol3 {
+  background-image: url(Assets/Casestudy/Power/wo_processing/UX_metrics/3.Satisfaction.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+/* CS-RECOGNITION-SECTION */
+
+.recognition .flex-column {
+  min-height: 620px;
+  justify-content: center;
+}
+
+.recognitionContainer {
+  padding: 1rem;
+  width: 100%;
+}
+
+.recognitionTitle {
+  padding: 1rem 0;
+  border-bottom: #ff0000 solid 0.25px;
+}
+
+.oM .recognitionTitle {
+  border-bottom: #1e1e1e solid 0.25px;
+}
+
+.telecom .recognitionTitle {
+  border-bottom: #00b4f8 solid 0.25px;
+}
+
+.power .recognitionTitle {
+  border-bottom: #0059a9 solid 0.25px;
+}
+
+.recognitionName {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+.recognitionRole {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+.recognitionContent {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+.oM .recognitionContent {
+  font-size: 1rem;
+}
+
+/* CS-GROWTH-SECTION */
+
+.growthImage {
+  width: 100%;
+  height: 440px;
+  margin: 1rem 0;
+}
+
+.postUp .growthImage {
+  background-color: #06cd6d;
+  background-image: url(./Assets/Casestudy/Post_up/Growth.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.everythingPets .growthImage {
+  background-color: #7b81be;
+  background-image: url(./Assets/Casestudy/Everything_Pets/Growth.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.banking .growthImage {
+  background-color: #ff0000;
+  background-image: url(./Assets/Casestudy/Banking/Growth.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.oM .growthImage {
+  background-color: #1e1e1e;
+  background-image: url(./Assets/Casestudy/Offering_management/Growth.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.telecom .growthImage {
+  background-color: #00b4f8;
+  background-image: url(./Assets/Casestudy/Telecom/Growth.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.power .growthImage {
+  background-color: #0059a9;
+  background-image: url(./Assets/Casestudy/Power/Growth.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.growGrid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1rem;
+  margin: 0 auto;
+}
+
+/* CS-END NAVIGATION-SECTION */
+
+.cs-end {
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.thankYou {
+  background-color: #ff0000;
+  color: #fff;
+  font-weight: 300;
+  margin: 0 auto;
+}
+
+.postUp .thankYou {
+  background-color: #06cd6d;
+}
+
+.everythingPets .thankYou {
+  background-color: #7b81be;
+}
+
+.oM .thankYou {
+  background-color: #1e1e1e;
+}
+
+.telecom .thankYou {
+  background-color: #00b4f8;
+  color: #000;
+}
+
+.power .thankYou {
+  background-color: #0059a9;
+}
+
+.endNavigation {
+  text-align: center;
+  margin: 4rem auto;
+}
+
+.endNavigation p {
+  font-size: 1.1rem;
+}
+
+.endNavigation .flex-row {
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem;
+  border-top: solid 0.1px #808080;
+  border-bottom: solid 0.1px #808080;
+}
+
+.endNavigation .tags {
+  margin: 1.5rem;
+  max-height: 80px;
+  padding: 0.5rem 2rem;
+}
+
+.endNavigation .home {
+  background-color: #fff;
+  border: solid #000 0.5px;
+  color: #000;
+  font-weight: 400;
+}
+
+.endNavigation .top {
+  background-color: #fff;
+  border: solid #000 0.5px;
+  color: #000;
+  font-weight: 400;
+}
+
+.endNavigation .other {
+  background-color: #000;
+  color: #fff;
+  font-weight: 400;
+}
+
+.endNavigation .call {
+  background-color: #000;
+  color: #fff;
+  font-weight: 400;
+  /* font-size: 0.7rem; */
+}
+
+@media (max-width: 1024px) {
+  /* CS-BLOBAL */
+
+  .csHero .flexParaDiv {
+    width: 100% !important;
+  }
+
+  .flex-column .flexParaDiv {
+    width: 100%;
+  }
+
+  .flex-column .infoHorizontal {
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 1rem;
+  }
+
+  .flex-row {
+    flex-direction: column;
+  }
+
+  .infoVertical {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .infoVerticalPara {
+    width: 100%;
+  }
+
+  .cs-sectionTitle {
+    max-width: 80%;
+  }
+
+  .infoGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* CS-STACKED SCALEABLE IMAGES */
+
+  .phase1 .imageOverlay {
+    margin: 2rem 0;
+    height: 200px; /* Adjust height */
+    max-width: 75%;
+  }
+
+  .imageOverlay {
+    margin: 2rem 0;
+    height: 200px; /* Adjust height */
+    max-width: 75%;
+  }
+
+  .imgLay {
+    width: auto;
+    max-width: 100%;
+    height: 100%;
+    object-fit: contain;
     position: absolute;
-    bottom:1.5rem;
-    left: 5%;
-   
-    
+    transition: transform 0.3s ease-in-out;
+    transform-origin: bottom;
+    /* box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3); */
+    filter: drop-shadow(2px 2px 10px rgba(0, 0, 0, 0.3));
+  }
+
+  /* CS-HERO-SECTION */
+
+  .csProjHero {
+    height: 80vh;
+  }
+
+  /* CS-OVERVIEW-SECTION */
+
+  .overviewInfo {
+    grid-row: 1/2;
+    grid-column: 1/4;
+  }
+
+  .EDTimage {
+    grid-column: 1/4;
+  }
+
+  .assignmentProjects {
+    flex-direction: row;
+  }
+
+  .EDTimage {
+    height: 40vh;
+  }
+
+  /* CS-POWER-CMMI-SECTION */
+
+  .CMMIimage {
+    height: 30vh;
+  }
+
+  .CMMI .flex-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* CS-STAKEHOLDERS-SECTION  */
+
+  .stakeholders .flex-row {
+    flex-direction: column-reverse;
+  }
+
+  .sectionInfo {
+    width: 100% !important;
+  }
+
+  .sectionInfo .flexParaHeading {
+    display: block;
+  }
+
+  .stakeholderImage {
+    height: 60vh;
+  }
+
+  /* CS- oM - PROBLEM SPACE-SECTION  */
+
+  .oM .problemSpaceImage {
+    height: 48vh;
+  }
+
+  .oM .stakeholderImage {
+    background-position: center;
+    height: 48vh !important;
+  }
+
+  .oM .problemSpace .flex-row {
+    flex-direction: column-reverse;
+  }
+
+  /* CS- oM -KEY CHALLENGES-SECTION  */
+
+  .keyChallenges .flex-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .approach .flex-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .research .flex-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .imgCol {
+    height: 20vh;
+  }
+
+  /* CS-PROCESS-SECTION  */
+
+  .processImage {
+    height: 30vh;
+  }
+
+  .processImage:hover {
+    transform: scale(1);
+  }
+
+  /* CS-USERS-SECTION */
+
+  .usersImage {
+    height: 40vh;
+  }
+
+  .power .usersImage {
+    background-size: cover;
+    height: 40vh;
+  }
+
+  /* CS-PROJECTS-SECTION */
+
+  .cs-projectImage {
+    height: 60vh;
+  }
+
+  .power .digitalTwin .cs-projectImage {
+    height: 40vh;
+    background-position: center left;
+  }
+
+  /* CS-DESIGN-SECTION  */
+
+  .design .flex-row {
+    flex-direction: column-reverse;
+  }
+
+  .designImage {
+    height: 48vh;
+  }
+
+  /* .flexParaDiv {
+    width: 48%;
+  } */
+
+  .design .flexParaHeading {
+    border-bottom: 0.25px solid #808080;
+    padding: 0.5rem;
+  }
+
+  /* CS-PROJECTS-SECTION */
+
+  .cs-projects .flex-row {
+    flex-direction: column-reverse;
+  }
+
+  .power .industry4 .cs-projectImage {
+    height: 27vh;
+  }
+
+  .power .wo-measure .imgCol {
+    height: 60px;
+    margin: 2rem 0;
+  }
+
+  .power .wo-businessOutcomes .flex-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 2rem;
+  }
+
+  .power .wo-processOutcomes .flex-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0 2rem;
+  }
+
+  .power .wo-uxMetrics .flex-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 2rem;
+  }
+
+  /* CS-OUTCOME-SECTION */
+
+  .Image2x {
+    height: 40vh;
+    width: 90%;
+  }
+
+  .Image4x {
+    height: 40vh;
+    width: 90%;
+  }
+
+  .outcome .flex-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 4rem 4rem;
+    gap: 6rem;
+  }
+
+  /* CS-RECOGNITION-SECTION */
+
+  .recognitionContainer {
+    width: auto;
+  }
+
+  /* CS-GROWTH-SECTION */
+
+  .growGrid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-template-rows: repeat(3, auto); /* 3 rows */
+    gap: 1rem;
+  }
+
+  /* CS-FOOTER-SECTION */
+
+  .footer {
+    margin-top: 2rem !important;
+  }
+
+  /* CS-END NAVIGATION-SECTION */
+
+  .endNavigation .flex-row {
+    flex-direction: row;
+    margin: 0;
+  }
+
+  .endNavigation .tags {
+    font-size: 0.6rem;
+    margin: 1.5rem 0;
+  }
 }
 
+@media (max-width: 672px) {
+  /* CS-GLOBAL-SECTION */
 
-    .works{
-        margin: 0;
-        padding: 0;
-    }
-    .postup{
-        height: 90vh;
-        width: 100%;
-    }
-    .Easycourt{
-        height: 90vh;
-    }
-    .Sociopass{
-        height: 90vh;
-    }
-    .EverythingPets{
-        height: 90vh;
-    }
-    .workName{
-        position:relative;
-        padding-left: 5%;
-        top:80%; 
-        font-weight: 800;
-        color: white;
-    }
-    
-    .workPara{
-        color: white;
-        position:relative;
-        padding-left: 5%; 
-        padding-right: 5%;
-        padding-bottom: 5%;
-        top:80%;
+  .flexParaHeading {
+    /* padding: 0.5rem 0 !important; */
+    display: block !important;
+  }
 
-    }
-    
-    .row{
-        --bs-gutter-x: 0;
-    }
-    .wrow{
-        margin-top: 0;
-        padding: 0!important;
-    }
-    .sideproject{
-        padding: 0;
-        margin-bottom: 15%;
-    }   
+  .flexPara {
+    padding: 0.5rem !important;
+  }
 
-    .email{
-        font-size: 1rem;
-    }
+  .infoVertical {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .SML{
-        transform: scale(.7);
-    }
-}   
+  /* CS-HERO-SECTION */
 
+  .csProjHero {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+  }
 
+  .telecom .csProjHero {
+    background-position: right bottom;
+  }
+
+  /* CS-OVERVIEW-SECTION */
+
+  .EDTimage {
+    height: 30vh;
+  }
+
+  .EDT {
+    grid-template-rows: auto auto auto auto auto;
+  }
+
+  .observe {
+    grid-column: 1/4;
+  }
+
+  .reflect {
+    grid-column: 1/4;
+  }
+
+  .make {
+    grid-column: 1/4;
+  }
+
+  .assignmentProjects {
+    flex-wrap: wrap;
+  }
+
+  /* CS-STAKEHOLDER-SECTION */
+
+  .stakeholderImage {
+    height: 30vh;
+  }
+
+  /* CS-CHALLEGES-SECTION */
+
+  .oM .keyChallenges .flex-row {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  /* CS-APPROACH-SECTION */
+
+  .oM .approach .flex-row {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  /* CS-USERS-SECTION */
+
+  .usersImage {
+    height: 30vh;
+  }
+
+  .power .usersImage {
+    background-size: cover;
+    height: 30vh;
+  }
+
+  /* CS-INDUSTRY 4.0-SECTION */
+
+  .power .industry4 .cs-projectImage {
+    height: 24vh;
+    background-color: #0059a9;
+    grid-template-columns: 1fr;
+  }
+
+  .industryRevolution {
+    display: none;
+  }
+
+  .power .industry4 .industry4Tech {
+    background-image: url(./Assets/Casestudy/Power/Industry4.0_mob.png);
+    background-position: center bottom;
+  }
+
+  /* CS-PROJECTS-SECTION */
+
+  .power .digitalTwin .cs-projectImage {
+    height: 30vh;
+    background-position: center left;
+  }
+
+  .wireframes {
+    grid-column: 1/3;
+  }
+
+  .mockup {
+    display: none;
+  }
+  /* CS-RESEARCH-SECTION */
+
+  .oM .research .flex-row {
+    gap: 1rem;
+  }
+
+  /* CS-DESIGN-SECTION */
+
+  .designImage {
+    height: 30vh;
+  }
+
+  /* CS-OUTCOME-SECTION */
+
+  .Image2x {
+    height: 30vh;
+  }
+
+  .Image4x {
+    height: 30vh;
+  }
+
+  .oM .outcome .flex-row {
+    gap: 2rem;
+    margin: 0;
+  }
+
+  /* CS-RECOGNITION-SECTION */
+
+  .recognitionContent {
+    font-size: 1rem;
+  }
+
+  /* CS-GROWTH-SECTION */
+
+  .recognition .flex-column {
+    min-height: auto;
+    justify-content: center;
+  }
+
+  .recognitionContainer {
+    padding: 0 1rem;
+  }
+
+  .growthImage {
+    height: 30vh;
+  }
+
+  /* CS-END NAVIGATION-SECTION */
+
+  .endNavigation .flex-row {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0;
+  }
+
+  .endNavigation .tags {
+    margin: 1rem;
+    max-height: 80px;
+    padding: 0.5rem 0.5rem;
+  }
+}

@@ -1,289 +1,485 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <!-- Fav Icon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="images/Favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="images/Favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="images/Favicon/favicon-16x16.png">
-  <link rel="manifest" href="images/Favicon/site.webmanifest">
-    <!-- Title -->
-    <title>Abhsishek Taware</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles1.css">
-</head>
-<body>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./Assets/Favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./Assets/Favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./Assets/Favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./Assets/Favicon/site.webmanifest" />
 
+    <!-- Title  -->
+    <title>Abhishek Taware - Portfolio</title>
+
+    <!-- GOOGLE FONTS LINK -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS  -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <!-- ----------------------------------------------------------------------- -->
+  <body>
     <!-- NAVBAR -->
-    <div class="container-fluid navigation">
-        <nav class="navbar fixed-top navbar-expand-xl navbar-light bg-light">
-            <div class="container-fluid">
-            <a class="navbar-brand" href="#">Abhishek Taware</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-                 <ul class="navbar-nav">
-                     <li class="nav-item">
-                        <a class="nav-link" href="#work">Work</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#WHTIDO">About</a>
-                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                    </ul>
-                    </div>
-            </div>
-      </nav>
-    </div>
-    <!-- HERO -->
-    <section id="Home">
-        <div class="container-fluid heroimage">
-            <h1 class="herotext">Hi, I am Abhishek</h1>
-            <p class="herop">A UX/HCI generalist, fascinated by design, technology, systems, services and life.</p>
-            <svg class="downarrow" width="28" height="72" viewBox="0 0 28 72" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M13.8997 0C14.2975 0 14.6791 0.151921 14.9604 0.422342C15.2417 0.692762 15.3997 1.05953 15.3997 1.44196L15.0019 66.2141L24.4399 57.1383C24.7216 56.8676 25.1036 56.7155 25.5019 56.7155C25.9002 56.7155 26.2822 56.8676 26.5639 57.1383C26.8456 57.4091 27.0038 57.7763 27.0038 58.1592C27.0038 58.5422 26.8456 58.9094 26.5639 59.1801L14.5639 70.7159C14.4246 70.8501 14.259 70.9567 14.0768 71.0294C13.8946 71.1021 13.6992 71.1395 13.5019 71.1395C13.3046 71.1395 13.1092 71.1021 12.927 71.0294C12.7448 70.9567 12.5792 70.8501 12.4399 70.7159L0.439894 59.1801C0.158235 58.9094 -9.38491e-09 58.5422 0 58.1592C9.38491e-09 57.7763 0.158235 57.4091 0.439894 57.1383C0.721554 56.8676 1.10357 56.7155 1.50189 56.7155C1.90022 56.7155 2.28224 56.8676 2.56389 57.1383L12.0019 66.2141L12.3997 1.44196C12.3997 1.05953 12.5578 0.692762 12.8391 0.422342C13.1204 0.151921 13.5019 0 13.8997 0Z" fill="#141414"/>
-            </svg>
+    <section class="navbarSection">
+      <div class="navbar">
+        <div>
+          <a href="./index.html" class=""
+            ><p class="brand">Abhishek Taware</p>
+          </a>
         </div>
+        <div class="navigation">
+          <a href="./index.html#featuredwork" class="">
+            <p class="link">Work</p>
+          </a>
+
+          <a href="./index.html#contactSection" class="">
+            <p class="link">Contact</p>
+          </a>
+
+          <a href="./About me.html" class="">
+            <p class="link">About me</p>
+          </a>
+
+          <a href="./Assets/Resume 2024 - Sr. UX Designer.pdf" target="_blank">
+            <p class="link">Resume</p>
+          </a>
+        </div>
+
+        <div class="menu">
+          <img src="./Assets/Homepage/Nav_menu.svg" alt="" />
+        </div>
+      </div>
     </section>
-
-     <!-- WHAT I DO -->
-     <section id="WHTIDO">
-        <div class="container-fluid WIDO">
-            <h4 class="sectionHead ">What I do ? </h4>
-            <div class="row">
-                <h1  class="IDO"> I strategise, design, validate and improve <span class="IDO2" style="font-weight: 800;"> experiences & interactions*</span> of systems, services, products and brands </h1>
-                <a class="contact-btn" href="#contact">
-                    <button  type="button" class="btn btn-dark btn-lg cont-btn" >Contact Me !</button>
-                </a>
-            </div>
-        </div>
-    </section>
-
-
-
-
-    <!-- PROCESS
-    <section id="process">
-        <div class="container-fluid">
-            <h4 class="sectionHead ">THE PROCESS</h4>
-        </div>
-        <div class="container-fluid">
-            <div class="row">
-            <div class="col-lg-3">
-                <svg class="process_icon" width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1.0286 15.8776L3.02135 15.2018L2.4596 12.7478C2.4188 12.5662 2.45162 12.3759 2.55086 12.2185C2.6501 12.061 2.80768 11.9493 2.9891 11.9078L3.87185 11.7076C4.05464 11.6674 4.24589 11.7 4.40508 11.7984C4.56426 11.8968 4.67886 12.0533 4.7246 12.2348L5.2661 14.4421L13.6533 11.5996C13.7523 10.7701 14.0029 10.2158 14.3974 10.1018L20.1154 7.99807L19.7321 6.45607C19.7019 6.32058 19.721 6.17875 19.786 6.0561C19.851 5.93345 19.9577 5.83805 20.0869 5.78707L27.3896 3.10282C27.4497 3.07931 27.5141 3.06903 27.5786 3.0727C27.643 3.07637 27.7059 3.0939 27.7629 3.12408C27.8199 3.15427 27.8698 3.19641 27.909 3.24762C27.9483 3.29883 27.976 3.35791 27.9903 3.42082L28.3736 4.96207L40.9001 0.528823C42.1173 0.177073 43.8971 3.08557 44.8759 7.02382C45.8546 10.9643 45.6611 14.4436 44.4439 14.7946L29.4431 18.1606L29.5046 18.4081C29.5253 18.4904 29.5291 18.576 29.5159 18.6599C29.5027 18.7437 29.4726 18.824 29.4276 18.8959C29.3825 18.9679 29.3234 19.03 29.2538 19.0785C29.1842 19.127 29.1054 19.161 29.0224 19.1783L26.8496 19.6418C26.8503 19.6673 26.8578 19.6921 26.8578 19.7191C26.8578 20.6978 26.4806 21.5798 25.8791 22.2601L34.4269 45.5003H33.0633L23.9951 23.4263C23.991 23.4272 23.987 23.4285 23.9831 23.4301L23.5564 45.5003H22.3811L21.9559 23.4256L12.9349 45.5003H11.5744L20.0869 22.2173C19.8311 21.9203 19.6271 21.5798 19.4681 21.2168L19.2964 21.2536C19.125 21.2885 18.9467 21.2564 18.7983 21.1637C18.65 21.071 18.5429 20.9249 18.4991 20.7556L18.4376 20.5081L17.0554 20.8028C16.6609 20.9161 16.1869 20.5711 15.7174 19.9066L2.80085 23.0123C2.1926 23.1878 1.30235 21.7336 0.813351 19.7648C0.322851 17.7938 0.419603 16.0531 1.0286 15.8776ZM23.0006 22.5586C23.7283 22.5575 24.4278 22.2767 24.9542 21.7742C25.4807 21.2718 25.7938 20.5862 25.8288 19.8593L20.4784 21.0008C20.9486 21.9218 21.8951 22.5586 23.0006 22.5586ZM15.7256 15.4516C16.1036 16.9756 16.6496 18.3211 17.2151 19.2353L40.4629 14.2493L40.4636 14.2486C39.6386 13.0853 38.8219 11.1796 38.2646 8.93707C37.7044 6.68032 37.5304 4.57957 37.7104 3.12757L15.2621 11.3686C15.1961 12.4658 15.3469 13.9261 15.7256 15.4516V15.4516ZM2.00285 19.4183C2.17626 20.1316 2.43804 20.8204 2.7821 21.4688L14.9486 18.5468L14.9314 18.4756C14.6059 17.7413 14.3089 16.8758 14.0734 15.9286C13.8379 14.9806 13.6939 14.0693 13.6361 13.2586L13.6204 13.1948L5.69885 15.8738C5.78225 15.9762 5.8916 16.0543 6.01548 16.0999C6.13937 16.1455 6.27323 16.1571 6.4031 16.1333L8.7776 15.6601C8.96744 15.6268 9.16294 15.6616 9.32964 15.7583C9.49635 15.855 9.62356 16.0075 9.68885 16.1888L10.0489 17.2711C10.1711 17.6386 9.96185 18.0061 9.58385 18.0916L4.6556 19.1843C4.47329 19.2245 4.28248 19.1913 4.12453 19.0917C3.96659 18.9922 3.85424 18.8344 3.81185 18.6526L3.35735 16.6658L1.7276 17.2163C1.7231 17.8643 1.80635 18.6271 2.00285 19.4183Z" fill="#111111"/>
-                    <path d="M11.9065 15.7568C11.5507 15.7568 11.2623 15.4683 11.2623 15.1125C11.2623 14.7567 11.5507 14.4683 11.9065 14.4683C12.2623 14.4683 12.5508 14.7567 12.5508 15.1125C12.5508 15.4683 12.2623 15.7568 11.9065 15.7568Z" fill="#111111"/>
-                    </svg>
-                <h5 class="processHead">1.DISCOVER</h5>
-                <p class="processPara" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim illum labore distinctio corporis ratione voluptatum
-                 magni sit quis facilis natus. Tempora harum nihil aspernatur quidem quod. Deserunt non eius aspernatur,
-                  provident saepe natus numquam veniam molestiae, sit dolorum laudantium quibusdam?</p>
-            </div>
-
-            <div class="col-lg-3">
-                <svg class="process_icon" width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M5.06825 0.5L16.2965 6.3125L26.7028 1.8125L40.9318 2.75L45.5 42.6875L30.7888 41.4373L14.4605 45.5L0.5 40.4375L5.06825 0.5ZM6.311 2.83175L2.1245 39.431L14.1725 43.7998L14.2393 42.3943L3.611 38.3817L7.2425 4.937L15.8263 9.008L15.8848 7.7885L15.6065 7.64525L6.311 2.83175V2.83175ZM15.0387 25.5868C14.8722 25.2328 14.7087 24.7355 14.6307 24.038C14.6307 24.038 13.8042 24.0785 12.7872 26.2948C12.7872 26.2948 12.3432 26.2505 12.5645 24.8037C12.5645 24.8037 10.9768 24.164 11.8333 21.3508C11.8333 21.3508 10.5012 23.1852 10.9437 20.8002C10.9437 20.8002 9.48275 19.0092 11.228 17.8182C11.228 17.8182 11.168 16.4975 10.1188 16.667C10.1188 16.667 9.07025 13.94 9.57575 17.1777C9.57575 17.1777 9.54575 17.8183 8.879 18.5405C8.879 18.5405 8.59175 17.4762 9.101 16.3287C9.101 16.3287 8.05175 14.3653 8.14775 12.6635C8.14775 12.6635 11.5467 13.9242 15.329 13.5477C15.329 13.5477 15.1445 12.8442 15.6613 12.449L15.767 10.2253L15.677 10.1825L8.189 6.632L4.823 37.6377L14.2948 41.2145L15.0387 25.5868V25.5868ZM16.4172 12.3912C16.808 12.9485 17.8925 14.6622 17.2333 15.6882C17.2333 15.6882 17.5528 17.9105 17.9983 14.669C17.9983 14.669 18.7265 16.5823 19.712 16.1555C19.712 16.1555 19.9828 18.092 20.603 16.7945C20.603 16.7945 20.0953 17.0082 19.9835 16.412C19.9835 16.412 21.4152 14.8783 22.271 17.1973C22.271 17.1973 22.97 17.4755 22.6992 18.563C22.6992 18.563 22.2087 17.666 21.9537 19.0317C21.9537 19.0317 21.683 18.8187 21.5697 17.0705C21.5697 17.0705 20.8903 16.7315 21.4153 18.113C21.4153 18.113 19.8582 18.1377 22.271 19.5185C22.271 19.5185 22.4045 19.496 22.5095 18.9665C22.5095 18.9665 22.8747 20.2415 23.6232 20.6937C23.6232 20.6937 23.4477 21.203 24.0027 21.437C24.0027 21.437 24.3035 22.226 23.588 22.226C23.588 22.226 22.9692 20.33 21.7932 21.8218C21.7932 21.8218 21.569 21.737 21.9192 20.9907C21.9192 20.9907 21.3013 21.2278 21.062 22.205C21.062 22.205 20.6803 22.139 20.6195 21.2892C20.6195 21.2892 20.1402 20.2032 19.361 21.482C19.361 21.482 20.3952 21.1828 20.6637 22.226C20.6637 22.226 20.1747 22.0123 19.8702 22.3115C19.8702 22.3115 19.8395 22.7983 20.1515 22.9865C20.0165 23.24 19.8703 23.483 19.6663 23.6885C19.6094 23.7414 19.5726 23.8124 19.5621 23.8893C19.5516 23.9663 19.568 24.0445 19.6085 24.1107C19.058 25.0527 18.041 26.3068 17.3292 24.305C17.3292 24.305 18.2817 24.8458 18.6005 23.354C18.6005 23.354 16.6782 23.5985 15.7917 25.5267L15.0455 41.2378L29.9945 37.0453L29.7703 34.8275C29.4598 35.6233 29.096 35.9465 29.096 35.9465C29.5183 32.4853 27.0208 30.2675 27.0208 30.2675C26.5355 27.8915 27.7693 26.825 28.913 26.345L28.3257 20.534C28.0902 20.2407 27.9515 20.045 27.9515 20.045C28.0362 19.7532 28.1188 19.4975 28.1975 19.2635L27.6282 13.625C27.1497 14.2078 27.095 14.7372 27.2292 15.2188C27.845 17.4335 27.053 18.1122 27.053 18.1122C26.5722 16.2417 24.9222 15.9432 24.9222 15.9432C25.0167 14.1942 24.0012 12.206 24.0012 12.206C25.106 10.3077 26.6862 11.588 27.5142 12.494L27.4498 11.8572C27.2803 11.639 27.1032 11.4013 26.912 11.1298C26.912 11.1298 27.0702 11.021 27.3575 10.9415L26.8535 5.95025L16.5905 10.2043L16.5185 10.2343L16.4172 12.3912V12.3912ZM28.1038 10.865C28.6153 10.889 29.27 11.0653 30.0402 11.5978C30.0402 11.5978 30.4062 14.9592 28.3047 12.8525L28.5395 15.1782C28.814 14.2602 29.465 13.9407 29.465 13.9407C30.1025 14.3262 30.0388 14.8362 30.0388 14.8362C29.4605 14.9232 29.1072 15.6192 28.8995 16.2717C29.0165 16.451 29.2168 16.6558 29.5625 16.6895C29.5625 16.6895 29.1598 17.2947 28.7698 17.4642L28.8125 17.8812C29.72 16.5215 30.113 19.2537 30.113 19.2537C32.3562 16.754 29.5175 15.503 29.5175 15.503C31.2553 14.7687 32.06 12.6642 32.06 12.6642C32.1447 13.9715 32.654 13.9138 32.654 13.9138C36.6365 11.5858 37.3535 15.335 37.3535 15.335C36.7212 17.321 38.0765 17.5483 38.0765 17.5483C36.764 17.7748 36.0868 15.9575 36.0868 15.9575C33.3733 17.321 34.814 22.2057 34.814 22.2057C33.7558 22.8282 33.4587 24.875 33.4587 24.875C32.7215 25.0985 31.9663 25.55 31.4368 25.9077C31.334 25.8155 31.2282 25.7277 31.1172 25.646C32.3547 24.7715 32.357 23.3555 32.357 23.3555C31.2342 23.3555 30.0403 22.388 29.1785 21.4985L29.6435 26.1057C29.8528 26.0531 30.0649 26.0123 30.2787 25.9835C30.4787 26.0794 30.6665 26.1987 30.8383 26.339L30.7468 26.4103C31.9948 28.808 30.3073 29.7695 30.0275 29.9082L30.7438 36.9957L40.6707 37.772L37.3595 6.4115L27.596 5.837L28.1038 10.865V10.865ZM30.1093 38.1823L14.99 42.4227L14.9225 43.8395L30.2945 40.0145L30.1093 38.1823ZM16.6355 7.8005L16.5785 8.993L26.735 4.78325L26.6045 3.48875L16.892 7.6895L16.6355 7.8005V7.8005ZM39.5833 4.1645L27.3455 3.35825L27.4813 4.70375L38.378 5.34425L41.9308 38.9998L30.857 38.132L31.0415 39.953L43.8013 41.0382L39.5833 4.1645Z" fill="#111111"/>
-                    <path d="M22.953 26.463C22.953 26.463 21.3615 26.7608 21.9982 29.8275C21.9982 29.8275 21.744 32.2178 20.3482 31.9995C20.3482 31.9995 19.9672 28.5502 18.1875 25.908C18.1875 25.908 18.909 26.6265 19.7272 24.2438C19.851 24.3338 20.019 24.3547 20.1592 24.2152C20.5117 23.8635 20.7247 23.4202 20.9542 22.9747C20.9868 22.9107 21.0001 22.8385 20.9925 22.767C22.1505 22.335 24.4957 21.9015 24.828 25.3118C24.8272 25.3118 24.384 27.6593 22.953 26.463V26.463ZM23.682 18.4965C23.5725 20.0325 23.367 20.499 23.0977 19.8607C22.827 19.2277 23.682 18.4965 23.682 18.4965ZM24.1627 19.9462C24.1627 19.9462 23.715 19.8803 23.8432 19.317C23.8432 19.317 24.1627 19.35 24.1627 19.9462ZM24.3352 16.8585C24.3352 16.8585 25.464 16.8585 25.065 17.4352C24.6682 18.0105 24.3352 16.8585 24.3352 16.8585ZM18.6945 30.8512C18.6945 30.8512 18.3495 30.1477 18.3607 29.0632C18.36 29.0632 19.458 30.3172 18.6945 30.8512ZM11.58 26.4427C11.58 26.4427 12.375 27.168 12.2295 27.8287C12.0862 28.4917 11.3887 27.6982 11.58 26.4427ZM8.40075 28.788C8.052 28.1775 10.311 27.4215 10.311 27.4215C9.86475 28.083 8.71725 29.3325 8.40075 28.788ZM10.9275 28.9185C10.3972 28.011 12.5325 28.4452 12.5325 28.4452C12.5325 28.4452 11.1337 29.277 10.9275 28.9185ZM10.0882 29.1075C10.0882 29.1075 10.5157 30.0638 12.1042 30.4665C12.1042 30.4665 11.769 31.2352 12.1042 32.685C12.1042 32.685 10.5007 30.639 9.57675 33.5985C9.57675 33.5985 8.784 34.029 8.22825 31.3492C8.22825 31.3492 8.895 30.384 9.117 29.0115C9.11625 29.0107 9.33675 30.7695 10.0882 29.1075V29.1075ZM9.77475 20.3828C9.6735 20.298 9.59475 20.2673 9.59475 20.2673C10.3725 19.0095 10.0882 20.8223 10.0882 20.8223C10.038 20.703 9.97875 20.6115 9.918 20.5342C9.87675 21.0712 10.0057 21.8715 10.8442 22.632C10.845 22.632 9.0465 21.954 9.77475 20.3828ZM23.5005 10.9665C23.1082 10.047 24.3412 9 24.3412 9C24.183 11.2103 23.8897 11.8852 23.5005 10.9665ZM25.0335 11.0872C25.0335 11.0872 24.3952 10.9927 24.576 10.1842C24.576 10.1842 25.0335 10.23 25.0335 11.0872Z" fill="#111111"/>
-                    </svg>
-
-
-                <h5 class="processHead">2.DEFINE</h5>
-                <p class="processPara">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim illum labore distinctio corporis ratione voluptatum
-                    magni sit quis facilis natus. Tempora harum nihil aspernatur quidem quod. Deserunt non eius aspernatur,
-                     provident saepe natus numquam veniam molestiae, sit dolorum laudantium quibusdam?</p>
-
-            </div>
-
-            <div class="col-lg-3">
-                <svg class="process_icon" width="48" height="43" viewBox="0 0 48 43" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M48 21.378C48 18.198 44.018 15.184 37.912 13.316C39.322 7.094 38.696 2.142 35.936 0.556C35.2672 0.181441 34.5103 -0.00709578 33.744 0.00999999V2.19C34.194 2.19 34.556 2.28 34.86 2.446C36.19 3.21 36.768 6.114 36.318 9.852C36.21 10.772 36.034 11.74 35.818 12.728C33.7733 12.2353 31.698 11.8792 29.606 11.662C28.3597 9.94258 27 8.30828 25.536 6.77C28.726 3.806 31.72 2.182 33.756 2.182V0C31.064 0 27.542 1.918 23.98 5.244C20.42 1.94 16.896 0.04 14.206 0.04V2.22C16.232 2.22 19.236 3.836 22.426 6.78C21.056 8.22 19.686 9.852 18.384 11.662C16.2877 11.8767 14.2087 12.2363 12.162 12.738C11.9457 11.8016 11.7755 10.8551 11.652 9.902C11.192 6.162 11.76 3.258 13.082 2.486C13.374 2.31 13.756 2.23 14.206 2.23V0.05C13.386 0.05 12.64 0.226 11.996 0.596C9.246 2.182 8.63 7.122 10.048 13.326C3.962 15.206 0 18.208 0 21.378C0 24.558 3.982 27.572 10.088 29.438C8.678 35.662 9.304 40.614 12.064 42.198C12.7 42.57 13.444 42.746 14.264 42.746C16.956 42.746 20.478 40.828 24.04 37.502C27.6 40.808 31.122 42.706 33.814 42.706C34.5862 42.7223 35.3489 42.5332 36.024 42.158C38.774 40.574 39.39 35.634 37.972 29.43C44.038 27.562 48 24.548 48 21.378ZM35.26 14.852C34.88 16.1597 34.4395 17.4491 33.94 18.716C33.1223 17.1255 32.2245 15.5775 31.25 14.078C32.64 14.284 33.98 14.538 35.262 14.852H35.26ZM30.78 25.272C30.0475 26.5509 29.2607 27.7981 28.422 29.01C25.4865 29.2687 22.5341 29.2721 19.598 29.02C17.9139 26.6144 16.4411 24.0675 15.196 21.408C16.4392 18.7422 17.9057 16.1864 19.58 13.768C22.5148 13.5087 25.4665 13.5047 28.402 13.756C29.214 14.92 30.008 16.164 30.77 17.476C31.514 18.756 32.19 20.056 32.806 21.368C32.1832 22.6959 31.5073 23.9983 30.78 25.272V25.272ZM33.94 24C34.468 25.31 34.92 26.622 35.29 27.894C34.01 28.208 32.658 28.472 31.26 28.676C32.2305 27.1628 33.1249 25.6022 33.94 24V24ZM24.02 34.44C23.11 33.5 22.2 32.454 21.3 31.308C22.18 31.348 23.08 31.378 23.99 31.378C24.91 31.378 25.82 31.358 26.71 31.308C25.83 32.454 24.92 33.5 24.02 34.44ZM16.74 28.676C15.3915 28.4806 14.0527 28.223 12.728 27.904C13.09 26.642 13.54 25.34 14.048 24.04C14.45 24.82 14.872 25.604 15.332 26.388C15.792 27.17 16.26 27.934 16.74 28.676ZM23.97 8.316C24.88 9.256 25.79 10.302 26.69 11.448C25.81 11.408 24.91 11.378 24 11.378C23.08 11.378 22.17 11.398 21.28 11.448C22.16 10.302 23.07 9.256 23.97 8.316ZM16.73 14.08C15.7597 15.5899 14.8653 17.1471 14.05 18.746C13.5364 17.4709 13.0859 16.1713 12.7 14.852C13.98 14.548 15.332 14.284 16.73 14.08ZM7.876 26.328C4.412 24.852 2.172 22.914 2.172 21.378C2.172 19.842 4.412 17.894 7.876 16.428C8.716 16.066 9.636 15.742 10.586 15.44C11.144 17.356 11.878 19.352 12.786 21.398C11.9287 23.3224 11.2037 25.303 10.616 27.326C9.6869 27.0383 8.77247 26.7053 7.876 26.328V26.328ZM13.14 40.308C11.81 39.548 11.232 36.64 11.682 32.904C11.79 31.984 11.966 31.014 12.182 30.026C14.098 30.496 16.192 30.858 18.394 31.094C19.6404 32.8134 21 34.4477 22.464 35.986C19.274 38.95 16.28 40.574 14.244 40.574C13.8599 40.5782 13.4807 40.4875 13.14 40.31V40.308ZM36.348 32.854C36.808 36.592 36.24 39.498 34.918 40.27C34.626 40.446 34.244 40.524 33.794 40.524C31.768 40.524 28.764 38.91 25.574 35.964C27.0319 34.4321 28.3824 32.8016 29.616 31.084C31.7123 30.8693 33.7913 30.5097 35.838 30.008C36.064 30.996 36.238 31.944 36.348 32.854V32.854ZM40.114 26.328C39.274 26.69 38.354 27.014 37.404 27.316C36.8059 25.2826 36.0709 23.2921 35.204 21.358C36.104 19.324 36.826 17.338 37.374 15.43C38.3061 15.7186 39.2238 16.0517 40.124 16.428C43.588 17.904 45.828 19.842 45.828 21.378C45.818 22.914 43.578 24.862 40.114 26.328V26.328Z" fill="#111111"/>
-                    <path d="M23.9896 25.8503C25.1756 25.8503 26.3131 25.3791 27.1518 24.5404C27.9904 23.7018 28.4616 22.5643 28.4616 21.3783C28.4616 20.1922 27.9904 19.0547 27.1518 18.2161C26.3131 17.3774 25.1756 16.9063 23.9896 16.9062C22.8035 16.9063 21.6661 17.3774 20.8274 18.2161C19.9887 19.0547 19.5176 20.1922 19.5176 21.3783C19.5176 22.5643 19.9887 23.7018 20.8274 24.5404C21.6661 25.3791 22.8035 25.8503 23.9896 25.8503V25.8503Z" fill="#111111"/>
-                    </svg>
-
-                <h5 class="processHead">3.DESIGN</h5>
-                <p class="processPara">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim illum labore distinctio corporis ratione voluptatum
-                    magni sit quis facilis natus. Tempora harum nihil aspernatur quidem quod. Deserunt non eius aspernatur,
-                     provident saepe natus numquam veniam molestiae, sit dolorum laudantium quibusdam?</p>
-
-
-            </div>
-
-            <div class="col-lg-3">
-                <svg class="process_icon" width="42" height="37" viewBox="0 0 42 37" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M6 18H15V21H6V18ZM6 12H21V15H6V12ZM6 6H21V9H6V6Z" fill="#111111"/>
-                    <path d="M18 33H3V3H39V18H42V3C42 2.20435 41.6839 1.44129 41.1213 0.87868C40.5587 0.31607 39.7956 0 39 0H3C2.20435 0 1.44129 0.31607 0.87868 0.87868C0.31607 1.44129 0 2.20435 0 3V33C0 33.7956 0.31607 34.5587 0.87868 35.1213C1.44129 35.6839 2.20435 36 3 36H18V33Z" fill="#111111"/>
-                    <path d="M30 32.385L26.115 28.5L24 30.615L30 36.615L42 24.615L39.885 22.5L30 32.385Z" fill="#111111"/>
-                    </svg>
-
-
-                <h5 class="processHead">4.VALIDATE</h5>
-                <p class="processPara" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim illum labore distinctio corporis ratione voluptatum
-                    magni sit quis facilis natus. Tempora harum nihil aspernatur quidem quod. Deserunt non eius aspernatur,
-                     provident saepe natus numquam veniam molestiae, sit dolorum laudantium quibusdam?</p>
-
-            </div>
-        </div>
-        </div>
-    </section> -->
-
-
-    <!-- WORK -->
-
-    <secction id="work">
-        <div class="container-fluid secHeadBorder">
-            <h4 class="sectionHead">Featured Work</h4>
-        </div>
-        <div class="container-fluid">
-            <a href="PostUp.html">
-                <div class="row postup">
-                    <div class="col-lg-6">
-                        <h1 class="workName">PostUp</h1>
-                        <p class="workPara">space locator for freelancers and remote workers in Newyork.</p>
-                    </div>
-                    <!-- <div class="col-lg-6">
-                        <button type="button" class="btn btn-outline-light rounded-pill btn-lg btn-sm CSbtnPU">View Case Study</button>
-                    </div> -->
-
-                </div>
+    <!-- ----------------------------------------------------------------------- -->
+    <!-- MAIN SECTION  -->
+    <section class="mainSection">
+      <!-- HERO SECTION  -->
+      <section class="heroSection">
+        <div class="container hero">
+          <div class="heroInfo">
+            <h1>Hi I'm Abhishek !</h1>
+            <p>
+              A UX/HCI generalist passionate about design, people, business and
+              technology, with 10+ years of experience crafting spatial and
+              digital experiences. I also code a bit, as a hobby.
+            </p>
+            <a href="./About me.html">
+              <h5 class="aboutMe">Know more about me →</h5>
             </a>
+          </div>
         </div>
+      </section>
+      <!-- ----------------------------------------------------------------------- -->
 
-        <div class="container-fluid">
-            <a href="Easycourts.html">
-                <div class="row Easycourt">
-                    <div class="col-lg-6">
-                        <h1 class="workName">Easy court</h1>
-                        <p class="workPara">digital platform for judicial hearings</p>
-                    </div>
-                    <!-- <div class="col-lg-6">
-                        <button type="button" class="btn btn-outline-light rounded-pill btn-lg btn-sm CSbtnEC">View Case Study</button>
-                    </div> -->
-                </div>
+      <!-- WHAT I DO SECTION -->
+      <section class="whatIDo">
+        <div class="container">
+          <div class="Do">
+            <p class="sectionTitle">What I do</p>
+            <p class="iDo">
+              I research, strategise, design, and refine experiences across
+              products, services, and systems—crafting intuitive interactions
+              that bridge people, businesses, and technology through
+              collaboration and co-creation.
+            </p>
+            <a class="contactButton" href="#contactSection">
+              <p class="">Contact me →</p>
             </a>
+          </div>
         </div>
+      </section>
+      <!-- ----------------------------------------------------------------------- -->
 
-        <div class="container-fluid">
-            <a href="EverythingPets.html">
-                <div class="row EverythingPets">
-                    <div class="col-lg-6">
-                        <h1 class="workName"> <span class="Every">Everything</span> <span class="Pets">Pets</span>  </h1>
-                        <p style="color: #F88AB0;" class="workPara">A complete pet care solution</p>
-                    </div>
-                    <!-- <div class="col-lg-6">
-                        <button type="button" class="btn btn-outline-light rounded-pill btn-lg btn-sm CSbtnEP" style="border-color: #F88AB0; color: #F88AB0;">View Case Study</button>
-                    </div> -->
+      <!-- FEATURED WORK SECTION  -->
+      <section id="featuredwork" class="workSection">
+        <div class="container">
+          <p class="sectionTitle">Featured work</p>
+          <div class="work">
+            <!-- RPOJECT - POST UP -->
+            <div class="project postUp">
+              <div class="projectImage">
+                <div class="projectName">
+                  <p class="company">Post up</p>
+                  <p class="year">'2021</p>
                 </div>
-            </a>
-        </div>
-    </secction>
-
-    <!-- SIDEPROJECTS -->
-
-    <section id="side_project">
-        <div class="container-fluid secHeadBorder">
-            <h4 class="sectionHead">What I've been upto ?</h4>
-        </div>
-        <div class="row sideproject">
-            <div id="carouselExampleDark" class="carousel carousel-light slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <div class="metaTags">
+                  <p class="tags">B2C</p>
+                  <p class="tags">Lean UX</p>
+                  <p class="tags">Design sprint</p>
+                  <p class="tags">CX</p>
+                  <p class="tags">Value proposition canvas</p>
+                  <p class="tags">Mind map</p>
+                  <p class="tags">Usability testing</p>
                 </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active" data-bs-interval="10000">
-                        <div class="img1">
-                        </div>
-                    <div class="carousel-caption">
-                      <h2 class="SPhead">Invoicing solution for Ad-tech</h5>
-                      <p class="SPpara" >Exploring workflows and interfaces for invoicing, for a B2B2C Platform</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item" data-bs-interval="2000">
-                    <div class="img2">
-                    </div>
-                    <div class="carousel-caption">
-                      <h2 class="SPhead" >Exploring DEX's and its future in Finance</h5>
-                      <p class="SPpara" >Understanding and facilitating Digital Custodians services.</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="img3">
-                    </div>
-                    <div class="carousel-caption">
-                      <h2 class="SPhead" >Global Service Jam 2022</h5>
-                      <p class="SPpara" >A global service design jammming event. Mumbai Chapter.</p>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button> -->
               </div>
-
-        </div>
-    </section>
-    <!-- CONTACT -->
-    <section id="contact">
-        <div class="container-fluid secHeadBorder ">
-            <h4 class="sectionHead">Contact me</h4>
-        </div>
-        <div class="container-fluid">
-            <h1 class="email">abhishek.taware.at@gmail.com</h1>
-            <p class="contactContent">I'm always down to colaborate when I have the time !<br>
-                                      I am currently working @ IBM consulting, designing delightful experiences for the users and desired results for our stakeholders and clients, alike! </p>
-            <p class="contactContent2">Reach out for anything design, strategy, research. lets have a chat !</p>
-        </div>
-    </section>
-    <!-- CONNECT -->
-
-    <section id="connect">
-        <div class="container-fluid">
-            <h4 style="padding-top: 1rem; font-weight: 200;" class=" whiteSectionHead">connect with me @</h4>
-        </div>
-
-            <div class="container-fluid">
-                <a href="https://www.linkedin.com/in/abhishektaware" target="_blank" >
-                    <svg class="SML" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M30.25 4C15.7523 4 4 15.7523 4 30.25C4 44.7477 15.7523 56.5 30.25 56.5C44.7477 56.5 56.5 44.7477 56.5 30.25C56.5 15.7523 44.7477 4 30.25 4ZM23.8242 41.1301H18.5086V24.0238H23.8242V41.1301ZM21.1336 21.9238C19.4547 21.9238 18.3691 20.7344 18.3691 19.2633C18.3691 17.7621 19.4875 16.6082 21.202 16.6082C22.9164 16.6082 23.9664 17.7621 23.9992 19.2633C23.9992 20.7344 22.9164 21.9238 21.1336 21.9238ZM43.2383 41.1301H37.9227V31.65C37.9227 29.4434 37.1516 27.9449 35.2293 27.9449C33.7609 27.9449 32.8887 28.9594 32.5031 29.9355C32.3609 30.2828 32.3254 30.775 32.3254 31.2645V41.1273H27.007V29.4789C27.007 27.3434 26.9387 25.5578 26.8676 24.0211H31.4859L31.7293 26.3973H31.8359C32.5359 25.2816 34.2504 23.6355 37.1188 23.6355C40.616 23.6355 43.2383 25.9789 43.2383 31.0156V41.1301V41.1301Z" fill="white"/>
-                    </svg>
-
+              <div class="projectInfo">
+                <div class="projectContent">
+                  <div class="projectTitle">
+                    <p class="smallTitle">Mobile application</p>
+                  </div>
+                  <div class="projectDescription">
+                    <p>
+                      Enabling freelancers and remote workers locate spaces to
+                      work from.
+                    </p>
+                  </div>
+                </div>
+                <a href="PostUp.html">
+                  <div class="projectButton">
+                    <p>View casestudy →</p>
+                  </div>
                 </a>
-
-                <a href="https://www.behance.net/ATDsign" target="_blank">
-                    <svg class="SML" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M24.627 27.5566C25.1367 27.1875 25.3828 26.5781 25.3828 25.7402C25.4004 25.3418 25.3184 24.9492 25.1426 24.5918C24.9844 24.3047 24.75 24.0645 24.4629 23.8945C24.1652 23.714 23.8346 23.5945 23.4902 23.543C23.1152 23.4727 22.7344 23.4375 22.3594 23.4434H18.2402V28.1133H22.6992C23.4668 28.1191 24.1172 27.9316 24.627 27.5566ZM25.3184 31.7754C24.7441 31.3359 23.9766 31.1191 23.0215 31.1191H18.2285V36.627H22.9277C23.3672 36.627 23.7715 36.5859 24.1641 36.5039C24.5355 36.4313 24.8896 36.2881 25.207 36.082C25.5059 35.8887 25.7461 35.625 25.9277 35.2852C26.1035 34.9453 26.1914 34.5117 26.1914 33.9902C26.1914 32.9531 25.8984 32.2207 25.3184 31.7754ZM30 3.75C15.5039 3.75 3.75 15.5039 3.75 30C3.75 44.4961 15.5039 56.25 30 56.25C44.4961 56.25 56.25 44.4961 56.25 30C56.25 15.5039 44.4961 3.75 30 3.75ZM35.0684 20.5605H43.1777V22.5352H35.0684V20.5605ZM30 36.8438C29.6207 37.5637 29.0791 38.1856 28.418 38.6602C27.7266 39.1406 26.959 39.4922 26.1445 39.6973C25.2924 39.9256 24.4134 40.0379 23.5312 40.0312H13.8281V20.0449H23.2617C24.2168 20.0449 25.084 20.1328 25.875 20.2969C26.6602 20.4609 27.3281 20.7422 27.8906 21.123C28.4473 21.5039 28.8867 22.0137 29.1973 22.6465C29.502 23.2734 29.6602 24.0586 29.6602 24.9902C29.6602 25.998 29.4316 26.8301 28.9746 27.5039C28.5117 28.1777 27.8438 28.7227 26.9355 29.1504C28.1719 29.502 29.0801 30.1289 29.6777 31.0078C30.2871 31.8984 30.5859 32.9648 30.5859 34.2188C30.5859 35.2383 30.3926 36.1113 30 36.8438ZM46.3359 33.75H35.8828C35.8828 34.8867 36.2754 35.9766 36.8672 36.5625C37.4648 37.1426 38.3203 37.4355 39.4395 37.4355C40.248 37.4355 40.9336 37.2305 41.5195 36.8262C42.0996 36.4219 42.4512 35.9941 42.5801 35.5488H46.084C45.5215 37.2891 44.666 38.5312 43.5059 39.2812C42.3574 40.0312 40.9512 40.4062 39.3164 40.4062C38.1738 40.4062 37.1484 40.2188 36.2285 39.8613C35.3438 39.5156 34.5469 38.9883 33.8906 38.3086C33.2436 37.6106 32.7434 36.7896 32.4199 35.8945C32.0625 34.9043 31.8867 33.8613 31.8984 32.8125C31.8984 31.7285 32.0801 30.7207 32.4316 29.7832C33.1055 27.9609 34.5059 26.502 36.293 25.7461C37.248 25.3477 38.2734 25.1484 39.3105 25.1602C40.541 25.1602 41.6074 25.3945 42.5332 25.875C43.4245 26.3338 44.1983 26.9914 44.7949 27.7969C45.3867 28.5996 45.8027 29.5137 46.0664 30.5449C46.3184 31.5586 46.4062 32.625 46.3359 33.75ZM39.1875 28.1484C38.5547 28.1484 38.0215 28.2598 37.6113 28.4766C37.2012 28.6934 36.8613 28.9629 36.6035 29.2734C36.358 29.5733 36.1765 29.9203 36.0703 30.293C35.9766 30.6035 35.9121 30.9199 35.8887 31.2422H42.3633C42.2695 30.2285 41.918 29.4785 41.4492 28.9512C40.957 28.4297 40.166 28.1484 39.1875 28.1484Z" fill="white"/>
-                    </svg>
-                </a>
-
-                <a href="https://medium.com/@abhishek.taware.at" target="_blank">
-                    <svg class="SML" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M30 3.75C15.5039 3.75 3.75 15.5039 3.75 30C3.75 44.4961 15.5039 56.25 30 56.25C44.4961 56.25 56.25 44.4961 56.25 30C56.25 15.5039 44.4961 3.75 30 3.75ZM45 18.6152L42.6094 20.9062C42.3984 21.0645 42.2988 21.3223 42.3398 21.5742C42.3398 28.1575 42.3398 31.8484 42.3398 38.4316C42.2988 38.6895 42.3984 38.9473 42.6094 39.0996L44.9531 41.3906V41.9004H33.1875V41.4141L35.6074 39.0645C35.8477 38.8242 35.8477 38.7539 35.8477 38.3965C35.8477 33.0695 35.8477 30.0829 35.8477 24.7559L29.1094 41.8418H28.2012L20.3613 24.7559V36.2109C20.291 36.6914 20.4609 37.1777 20.8008 37.5234L23.9531 41.3379V41.8477H15V41.3379L18.1523 37.5234C18.3184 37.3519 18.442 37.1438 18.5133 36.9159C18.5845 36.688 18.6013 36.4465 18.5625 36.2109V22.9688C18.6035 22.5996 18.4629 22.2422 18.1816 21.9902L15.3809 18.6152V18.1055H24.082L30.7969 32.8418L36.709 18.1172H45V18.6152Z" fill="white"/>
-                    </svg>
-
-                </a>
-
-                <a href="https://github.com/abhishektaware" target="_blank">
-                    <svg class="SML" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M30.25 4C15.7469 4 4 16.044 4 30.914C4 42.8234 11.5141 52.8825 21.9484 56.4486C23.2609 56.6841 23.7531 55.8767 23.7531 55.1702C23.7531 54.531 23.7203 52.4115 23.7203 50.1574C17.125 51.4022 15.4188 48.509 14.8938 46.9951C14.5984 46.2213 13.3187 43.8327 12.2031 43.1935C11.2844 42.6888 9.97187 41.4441 12.1703 41.4104C14.2375 41.3768 15.7141 43.3617 16.2062 44.1691C18.5687 48.2398 22.3422 47.096 23.8516 46.3895C24.0812 44.6401 24.7703 43.4626 25.525 42.7897C19.6844 42.1169 13.5813 39.7956 13.5813 29.501C13.5813 26.5741 14.5984 24.1518 16.2719 22.2679C16.0094 21.595 15.0906 18.8363 16.5344 15.1357C16.5344 15.1357 18.7328 14.4292 23.7531 17.8943C25.8531 17.2888 28.0844 16.986 30.3156 16.986C32.5469 16.986 34.7781 17.2888 36.8781 17.8943C41.8984 14.3955 44.0969 15.1357 44.0969 15.1357C45.5406 18.8363 44.6219 21.595 44.3594 22.2679C46.0328 24.1518 47.05 26.5404 47.05 29.501C47.05 39.8292 40.9141 42.1169 35.0734 42.7897C36.025 43.6308 36.8453 45.2456 36.8453 47.7688C36.8453 51.3686 36.8125 54.2618 36.8125 55.1702C36.8125 55.8767 37.3047 56.7177 38.6172 56.4486C43.8282 54.6447 48.3563 51.2109 51.5643 46.6303C54.7722 42.0497 56.4984 36.5531 56.5 30.914C56.5 16.044 44.7531 4 30.25 4Z" fill="white"/>
-                    </svg>
-                </a>
+              </div>
             </div>
-            <hr style="color: white;">
-            <footer style="color:#fff; padding: 0; "> © Abhishek Taware 2022 all rights reserved </footer>
-    </section>
+            <!-- RPOJECT - POST UP - END -->
+            <!-- RPOJECT - OFFERING MGMT -->
+            <div class="project2 oM">
+              <div class="projectImage">
+                <div class="projectName">
+                  <p class="company">IBM iX</p>
+                  <p class="year">'2023-2024</p>
+                </div>
+                <div class="metaTags">
+                  <p class="tags">Enterprise platform</p>
+                  <p class="tags">Design strategy & management</p>
+                  <p class="tags">
+                    data driven intelligent workflow automation
+                  </p>
+                  <p class="tags">Carbon design system</p>
+                  <p class="tags">Designed for AI</p>
+                  <p class="tags">Generative & evaluative research</p>
+                </div>
+              </div>
+              <div class="projectInfo">
+                <div class="projectContent">
+                  <div class="projectTitle">
+                    <p class="smallTitle">Offering management acceleration</p>
+                  </div>
+                  <div class="projectDescription">
+                    <p>
+                      Achieving 4X faster product release cycle times with
+                      automated data driven intelligent workflows + AI, across
+                      business units.
+                    </p>
+                  </div>
+                </div>
+                <a
+                  href="https://topmate.io/abhishektaware/1472879"
+                  class=""
+                  target="_blank"
+                >
+                  <div class="projectButton">
+                    <p>Schedule a interview call →</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <!-- RPOJECT - OFFERING MGMT - END -->
+            <!-- RPOJECT - POWER -->
+            <div class="project power">
+              <div class="projectImage">
+                <div class="projectName">
+                  <p class="company">IBM iX</p>
+                  <p class="year">'2024-'2025</p>
+                </div>
+                <div class="metaTags">
+                  <p class="tags">Enterprise web applications</p>
+                  <p class="tags">Manufacturing & supply chain</p>
+                  <p class="tags">Designed for AI</p>
+                  <p class="tags">CMMI</p>
+                  <p class="tags">Industry 4.0</p>
+                </div>
+              </div>
+              <div class="projectInfo">
+                <div class="projectContent">
+                  <div class="projectTitle">
+                    <p class="smallTitle">Manufacturing - Power industry</p>
+                  </div>
+                  <div class="projectDescription">
+                    <p>
+                      Advancing Capability Maturity Model Integration (CMMI),
+                      with Industry 4.0 technologies.
+                    </p>
+                  </div>
+                </div>
+                <a
+                  href="https://topmate.io/abhishektaware/1472879"
+                  class=""
+                  target="_blank"
+                >
+                  <div class="projectButton">
+                    <p>Schedule a interview call →</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <!-- RPOJECT - POWER - END -->
+            <!-- RPOJECT - TELECOM 1 -->
+            <div class="project2 telecom">
+              <div class="projectImage">
+                <div class="projectName">
+                  <p class="company">IBM iX</p>
+                  <p class="year">'2023</p>
+                </div>
+                <div class="metaTags">
+                  <p class="tags">Enterprise web applications</p>
+                  <p class="tags">AI + business operations</p>
+                  <p class="tags">POC</p>
+                  <p class="tags">0-1 products</p>
+                  <p class="tags">MVP’s</p>
+                </div>
+              </div>
+              <div class="projectInfo">
+                <div class="projectContent">
+                  <div class="projectTitle">
+                    <p class="smallTitle">Telecom business operations</p>
+                  </div>
+                  <div class="projectDescription">
+                    <p>
+                      Optimising business operations with AI + automation &
+                      analytics for a telecom giant.
+                    </p>
+                  </div>
+                </div>
+                <a
+                  href="https://topmate.io/abhishektaware/1472879"
+                  class=""
+                  target="_blank"
+                >
+                  <div class="projectButton">
+                    <p>Schedule a interview call →</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <!-- RPOJECT - TELECOM 1 - END -->
+            <!-- RPOJECT - BANKING -->
+            <div class="project banking">
+              <div class="projectImage">
+                <div class="projectName">
+                  <p class="company">IBM iX</p>
+                  <p class="year">'2022</p>
+                </div>
+                <div class="metaTags">
+                  <p class="tags">B2B</p>
+                  <p class="tags">Development phase</p>
+                  <p class="tags">UX testing & management</p>
+                  <p class="tags">Design bugs & CR-Change Request</p>
+                  <p class="tags">Desktop & tab web app</p>
+                </div>
+              </div>
+              <div class="projectInfo">
+                <div class="projectContent">
+                  <div class="projectTitle">
+                    <p class="smallTitle">Commercial banking services</p>
+                  </div>
+                  <div class="projectDescription">
+                    <p>
+                      Delivering pixel perfect design excellence for a financial
+                      services client, migrating technologies.
+                    </p>
+                  </div>
+                </div>
+                <a href="Banking.html">
+                  <div class="projectButton">
+                    <p>View casestudy →</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <!-- RPOJECT - BANKING - END -->
+            <!-- RPOJECT - EVERYTHING PETS -->
+            <div class="project2 everythingPets">
+              <div class="projectImage">
+                <div class="projectName">
+                  <p class="company">Everything pets</p>
+                  <p class="year">'2020</p>
+                </div>
+                <div class="metaTags">
+                  <p class="tags">B2C</p>
+                  <p class="tags">CX</p>
+                  <p class="tags">Design thinking</p>
+                  <p class="tags">Generative & evaluative research</p>
+                  <p class="tags">User journey</p>
+                  <p class="tags">Information Architecture</p>
+                </div>
+              </div>
+              <div class="projectInfo">
+                <div class="projectContent">
+                  <div class="projectTitle">
+                    <p class="smallTitle">Mobile application</p>
+                  </div>
+                  <div class="projectDescription">
+                    <p>
+                      Elevating pet wellness management while strengthening
+                      emergency aid for animals.
+                    </p>
+                  </div>
+                </div>
+                <a href="EveryhingPets.html">
+                  <div class="projectButton">
+                    <p>View casestudy →</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <!-- RPOJECT - EVERYTHING PETS - END -->
+          </div>
+        </div>
+      </section>
+      <!-- ----------------------------------------------------------------------- -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-</body>
+      <!-- CONTACT ME SECTION  -->
+      <section id="contactSection" class="contactMe">
+        <div class="container contact">
+          <p class="sectionTitle">Contact me</p>
+          <div class="contactContent">
+            <p class="email">abhishek.taware.at@gmail.com</p>
+            <p>
+              I’m always open to collaboration when time allows! <br />
+              Currently, I work as a Sr. UX Designer at IBM iX, crafting
+              seamless experiences for users while delivering impactful outcomes
+              for businesses.
+            </p>
+            <a href="https://topmate.io/abhishektaware" target="_blank">
+              <h5 class="scheduleCall">Schedule a call →</h5>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- ----------------------------------------------------------------------- -->
+
+      <!-- FOOTER SECTION  -->
+      <section class="footer">
+        <div class="flex-row footerContent">
+          <div class="socialMedia">
+            <p class="sectionTitle">You can also look me up on</p>
+            <div class="social">
+              <!-- LINKEDIN  -->
+              <a
+                href="https://www.linkedin.com/in/abhishektaware/"
+                target="_blank"
+              >
+                <img class="link" src="./Assets/Homepage/LinkedIn.png" alt="" />
+              </a>
+              <!-- MEDIUM  -->
+              <a href="https://medium.com/@abhishek.taware.at" target="_blank">
+                <img class="link" src="./Assets/Homepage/Medium.png" alt="" />
+              </a>
+              <!-- BEHANCE  -->
+              <a href="https://www.behance.net/ATDsign" target="_blank">
+                <img class="link" src="./Assets/Homepage/Behance.png" alt="" />
+              </a>
+              <!-- GITHUB  -->
+              <a href="https://github.com/abhishektaware" target="_blank">
+                <img class="link" src="./Assets/Homepage/GitHub.png" alt="" />
+              </a>
+              <!-- TOPMATE  -->
+              <a href="https://topmate.io/abhishektaware" target="_blank">
+                <img class="link" src="./Assets/Homepage/Topmate.png" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="footerLinks">
+            <div class="hiring">
+              <p class="footerHeading">Hiring</p>
+
+              <a
+                href="https://topmate.io/abhishektaware/1472879"
+                target="_blank"
+              >
+                <p class="flexParaHeading link footerLink">
+                  Schedule a hiring discussion call with me
+                </p>
+              </a>
+
+              <p class="flexParaHeading link">Request password for a project</p>
+
+              <a
+                href="./Assets/Resume 2024 - Sr. UX Designer.pdf"
+                target="_blank"
+              >
+                <p class="flexParaHeading link footerLink">Resume</p>
+              </a>
+
+              <a href="About me.html">
+                <p class="flexParaHeading link footerLink">About me</p>
+              </a>
+
+              <a href="index.html#featuredwork">
+                <p class="flexParaHeading link footerLink">Featured work</p>
+              </a>
+
+              <a href="#contactSection">
+                <p class="flexParaHeading link footerLink">Contact me</p>
+              </a>
+            </div>
+            <div class="students">
+              <p class="footerHeading">Students & professionals</p>
+
+              <a
+                href="https://topmate.io/abhishektaware/1471139"
+                target="_blank"
+              >
+                <p class="flexParaHeading link footerLink">
+                  Schedule 1 on 1 portfolio review call with me
+                </p>
+              </a>
+
+              <a
+                href="https://topmate.io/abhishektaware/1472867"
+                target="_blank"
+              >
+                <p class="flexParaHeading link footerLink">
+                  Schedule 1 on 1 career guidance call with me
+                </p>
+              </a>
+
+              <a
+                href="https://topmate.io/abhishektaware/1472877"
+                target="_blank"
+              >
+                <p class="flexParaHeading link footerLink">
+                  Schedule 1 on 1 Ask Me Anything call with me
+                </p>
+              </a>
+
+              <p class="flexParaHeading footerLink learn">
+                Learn UX from me <span class="tags"> Coming soon !</span>
+              </p>
+
+              <a href="index.html#featuredwork">
+                <p class="flexParaHeading link footerLink">Featured work</p>
+              </a>
+
+              <a href="#contactSection">
+                <p class="flexParaHeading link footerLink">Contact me</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <p class="footerText">© Abhishek Taware 2025 all rights reserved</p>
+      </section>
+      <!-- ----------------------------------------------------------------------- -->
+    </section>
+  </body>
 </html>

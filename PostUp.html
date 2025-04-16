@@ -1,383 +1,671 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <!-- Fav Icon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="images/Favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="images/Favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="images/Favicon/favicon-16x16.png">
-  <link rel="manifest" href="images/Favicon/site.webmanifest">
-    <!-- Title -->
-    <title>Work - PostUp</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles1.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fav Icon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./Assets/Favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./Assets/Favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./Assets/Favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./Assets/Favicon/site.webmanifest" />
 
-    <!-- NAVBAR -->
-    <div class="container-fluid navigation">
-        <nav class="navbar fixed-top navbar-expand-xl navbar-light bg-light">
-            <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Abhishek Taware</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-                 <ul class="navbar-nav">
-                     <li class="nav-item">
-                        <a class="nav-link" href="index.html#work">Work</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html#WHTIDO">About</a>
-                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html#contact">Contact</a>
-                    </li>
-                    </ul>
-                    </div>
-            </div>
-      </nav>
+    <!-- Title  -->
+    <title>Abhishek Taware - Post Up</title>
+    <!-- GOOGLE FONTS LINK -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS  -->
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <!-- ----------------------------------------------------------------------- -->
+  <!-- NAVBAR -->
+  <section class="navbarSection">
+    <div class="navbar">
+      <div>
+        <a href="./index.html" class=""
+          ><p class="brand">Abhishek Taware</p>
+        </a>
+      </div>
+      <div class="navigation">
+        <a href="./index.html#featuredwork" class="">
+          <p class="link">Work</p>
+        </a>
+
+        <a href="./About me.html#contactSection" class="">
+          <p class="link">Contact</p>
+        </a>
+
+        <a href="./About me.html" class="">
+          <p class="link">About me</p>
+        </a>
+
+        <a href="./Assets/Resume 2024 - Sr. UX Designer.pdf" target="_blank">
+          <p class="link">Resume</p>
+        </a>
+      </div>
+
+      <div class="menu">
+        <img src="./Assets/Homepage/Nav_menu.svg" alt="" />
+      </div>
     </div>
-
-
-    <!-- PROJECT HEAD -->
-
-    <section id="Head" >
-        <div class="container-fluid Hero">
-            <div class="row">
-                <div class="col-lg-6 headerPU" >
-                <img class="img-fluid EPL" src="images/Postup/PU-Logo@.75x.png" alt=""> 
-                <h1 class="display-2 projectHeadingPU"> Post Up </h1>
-                <p class="projectHeadingParaPU">Enabling freelancers and remote workers find spaces to work from.</p></div>
-                <div class="col-lg-6 headerPU2">
-                    <img class="img-fluid mx-auto d-block gif1" src="images/Postup/Hero.gif" alt="">
-                </div>
-            </div>
+  </section>
+  <!-- ----------------------------------------------------------------------- -->
+  <body>
+    <!-- MAIN SECTION  -->
+    <section class="mainSection postUp">
+      <!--PROJ HERO SECTION  -->
+      <div class="container csHero flex-column">
+        <div class="csProjHero">
+          <div class="projectTitle">
+            <p class="smallTitle">Space locator - mobile application</p>
+            <p class="sectionBigTitle">Post up</p>
+          </div>
+          <div class="metaTags">
+            <p class="tags">Lean UX</p>
+            <p class="tags">Design sprint</p>
+            <p class="tags">Affinity mapping</p>
+            <p class="tags">Value proposition canvas</p>
+            <p class="tags">Impact x effort</p>
+            <p class="tags">Mind map</p>
+            <p class="tags">Usability testing</p>
+          </div>
         </div>
-    </section>
-
-    <section id="projectBrief">
-        <div class="container-fluid brief">
-            <div class="row">
-                <div class="col-lg-8" style="padding-right: 10%;">
-                    <h6 class="heading">PROJECT BRIEF</h6>
-                    <p>PostUp is a new startup where freelancers and remote workers share tips and advice. Recently, it has seen lots of feedback and discussions about how to find good public spaces to work. Hence they want to make it easier for freelancers and remote workers to find great public places to work from.</p>
-                    <h6 class="heading">PROJECT CONSTRAINS</h6>
-                        <p> Solution should be designed as a mobile application.</p>
-                        <p>Help users find places that already exist.</p>
-                        <p>Charge users a monthly fee of $5.99 in exchange for access to PostUp information.</p>      
-                </div>
-                <div class="col-lg-4" style="padding-right: 10%; ">
-                    <h6 class="heading">TASK</h6>
-                        <p>
-                            RESEARCH SYNTHESIS <br> (Persona, affinity map, HMW’s, ) <br><br>
-                      
-                            UX STRATEGY <br> (Value Proposition Map, Impact effort Matrix, User Mapping and usability testing) <br><br>
-                        
-                            INTERACTION DESIGN <br> (Wireframes, Protypes, Micro-interaction)
-                        </p>
-                </div>
+        <div class="infoHorizontal">
+          <div class="flexParaDiv Role">
+            <p class="flexParaHeading">Role</p>
+            <p class="flexPara">IC Product designer</p>
+          </div>
+          <div class="flexParaDiv">
+            <p class="flexParaHeading">My contribution</p>
+            <div class="infoHorizontal">
+              <p class="flexPara">
+                As the sole product designer, led the end-to-end design process,
+                ensuring user needs guided every decision.Synthesized research
+                into personas, affinity maps, and "How Might We" statements to
+                define challenges and streamline the design direction.
+              </p>
+              <p class="flexPara">
+                Facilitated ideation using the Value Proposition Canvas and
+                Impact-Effort Matrix, balancing user impact with feasibility. By
+                mapping workflows, sketching UI concepts, and structuring the
+                app’s information architecture, I established a strong
+                foundation for development.
+              </p>
+              <p class="flexPara">
+                Created wireframes, built an interactive prototype, and
+                conducted usability tests with five users. Documented usability
+                feedback and proposed solutions to address key friction points.
+              </p>
             </div>
-        </div>
-    </section>
-
-    <section id="projectPhase">
-        <div class="container-fluid">
-            <h6 class="heading">PROJECT PHASES</h6>
-            <div class="container-fluid" style="margin-top: 3rem; margin-bottom: 3rem;">
-                <div class="row">
-                    <img class="img-fluid" src="images/Postup/ProjectPhases.png" alt=""> 
-                <!-- RECREATE THIS IMAGE its pixelating -->
-                </div>
-                
-            </div>
-        </div>
-    </section>
-
-    <!-- DAY 1 -->
-
-    <section id="day1">
-
-    <div class="container-fluid phase">
-            <h5 class="PU-heading2">PHASE 1</h5>
-            <h5 class="heading2">SYNTHESIZING RESEARCH</h5>
-    </div>
-        
-
-        <div class="container-fluid">
-            <p class= "projectPara">
-                The first day of the design sprint was spent understanding the problem through synthesising the research data. As the targeted segment was freelancers and remote workers in New York, I drafted a User Persona for the same while infusing the user interview research data into it.
+          </div>
+          <div class="flexParaDiv">
+            <p class="flexParaHeading">Key outcomes</p>
+            <p class="flexPara">
+              The project successfully delivered a user-centric solution with a
+              clear MVP scope and an intuitive design framework. Early testing
+              validated key design decisions, reducing potential usability
+              issues before development. My contributions helped create a
+              scalable foundation, ensuring the product aligned with both user
+              needs and business goals.
             </p>
-            <div class="container-fluid">
-                <div class="row">
-                    <img class="img-fluid" src="images/Postup/User Persona.jpg" alt="">
-                    <figcaption>User Persona</figcaption>
-                </div>
-            </div>
-            <p class= "projectPara">Following, I transferred all the valuable research data onto stickies in Miro, to better understand the user pains, behaviour and goals. Later segmenting the data into various buckets using Affinity Map.</p>
-            
-            <div class="container-fluid">
-                <div class="row">
-                    <img src="images/Postup/SB Sprint - Affinity Map.jpg" alt="">
-                    <figcaption>Affinity Map</figcaption>
-                </div>
-            </div>
+          </div>
+        </div>
+      </div>
+      <!--PROJ HERO SECTION END -->
 
-            <p class= "projectPara">
-                There on, I phrased a single HMW statement, for each of the affinity buckets, while once again going through all the user pains, behaviours and goals listed under each bucket.
+      <!-- PROJ PROTOTYPE SECTION -->
+      <section class="prototypeVideo">
+        <hr />
+        <div class="container prototypeVid">
+          <video
+            autoplay
+            loop
+            muted
+            src="./Assets/Casestudy/Post_up/Interaction 1.5 .mp4"
+            style="width: 100%"
+          ></video>
+        </div>
+        <hr />
+      </section>
+      <!-- PROJ PROTOTYPE SECTION END -->
+
+      <!-- PROJ OVERVIEW SECTION  -->
+      <div class="container overview">
+        <p class="cs-sectionTitle">Overview & approach</p>
+        <div class="EDT">
+          <div class="EDTimage"></div>
+          <div class="overviewInfo flex-column">
+            <div class="flexParaDiv">
+              <p class="flexParaHeading">Assignment overview</p>
+              <p class="flexPara">
+                PostUp is a new startup where freelancers and remote workers
+                share tips and advice. Recently, it has seen lots of feedback
+                and discussions about how to find good public spaces to work.
+                Hence they want to make it easier for freelancers and remote
+                workers to find great public places to work from.
+              </p>
+              <p class="flexPara">The project constrains were as follows:</p>
+              <ul>
+                <li>Solution should be designed as a mobile application.</li>
+                <li>Help users find places that already exist.</li>
+                <li>
+                  Charge users a monthly fee of $5.99 in exchange for access to
+                  PostUp information.
+                </li>
+              </ul>
+            </div>
+            <div class="infoVertical">
+              <div class="flexParaDiv">
+                <p class="flexParaHeading">Projects</p>
+                <div class="assignmentProjects">
+                  <div class="flex-column projectNumbers">
+                    <h2>1</h2>
+                    <p>Mobile application</p>
+                  </div>
+                </div>
+              </div>
+              <div class="flexParaDiv">
+                <p class="flexParaHeading">Design team</p>
+                <div class="assignmentProjects">
+                  <div class="flex-column projectNumbers">
+                    <h2>1</h2>
+                    <p>IC Product designer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- PROJ OVERVIEW SECTION END -->
+
+      <!-- PROJ PHASE 1 SECTION -->
+      <div class="container phase phase1">
+        <p class="smallTitle">Phase#1</p>
+        <p class="cs-sectionTitle">Synthesising research</p>
+        <div class="flex-column">
+          <div class="imageOverlay">
+            <img
+              src="./Assets/Casestudy/Post_up/Phase_1/Persona.png"
+              class="imgLay img1"
+              alt="Img 1"
+            />
+            <img
+              src="./Assets/Casestudy/Post_up/Phase_1/Affinity_map.png"
+              class="imgLay img2"
+              alt="Img 2"
+            />
+            <img
+              src="./Assets/Casestudy/Post_up/Phase_1/HMW.png"
+              class="imgLay img3"
+              alt="Img 3"
+            />
+          </div>
+          <div class="flex-row">
+            <div class="flexParaDiv">
+              <p class="flexParaHeading">Persona</p>
+              <p>
+                Developed detailed personas based on user research to represent
+                key audience segments, helping guide design decisions with a
+                user-centric approach.
+              </p>
+            </div>
+            <div class="flexParaDiv">
+              <p class="flexParaHeading">Affinity Map</p>
+              <p>
+                Organized qualitative research insights into clusters,
+                identifying patterns in user behavior, pain points, and
+                expectations to uncover key opportunities.
+              </p>
+            </div>
+            <div class="flexParaDiv">
+              <p class="flexParaHeading">HMW - How might we statements</p>
+              <p>
+                Translated research findings into actionable "How Might We"
+                questions to frame design challenges and inspire innovative
+                solutions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- PROJ PHASE 1 SECTION END -->
+
+      <!-- PROJ PHASE 2 SECTION -->
+      <div class="container phase phase2">
+        <p class="smallTitle">Phase#2</p>
+        <p class="cs-sectionTitle">Ideate and prioritise</p>
+        <div class="flex-column">
+          <div class="imageOverlay">
+            <div class="center">
+              <img
+                src="./Assets/Casestudy/Post_up/Phase_2/Value_prop.png"
+                class="imgLay img1"
+                alt="Img 1"
+              />
+              <img
+                src="./Assets/Casestudy/Post_up/Phase_2/Impact_effort.png"
+                class="imgLay img3"
+                alt="Img 2"
+              />
+            </div>
+          </div>
+          <div class="flex-row">
+            <div class="flexParaDiv">
+              <p class="flexParaHeading">Value proposition canvas</p>
+              <p>
+                Mapped user needs, pain points, and gains against the product’s
+                value proposition to align business goals with user expectations
+                and brainstorm ideas.
+              </p>
+            </div>
+            <div class="flexParaDiv">
+              <p class="flexParaHeading">Impact effort matrix</p>
+              <p>
+                Evaluated and prioritized ideas based on their potential impact
+                versus implementation effort, ensuring focus on high-value,
+                feasible solutions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- PROJ PHASE 2 SECTION END -->
+
+      <!-- PROJ PHASE 3 SECTION -->
+      <div class="container phase phase3">
+        <p class="smallTitle">Phase#3</p>
+        <p class="cs-sectionTitle">User mapping & UI sketches</p>
+        <div class="flex-column">
+          <div class="imageOverlay">
+            <div class="center">
+              <img
+                src="./Assets/Casestudy/Post_up/Phase_3/user_mapping.png"
+                class="imgLay img1"
+                alt="Img 1"
+              />
+              <img
+                src="./Assets/Casestudy/Post_up/Phase_3/UI_sketch.png"
+                class="imgLay img3"
+                alt="Img 2"
+              />
+            </div>
+          </div>
+          <div class="flex-row">
+            <div class="flexParaDiv">
+              <p class="flexParaHeading">User mapping</p>
+              <p>
+                Mapped out different ways users might interact with the product,
+                ensuring a seamless and intuitive experience.
+              </p>
+            </div>
+            <div class="flexParaDiv">
+              <p class="flexParaHeading">UI sketches</p>
+              <p>
+                Created multiple UI sketches to visualize potential design
+                solutions, encouraging iterative feedback and alignment among
+                stakeholders.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- PROJ PHASE 3 SECTION END -->
+
+      <!-- PROJ PHASE 4 SECTION -->
+      <div class="container phase phase4">
+        <p class="smallTitle">Phase#4</p>
+        <p class="cs-sectionTitle">Mind mapping & MVP scope</p>
+        <div class="flex-column">
+          <div class="imageOverlay">
+            <div class="center">
+              <img
+                src="./Assets/Casestudy/Post_up/Phase_4/Mind_map.png"
+                class="imgLay img1"
+                alt="Img 1"
+              />
+              <img
+                src="./Assets/Casestudy/Post_up/Phase_4/MVP_flow.png"
+                class="imgLay img3"
+                alt="Img 2"
+              />
+            </div>
+          </div>
+          <div class="flex-row">
+            <div class="flexParaDiv">
+              <p class="flexParaHeading">Mind map</p>
+              <p>
+                Used a mind mapping exercise to define the app’s structure,
+                ensuring logical content organization and easy navigation.
+              </p>
+            </div>
+            <div class="flexParaDiv">
+              <p class="flexParaHeading">MVP scope</p>
+              <p>
+                Identified core features and functionalities essential for the
+                minimum viable product (MVP), balancing business objectives and
+                user needs.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- PROJ PHASE 4 SECTION END -->
+
+      <!-- PROJ PHASE 5 SECTION -->
+      <div class="container phase phase5">
+        <p class="smallTitle">Phase#5</p>
+        <p class="cs-sectionTitle">Wire framing & prototyping</p>
+        <div class="flex-column">
+          <div class="imageOverlay">
+            <div class="center">
+              <img
+                src="./Assets/Casestudy/Post_up/Phase_5/Wire-frames.png"
+                class="imgLay img1"
+                alt="Img 1"
+              />
+              <img
+                src="./Assets/Casestudy/Post_up/Phase_5/Prototype.gif"
+                class="imgLay img3"
+                alt="Img 2"
+              />
+            </div>
+          </div>
+          <div class="flex-row">
+            <div class="flexParaDiv">
+              <p class="flexParaHeading">Wire-framing</p>
+              <p>
+                Designed wireframes based on MVP scope, defining layout,
+                hierarchy, and interactions to create a clear visual
+                representation of the product.
+              </p>
+            </div>
+            <div class="flexParaDiv">
+              <p class="flexParaHeading">Prototyping</p>
+              <p>
+                Developed a high-fidelity interactive prototype to simulate user
+                flows and gather early feedback for iteration before
+                development.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- PROJ PHASE 5 SECTION END -->
+
+      <!-- PROJ PHASE 6 SECTION -->
+      <div class="container phase phase4">
+        <p class="smallTitle">Phase#6</p>
+        <p class="cs-sectionTitle">Usability testing & findings</p>
+        <div class="flex-column">
+          <div class="imageOverlay">
+            <div class="center">
+              <img
+                src="./Assets/Casestudy/Post_up/Phase_6/Script.png"
+                class="imgLay img1"
+                alt="Img 1"
+              />
+              <img
+                src="./Assets/Casestudy/Post_up/Phase_6/Findings_postup.png"
+                class="imgLay img3"
+                alt="Img 2"
+              />
+            </div>
+          </div>
+          <div class="flex-row">
+            <div class="flexParaDiv">
+              <p class="flexParaHeading">
+                Scope, prepare & conduct usability testing
+              </p>
+              <p>
+                Conducted usability tests with five users to evaluate ease of
+                use, uncover friction points, and validate design decisions.
+              </p>
+            </div>
+            <div class="flexParaDiv">
+              <p class="flexParaHeading">Document findings</p>
+              <p>
+                Synthesized usability test results into actionable insights,
+                highlighting areas for refinement and improvement.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- PROJ PHASE 6 SECTION END -->
+
+      <!-- PROJ GROWTH SECTION -->
+      <div class="container growth">
+        <p class="cs-sectionTitle">Growth & learnings</p>
+        <div class="flex-column">
+          <div class="growthImage"></div>
+          <div class="growGrid">
+            <div class="flexParaDiv">
+              <p class="flexParaHeading">User-Centered Validation</p>
+              <p class="flexPara">
+                Strengthened my ability to assess design effectiveness through
+                usability testing, ensuring user feedback directly informed
+                potential improvements.
+              </p>
+            </div>
+            <div class="flexParaDiv">
+              <p class="flexParaHeading">Structured Documentation</p>
+              <p class="flexPara">
+                Enhanced my skills in documenting usability insights and
+                proposing actionable solutions, making it easier for teams to
+                refine the product.
+              </p>
+            </div>
+            <div class="flexParaDiv">
+              <p class="flexParaHeading">Balancing Feasibility & Impact</p>
+              <p class="flexPara">
+                Gained deeper experience in using prioritization frameworks like
+                the Impact-Effort Matrix to align user needs with development
+                constraints.
+              </p>
+            </div>
+            <div class="flexParaDiv">
+              <p class="flexParaHeading">Workflow & Information Architecture</p>
+              <p class="flexPara">
+                Learned how to refine user workflows and structure app
+                information to support scalability and ease of use.
+              </p>
+            </div>
+            <div class="flexParaDiv">
+              <p class="flexParaHeading">Design Communication</p>
+              <p class="flexPara">
+                Improved my ability to translate research findings and usability
+                test results into clear, concise recommendations for
+                decision-making.
+              </p>
+            </div>
+            <div class="flexParaDiv">
+              <p class="flexParaHeading">Independent Ownership</p>
+              <p class="flexPara">
+                Developed stronger confidence in leading the design validation
+                process independently, reinforcing adaptability and
+                problem-solving in a fast-paced environment.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- PROJ GROWTH SECTION END -->
+
+      <!-- THNK YOU  -->
+      <div class="container cs-end">
+        <p class="tags thankYou">Thank you !</p>
+      </div>
+      <!-- THNK YOU END  -->
+
+      <!-- PROJ END NAVIGATION  -->
+      <div class="container endNavigation">
+        <div class="flex-row">
+          <a href="index.html" class="">
+            <p class="tags link home">← Home</p>
+          </a>
+          <a href="Telecom.html#top" class="">
+            <p class="tags link top">Back to top ↑</p>
+          </a>
+          <a href="https://topmate.io/abhishektaware" target="_blank" class="">
+            <p class="tags link call">Schdule 1:1 call →</p>
+          </a>
+          <a href="index.html#featuredwork" class="">
+            <p class="tags link other">View other featured work →</p>
+          </a>
+        </div>
+      </div>
+      <!-- PROJ END NAVIGATION END -->
+
+      <!-- CONTACT ME SECTION  -->
+      <section id="contactSection" class="contactMe">
+        <div class="container contact">
+          <p class="sectionTitle">Contact me</p>
+          <div class="contactContent">
+            <p class="email">abhishek.taware.at@gmail.com</p>
+            <p>
+              I’m always open to collaboration when time allows! <br />
+              Currently, I work as a Sr. UX Designer at IBM iX, crafting
+              seamless experiences for users while delivering impactful outcomes
+              for businesses.
             </p>
-            <div class="container-fluid">
-                <div class="row">
-                    <img src="images/Postup/HMW's.png" alt="">
-                    <figcaption>HMW's</figcaption>
-                </div>
-            </div>
-
-            <p class= "projectPara">
-                As much I would have loved to jump into the sketching phase for ideation at this point, I decided to go through an another process of Value Proposition Canvas. As being the one man UX team for this sprint, so as to refine the data and arrive at impactful solutions for the users.
-            </p>
-
-            <div class="container-fluid">
-                <div class="row">
-                    <img src="images/Postup/SB Sprint - Value Proposition Canvas.jpg" alt="">
-                    <figcaption>Value Proposition Canvas</figcaption>
-                </div>
-            </div>
-
-            <p class= "projectPara">
-                Once we have have refined our value proposition through the value proposition canvas it was time to to validate these proposition and prioritise. The impact effort matrix, here I got the time to reason with the ideas generated during the Value Proposition Canvassing, which helped me to decide what ideas were worth pursuing or investing, any further time and efforts.
-            </p>
-
-            <div class="container-fluid">
-                <div class="row">
-                    <img src="images/Postup/SB Sprint - Impact Effort.jpg" alt="">
-                    <figcaption>Impact x Effort matrix</figcaption>
-                </div>
-            </div>
-            <p class= "projectPara">So, with all that said and done I concluded my Day-1 of the design sprint.!</p>
-        </div>
- 
-    </section>
-
-<!-- DAY 2 -->
-
-<section id="day2">
-
-    <div class="container-fluid phase">
-            <h5 class="PU-heading2">PHASE 2</h5>
-            <h5 class="heading2">USER MAPPING AND SKETCHING</h5>
-    </div>
-    
-    <div class="container-fluid">
-        <p class= "projectPara">
-            Once I had a clear Idea after synthesising and refining the research data with various processes, I went on to sketching, user maps and UI screens, integrated with the findings on the Value proposition canvassing with reference to the Impact x Effort Mapping as well as the user interviews and the user persona.
-        </p>
-        <div class="container-fluid">
-            <div class="row">
-                <img class="img-fluid" src="images/Postup/SB Sprint - User Mapping.jpg" alt="">
-                <figcaption>User Mapping</figcaption>
-            </div>
-        </div>
-        <p class= "projectPara">
-            After quickly sketching a few user maps I started getting a fair idea about how a user may interact with the product to efficiently attain his goals, I moved on to sketching some UI solutions.
-        </p>
-        <div class="container-fluid">
-            <div class="row">
-                <img class="img-fluid" src="images/Postup/UI Sketches.png" alt="">
-                <figcaption>Ideation Sketches</figcaption>
-            </div>
-        </div>
-        <p class= "projectPara">While sketching the UI screens, I tried to label almost and all the possible UI elements of a screen as well as made notes along the UI about the C2A’s and also how they might help us later with analytics and future strategies and with this the Day-2 of the sprint concluded.
-        </p>
-
-    </div>
-</section>
-
-<!-- DAY 3 -->
-
-<section id="day3">
-<div class="container-fluid phase">
-        <h5 class="PU-heading2">PHASE 3</h5>
-        <h5 class="heading2">MIND MAPPING & DECIDE</h5>
-</div>
-   
-    <div class="container-fluid">
-
-        <p class= "projectPara">Day 3 I started mind mapping the various flows and defining a blueprint for the MVP. This Mind Map was iterated multiple times throughout the sprint duration, I went ahead and decided which portion/s of the Mind Map would be developed into wireframes and prototypes to be tested on Day-5, considering the limitation of time and resources also considering which portion of the map would align with the initial user mapping exercise and user goals and pains.
-        </p>
-    
-        <div class="container-fluid">
-            <div class="row">
-                <img class="img-fluid" src="images/Postup/SB Sprint - Mind Map.jpg" alt="">
-                <figcaption>Mind Map</figcaption>
-            </div>
-        </div>
-
-        <p class= "projectPara">this Mind Map was iterated multiple times throughout the sprint duration, I went ahead and decided which portion/s of the Mind Map would be developed into wireframes and prototypes to be tested on Day-5, considering the limitation of time and resources also considering which portion of the map would align with the initial user mapping exercise and user goals and pains.
-        </p>
-        <div class="container-fluid">
-            <div class="row">
-                <img class="img-fluid" src="images/Postup/Selected Flow .png" alt="">
-                <figcaption>Selected flow for sprint 1</figcaption>
-            </div>  
-        </div>
-        <p class= "projectPara">
-            This flow would help us understand if the designed solution has effectively and efficiently helped the user and if not what went wrong and what would they expect next. <br> At this point I concluded my Day-3 of the Sprint.
-        </p>
-     
-    </div>
-</section>
-
-<!-- DAY 4 -->
- <section id="day5">
-
-<div class="container-fluid phase">
-        <h5 class="PU-heading2">PHASE 4</h5>
-         <h5 class="heading2">WIREFRAMING AND PROTOTYPE</h5>
-</div>
-   
-    <div class="container-fluid">
-
-        <p class= "projectPara">
-            So with the user flow decided, I moved on to designing the UI for the proposed solution. As I have been refining ideas and sketching wireframes I decided to go ahead and design Hi-fi wireframes directly and further iterate them as and when needed.
-        </p>
-        <div class="container-fluid">
-            <div class="row">
-                <img class="img-fluid" src="images/Postup/SB Sprint - Wireframing.jpg" alt="">
-                <figcaption>Wireflow</figcaption>
-            </div>  
-        </div>
-        <p class= "projectPara">
-            While designing the wireframes you get the opportunity to better understand the user flow and iterate the map accordingly as the wireframe designs start revealing better ideas. Below is the iterated portion of the Mind-map, influenced by the wireframe designs.
-        </p> <br>
-        <p class= "projectPara">
-            The following flow (figure 1) was the the portion of the mind map which was decided on Day-3, upon which I had designed the wireframes. However, this portion was later updated in the Mind map based upon the learnings from the iterations of wireframes (figure 2).
-        </p>
-        <div class="container-fluid">
-            <div class="row">
-                <img class="img-fluid" src="images/Postup/Selected Flow .png" alt="">
-                <figcaption>Figure 1</figcaption>
-            </div>  
-            <div class="row">
-                <img class="img-fluid" src="images/Postup/Iterated Flow.png" alt="">
-                <figcaption>Figure 2</figcaption>
-            </div> 
-        </div>
-        <p class= "projectPara">Once that done I moved on to prototyping, with the Hi-fi wireframes ready and the user flow in sync it barely took me any time to prototype. <br> And that concluded my Day-4 (wireframing & prototyping).
-        </p>
-    </div>
- </section>
-
- <!-- DAY 5 -->
-
- <section id="Day5">
-
-<div class="container-fluid phase">
-        <h5 class="PU-heading2">PHASE 5</h5>
-        <h5 class="heading2">USER TESTING</h5>
-</div>
- 
-    <div class="container-fluid">
-        
-        <p class="projectPara">
-            On day-5 the early hours were spent drafting a script for the interview, while analysing all the necessary aspects of the wireframes to draft a series of questions to observe if all the data is interpreted as it was intended to, by the users, to see if something was interpreted differently or if any UI elements were missing and any other potential addition or modification could be done based on user feedback.
-        </p>
-        <div class="container-fluid">
-            <div class="row">
-                <img class="img-fluid" src="images/Postup/SB Sprint - Usability Testing.jpg" alt="">
-                <figcaption>Test Script</figcaption>
-            </div>  
-        </div>
-
-        <p class="projectPara" >The findings from the usability testengs were documented for further steps and iterations. With the usability testings done the Sprint 1 was concluded</p>
-
-    </div>
- </section>
-
-
- <!-- NEXT STEPS & LEARNING -->
-
- 
- <section id="nextSteps">
-
-    <div class="container-fluid phase">
-            <h5 class="PU-heading2">NEXT STEPS & LEARNINGS</h5>
-    </div>
-    
-    <div class="container-fluid">
-        <ul>
-            <li class="nextSteps">It is absolutely necessary to plan and organise tasks for each day. All the tasks should be time boxed.
-            </li>
-            <li class="nextSteps">Always involve stakeholders and SMEs (Subject Matter Experts) whenever in doubt and while making critical decisions.
-            </li>
-            <li class="nextSteps">Also it is important to test the solution with the targeted user segment, market place and with the device/s the solutions are designed for to minimise the errors, cost and time. So discuss this with your stakeholders and start recruiting subjects for testing from Day-1.
-            </li>
-            <li class="nextSteps">
-            The wireframes were later prototyped and micro interactions were designed for the same. You can check them out on the below link for behance.
-            </li>
-        </ul>
-    </div>
- </section>
-<!-- THANK YOU -->
-<div class="container-fluid thankYou">
-    <p class="PU-thanks">Thank You</p>    
-</div>
-
- <!-- OTHER LINKS -->
-
- <div class="container-fluid">
-     <hr>
-     <div class="row">
-        
-         <div class="col-lg-6">
-            <a href="https://medium.com/@abhishek.taware.at" target="_blank" style="color: #141414; text-decoration: underline;">
-                <div class="d-flex flex-row">
-                    <div class="p-2">
-                       <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                           <path d="M30 3.75C15.5039 3.75 3.75 15.5039 3.75 30C3.75 44.4961 15.5039 56.25 30 56.25C44.4961 56.25 56.25 44.4961 56.25 30C56.25 15.5039 44.4961 3.75 30 3.75ZM45 18.6152L42.6094 20.9062C42.3984 21.0645 42.2988 21.3223 42.3398 21.5742V38.4316C42.2988 38.6895 42.3984 38.9473 42.6094 39.0996L44.9531 41.3906V41.9004H33.1875V41.4141L35.6074 39.0645C35.8477 38.8242 35.8477 38.7539 35.8477 38.3965V24.7559L29.1094 41.8418H28.2012L20.3613 24.7559V36.2109C20.291 36.6914 20.4609 37.1777 20.8008 37.5234L23.9531 41.3379V41.8477H15V41.3379L18.1523 37.5234C18.3184 37.3519 18.442 37.1438 18.5133 36.9159C18.5845 36.688 18.6013 36.4465 18.5625 36.2109V22.9688C18.6035 22.5996 18.4629 22.2422 18.1816 21.9902L15.3809 18.6152V18.1055H24.082L30.7969 32.8418L36.709 18.1172H45V18.6152Z" fill="black"/>
-                        </svg>
-                    </div>
-                    <div class="p-2">
-                        <p>READ IN DETAIL PROCESS AT DESIGN SPRINTS FOR IC PRODUCT DESIGNERS / UX GENERALISTS</p>
-                    </div>
-                </div>
+            <a href="https://topmate.io/abhishektaware" target="_blank">
+              <h5 class="scheduleCall">Schedule a call →</h5>
             </a>
-         </div>
-         <div class="col-lg-6">
-             <a href="https://www.behance.net/gallery/126900539/PostUp" target="_blannk" style="color: #141414; text-decoration: underline;">
-                <div class="d-flex flex-row">
-                    <div class="p-2">
-                       <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                           <path d="M24.627 27.5566C25.1367 27.1875 25.3828 26.5781 25.3828 25.7402C25.4004 25.3418 25.3184 24.9492 25.1426 24.5918C24.9844 24.3047 24.75 24.0645 24.4629 23.8945C24.1652 23.714 23.8346 23.5945 23.4902 23.543C23.1152 23.4727 22.7344 23.4375 22.3594 23.4434H18.2402V28.1133H22.6992C23.4668 28.1191 24.1172 27.9316 24.627 27.5566V27.5566ZM25.3184 31.7754C24.7441 31.3359 23.9766 31.1191 23.0215 31.1191H18.2285V36.627H22.9277C23.3672 36.627 23.7715 36.5859 24.1641 36.5039C24.5355 36.4313 24.8896 36.2881 25.207 36.082C25.5059 35.8887 25.7461 35.625 25.9277 35.2852C26.1035 34.9453 26.1914 34.5117 26.1914 33.9902C26.1914 32.9531 25.8984 32.2207 25.3184 31.7754V31.7754ZM30 3.75C15.5039 3.75 3.75 15.5039 3.75 30C3.75 44.4961 15.5039 56.25 30 56.25C44.4961 56.25 56.25 44.4961 56.25 30C56.25 15.5039 44.4961 3.75 30 3.75ZM35.0684 20.5605H43.1777V22.5352H35.0684V20.5605ZM30 36.8437C29.6207 37.5637 29.0791 38.1856 28.418 38.6602C27.7266 39.1406 26.959 39.4922 26.1445 39.6973C25.2924 39.9256 24.4134 40.0379 23.5313 40.0313H13.8281V20.0449H23.2617C24.2168 20.0449 25.084 20.1328 25.875 20.2969C26.6602 20.4609 27.3281 20.7422 27.8906 21.123C28.4473 21.5039 28.8867 22.0137 29.1973 22.6465C29.502 23.2734 29.6602 24.0586 29.6602 24.9902C29.6602 25.998 29.4316 26.8301 28.9746 27.5039C28.5117 28.1777 27.8438 28.7227 26.9355 29.1504C28.1719 29.502 29.0801 30.1289 29.6777 31.0078C30.2871 31.8984 30.5859 32.9648 30.5859 34.2188C30.5859 35.2383 30.3926 36.1113 30 36.8437ZM46.3359 33.75H35.8828C35.8828 34.8867 36.2754 35.9766 36.8672 36.5625C37.4648 37.1426 38.3203 37.4355 39.4395 37.4355C40.248 37.4355 40.9336 37.2305 41.5195 36.8262C42.0996 36.4219 42.4512 35.9941 42.5801 35.5488H46.084C45.5215 37.2891 44.666 38.5313 43.5059 39.2813C42.3574 40.0313 40.9512 40.4062 39.3164 40.4062C38.1738 40.4062 37.1484 40.2187 36.2285 39.8613C35.3437 39.5156 34.5469 38.9883 33.8906 38.3086C33.2436 37.6106 32.7434 36.7896 32.4199 35.8945C32.0625 34.9043 31.8867 33.8613 31.8984 32.8125C31.8984 31.7285 32.0801 30.7207 32.4316 29.7832C33.1055 27.9609 34.5059 26.502 36.293 25.7461C37.248 25.3477 38.2734 25.1484 39.3105 25.1602C40.541 25.1602 41.6074 25.3945 42.5332 25.875C43.4245 26.3338 44.1983 26.9914 44.7949 27.7969C45.3867 28.5996 45.8027 29.5137 46.0664 30.5449C46.3184 31.5586 46.4062 32.625 46.3359 33.75V33.75ZM39.1875 28.1484C38.5547 28.1484 38.0215 28.2598 37.6113 28.4766C37.2012 28.6934 36.8613 28.9629 36.6035 29.2734C36.358 29.5733 36.1765 29.9203 36.0703 30.293C35.9766 30.6035 35.9121 30.9199 35.8887 31.2422H42.3633C42.2695 30.2285 41.918 29.4785 41.4492 28.9512C40.957 28.4297 40.166 28.1484 39.1875 28.1484V28.1484Z" fill="black"/>
-                       </svg>                        
-                    </div>
-                    <div class="p-2">
-                        <p>VIEW ALL THE COOL INTERACTIONS DESIGNED FOR THE PROJECT ON BEHANCE</p>
-                    </div>
-                </div>
-             </a>
-             
+          </div>
+        </div>
+      </section>
+      <!-- ----------------------------------------------------------------------- -->
+      <!-- FOOTER SECTION  -->
+      <section class="footer">
+        <div class="flex-row footerContent">
+          <div class="socialMedia">
+            <p class="sectionTitle">You can also look me up on</p>
+            <div class="social">
+              <!-- LINKEDIN  -->
+              <a
+                href="https://www.linkedin.com/in/abhishektaware/"
+                target="_blank"
+              >
+                <img class="link" src="./Assets/Homepage/LinkedIn.png" alt="" />
+              </a>
+              <!-- MEDIUM  -->
+              <a href="https://medium.com/@abhishek.taware.at" target="_blank">
+                <img class="link" src="./Assets/Homepage/Medium.png" alt="" />
+              </a>
+              <!-- BEHANCE  -->
+              <a href="https://www.behance.net/ATDsign" target="_blank">
+                <img class="link" src="./Assets/Homepage/Behance.png" alt="" />
+              </a>
+              <!-- GITHUB  -->
+              <a href="https://github.com/abhishektaware" target="_blank">
+                <img class="link" src="./Assets/Homepage/GitHub.png" alt="" />
+              </a>
+              <!-- TOPMATE  -->
+              <a href="https://topmate.io/abhishektaware" target="_blank">
+                <img class="link" src="./Assets/Homepage/Topmate.png" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="footerLinks">
+            <div class="hiring">
+              <p class="footerHeading">Hiring</p>
 
-         </div>
-     </div>
-     <hr>
- </div>
+              <a
+                href="https://topmate.io/abhishektaware/1472879"
+                target="_blank"
+              >
+                <p class="flexParaHeading link footerLink">
+                  Schedule a hiring discussion call with me
+                </p>
+              </a>
 
- <footer> © Abhishek Taware 2022 all rights reserved </footer>
-        
-    
+              <p class="flexParaHeading link">Request password for a project</p>
 
-    
+              <a
+                href="./Assets/Resume 2024 - Sr. UX Designer.pdf"
+                target="_blank"
+              >
+                <p class="flexParaHeading link footerLink">Resume</p>
+              </a>
 
+              <a href="About me.html">
+                <p class="flexParaHeading link footerLink">About me</p>
+              </a>
 
+              <a href="index.html#featuredwork">
+                <p class="flexParaHeading link footerLink">Featured work</p>
+              </a>
 
+              <a href="#contactSection">
+                <p class="flexParaHeading link footerLink">Contact me</p>
+              </a>
+            </div>
+            <div class="students">
+              <p class="footerHeading">Students & professionals</p>
 
+              <a
+                href="https://topmate.io/abhishektaware/1471139"
+                target="_blank"
+              >
+                <p class="flexParaHeading link footerLink">
+                  Schedule 1 on 1 portfolio review call with me
+                </p>
+              </a>
 
+              <a
+                href="https://topmate.io/abhishektaware/1472867"
+                target="_blank"
+              >
+                <p class="flexParaHeading link footerLink">
+                  Schedule 1 on 1 career guidance call with me
+                </p>
+              </a>
 
+              <a
+                href="https://topmate.io/abhishektaware/1472877"
+                target="_blank"
+              >
+                <p class="flexParaHeading link footerLink">
+                  Schedule 1 on 1 Ask Me Anything call with me
+                </p>
+              </a>
 
+              <p class="flexParaHeading learn footerLink">
+                Learn UX from me <span class="tags"> Coming soon !</span>
+              </p>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-</body>
+              <a href="index.html#featuredwork">
+                <p class="flexParaHeading link footerLink">Featured work</p>
+              </a>
+
+              <a href="#contactSection">
+                <p class="flexParaHeading link footerLink">Contact me</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <p class="footerText">© Abhishek Taware 2025 all rights reserved</p>
+      </section>
+      <!-- ----------------------------------------------------------------------- -->
+    </section>
+  </body>
 </html>
